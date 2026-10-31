@@ -1,0 +1,4487 @@
+{
+  "scene_00114_00": {
+    "bottle": {
+      "19": {
+        "grounding_text": [
+          "The bottle closest to the refrigerator",
+          "The bottle closest to the mop",
+          "The bottle closest to the gray towel"
+        ],
+        "qa": [
+          {
+            "question": "What's under the bottle closest to the refrigerator?",
+            "answer": "Windowsill",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What direction is the bottle closest to the mop from the gray towel?",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a window next to the bottle closest to the gray towel?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "22": {
+        "grounding_text": [
+          "The yellow bottle farthest from the refrigerator",
+          "The yellow bottle closest to the rice cooker",
+          "The yellow bottle closest to the cutting board"
+        ],
+        "qa": [
+          {
+            "question": "Is there a kettle next to 'the yellow bottle farthest from the refrigerator'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which is bigger, 'the yellow bottle closest to the rice cooker' or the steel ball",
+            "answer": "Yellow bottle",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is 'the yellow bottle closest to the cutting board' very close to the refrigerator",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "21": {
+        "grounding_text": [
+          "dark blue bottle",
+          "dark blue bottle on the windowsill",
+          "dark blue bottle closest to the window"
+        ],
+        "qa": [
+          {
+            "question": "What is under the 'dark blue bottle'?",
+            "answer": "windowsill",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "In which direction of the window is the 'dark blue bottle on the windowsill'?",
+            "answer": "beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a plastic bag next to the 'dark blue bottle' closest to the window?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "37": {
+        "grounding_text": [
+          "The water bottle near the kettle",
+          "The water bottle far from window",
+          "The water bottle on the cabinet"
+        ],
+        "qa": [
+          {
+            "question": "What color is 'the water bottle near the kettle'?",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is 'the water bottle on the cabinet' close to window?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Where is 'the water bottle far from window'?",
+            "answer": "On the cabinet",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "23": {
+        "grounding_text": [
+          "The bottle in the middle of the three closely adjacent bottles",
+          "The blue and white striped bottle next to the deep blue bottle",
+          "The blue and white striped bottle closest to the cutting board"
+        ],
+        "qa": [
+          {
+            "question": "What's below 'The bottle in the middle of the three closely adjacent bottles'",
+            "answer": "Windowsill",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a refrigerator next to 'The blue and white striped bottle next to the deep blue bottle'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is 'The blue and white striped bottle closest to the cutting board' far from the rice cooker",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "20": {
+        "grounding_text": [
+          "The yellow bottle closest to the refrigerator",
+          "The yellow bottle closest to the mop",
+          "The yellow bottle farthest from the cutting board"
+        ],
+        "qa": [
+          {
+            "question": "Are there other bottles around 'The yellow bottle closest to the refrigerator'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Where is 'The yellow bottle closest to the mop' located?",
+            "answer": "On the windowsill above the sink",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is 'The yellow bottle farthest from the cutting board' on top of the refrigerator?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "bag": {
+      "39": {
+        "grounding_text": [
+          "Black plastic bag",
+          "Black plastic bag on the floor",
+          "Black plastic bag closest to the trash bin"
+        ],
+        "qa": [
+          {
+            "question": "Is there a kettle next to the 'Black plastic bag'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What direction on the floor is the 'Black plastic bag' from the trash bin",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is under the 'Black plastic bag' closest to the trash bin",
+            "answer": "Floor",
+            "tag": "class",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "41": {
+        "grounding_text": [
+          "brown big paper bag",
+          "brown paper bag on the floor",
+          "paper bag next to the plastic bag"
+        ],
+        "qa": [
+          {
+            "question": "What is the position of the 'brown big paper bag' on the floor",
+            "answer": "on top",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a trash bin next to the 'brown paper bag on the floor'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the 'paper bag next to the plastic bag'?",
+            "answer": "brown",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "43": {
+        "grounding_text": [
+          "The paper bag closest to the kettle",
+          "The paper bag closest to the stove",
+          "The paper bag on the cabinet"
+        ],
+        "qa": [
+          {
+            "question": "Is 'the paper bag closest to the kettle' red?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is 'the paper bag closest to the stove' on the floor?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a mop next to 'the paper bag closest to the stove'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "cover": {
+      "50": {
+        "grounding_text": [
+          "Pot cover on the commode",
+          "Pot cover opposite the sink",
+          "Pot cover farthest from the mop"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'pot cover on the commode'",
+            "answer": "Silver",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What's under the 'pot cover opposite the sink'",
+            "answer": "Commode",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a refrigerator next to the 'pot cover farthest from the mop'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "51": {
+        "grounding_text": [
+          "The trash bin lid next to the trash bin",
+          "The trash bin lid closest to the refrigerator",
+          "The trash bin lid closest to the mop"
+        ],
+        "qa": [
+          {
+            "question": "What color is 'the trash bin lid next to the trash bin'?",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Where is 'the trash bin lid closest to the refrigerator' relative to the trash bin",
+            "answer": "next to",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a door next to 'the trash bin lid closest to the mop'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "cabinet": {
+      "28": {
+        "grounding_text": [
+          "A cabinet with a kettle",
+          "The cabinet closest to the trash bin",
+          "The cabinet closest to the trash bin lid"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'cabinet with a kettle'?",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a sink on the 'cabinet closest to the trash bin'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'cabinet closest to the trash bin lid' next to the door?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "25": {
+        "grounding_text": [
+          "The wall cabinet closest to the yellow towel",
+          "The wall cabinet closest to the stove",
+          "The wall cabinet closest to the microwave"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'wall cabinet closest to the yellow towel'",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a trash bin under the 'wall cabinet closest to the yellow towel'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the direction of the 'wall cabinet closest to the microwave' from the cutting board",
+            "answer": "Above",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "30": {
+        "grounding_text": [
+          "The wall cabinet closest to the refrigerator",
+          "The wall cabinet closest to the door",
+          "The wall cabinet closest to the mop"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'wall cabinet closest to the refrigerator'",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the position of the 'wall cabinet closest to the door' relative to the refrigerator",
+            "answer": "Above",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a stove next to the 'wall cabinet closest to the mop'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "27": {
+        "grounding_text": [
+          "cabinet under the sink",
+          "cabinet under the steel ball",
+          "cabinet closest to the water faucet"
+        ],
+        "qa": [
+          {
+            "question": "What direction is the 'cabinet under the sink' from the steel ball",
+            "answer": "below",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the 'cabinet under the steel ball' blue",
+            "answer": "No.",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a steel ball on the 'cabinet closest to the water faucet'",
+            "answer": "Yes.",
+            "tag": "existence",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "faucet": {
+      "24": {
+        "grounding_text": [
+          "The water faucet next to the steel ball",
+          "The water faucet next to the sink",
+          "The water faucet closest to the window"
+        ],
+        "qa": [
+          {
+            "question": "Is 'The water faucet next to the steel ball' colorful?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Where is 'The water faucet next to the sink' relative to the steel ball",
+            "answer": "Next to",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the floor below 'The water faucet closest to the window'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "kettle": {
+      "36": {
+        "grounding_text": [
+          "black kettle",
+          "kettle closest to the stove",
+          "kettle opposite the trash can"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'black kettle' under the microwave?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the 'kettle closest to the stove'?",
+            "answer": "Black",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is under the 'kettle opposite the trash can'?",
+            "answer": "cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "microwave": {
+      "26": {
+        "grounding_text": [
+          "The microwave above the stove",
+          "The microwave closest to the kettle",
+          "The microwave closest to the rice cooker"
+        ],
+        "qa": [
+          {
+            "question": "Does the microwave above the stove have a star pattern?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "In what direction of the stove is the microwave closest to the kettle?",
+            "answer": "Directly above",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a mop next to the microwave closest to the rice cooker?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "board": {
+      "49": {
+        "grounding_text": [
+          "The cutting board closest to the rice maker",
+          "The cutting board closest to the microwave",
+          "The cutting board farthest from the refrigerator"
+        ],
+        "qa": [
+          {
+            "question": "What's under the 'cutting board closest to the rice maker'",
+            "answer": "Cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What's beside the 'cutting board closest to the microwave' on the direction of the yellow towel",
+            "answer": "beside",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a rice maker beside the 'cutting board farthest from the refrigerator'",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "48": {
+        "grounding_text": [
+          "The cutting board closest to the sink",
+          "The cutting board farthest from the rice cooker",
+          "The cutting board closest to the steel ball"
+        ],
+        "qa": [
+          {
+            "question": "Is the cutting board closest to the sink green?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is under the cutting board farthest from the rice cooker?",
+            "answer": "Cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a cover on the cutting board closest to the steel ball?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "towel": {
+      "45": {
+        "grounding_text": [
+          "white towel",
+          "the towel closest to the mop",
+          "the towel closest to the fridge"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'white towel' on the floor",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the 'towel closest to the mop'",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a door next to the 'towel closest to the fridge' ",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "47": {
+        "grounding_text": [
+          "Yellow towel",
+          "The towel closest to the stove",
+          "The towel closest to the microwave"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'yellow towel' on the floor",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the towel closest to the stove",
+            "answer": "Yellow",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Where is the towel closest to the microwave relative to the cutting board",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "steel ball": {
+      "34": {
+        "grounding_text": [
+          "The steel ball next to the water faucet",
+          "The steel ball above the sink",
+          "The steel ball closest to the refrigerator"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'steel ball next to the water faucet' black?",
+            "answer": "Yes",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the direction of the 'steel ball above the sink' relative to the water faucet?",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is under 'the steel ball closest to the refrigerator'?",
+            "answer": "Sink",
+            "tag": "class",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "window": {
+      "14": {
+        "grounding_text": [
+          "The window next to the door",
+          "The window closest to the mop",
+          "The window farthest from the rice cooker"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'window next to the door' blue?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What direction from the door is 'the window closest to the mop'?",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a microwave next to 'the window farthest from the rice cooker'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "17": {
+        "grounding_text": [
+          "The window closest to the sink",
+          "The window closest to the steel ball",
+          "The window closest to the yellow towel"
+        ],
+        "qa": [
+          {
+            "question": "Is the window closest to the sink red?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a microwave next to the window closest to the steel ball?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the window closest to the yellow towel opposite the door?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "door": {
+      "13": {
+        "grounding_text": [
+          "White door",
+          "Door closest to the refrigerator",
+          "Open door"
+        ],
+        "qa": [
+          {
+            "question": "Is there a window next to the 'White door'",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the 'Door closest to the refrigerator'",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "In what direction of the stove is the 'Open door'",
+            "answer": "Opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "box": {
+      "44": {
+        "grounding_text": [
+          "The box closest to the sink",
+          "The box closest to the steel ball",
+          "The box closest to the faucet"
+        ],
+        "qa": [
+          {
+            "question": "Is the box closest to the sink blue?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is under the box closest to the steel ball?",
+            "answer": "Cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Where is the box closest to the faucet in relation to the sink?",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "42": {
+        "grounding_text": [
+          "The box closest to the kettle",
+          "The box farthest from the mop",
+          "The box closest to the stove"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'box closest to the kettle' blue?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is under the 'box farthest from the mop'?",
+            "answer": "cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a steel ball on top of the 'box closest to the stove'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "40": {
+        "grounding_text": [
+          "The box next to the black plastic bag",
+          "The box closest to the trash bin lid",
+          "The box closest to the door"
+        ],
+        "qa": [
+          {
+            "question": "What is under 'the box next to the black plastic bag'",
+            "answer": "Floor",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What direction is 'the box closest to the trash bin lid' from the black trash bag",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a kettle on 'the box closest to the door'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "mop": {
+      "16": {
+        "grounding_text": [
+          "The mop closest to the trash bin",
+          "The mop next to the refrigerator",
+          "The mop closest to the sink"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'mop closest to the trash bin' blue",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a door next to the 'mop next to the refrigerator'",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the position of 'the mop closest to the sink' relative to the stove",
+            "answer": "Opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "sink": {
+      "33": {
+        "grounding_text": [
+          "The sink closest to the steel ball",
+          "The sink closest to the water faucet",
+          "The sink in front of window"
+        ],
+        "qa": [
+          {
+            "question": "What is 'the sink closest to the steel ball' in front of?",
+            "answer": "Window",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a rice cooker next to 'The sink closest to the water faucet'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the object in 'the sink in front of window'?",
+            "answer": "Green",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "stove": {
+      "29": {
+        "grounding_text": [
+          "Range under the microwave",
+          "Range on the floor",
+          "The range closest to the kettle"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'range under the microwave' pink?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "In what direction of the microwave is 'the range on the floor'?",
+            "answer": "Below",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a box above 'the range closest to the kettle'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "trash can": {
+      "38": {
+        "grounding_text": [
+          "Large trash bin",
+          "The trash bin opposite the sink",
+          "White trash bin"
+        ],
+        "qa": [
+          {
+            "question": "What color is the large trash bin?",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the white trash bin a small one or a large one?",
+            "answer": "Large",
+            "tag": "geometry",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the white trash bin close to cutting board?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "light": {
+      "46": {
+        "grounding_text": [
+          "The light on the ceiling",
+          "The white light",
+          "The light above the large trash bin"
+        ],
+        "qa": [
+          {
+            "question": "Is 'The light on the ceiling' white?",
+            "answer": "Yes",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Where is the white light located?",
+            "answer": "On the ceiling",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a steel ball next to 'The light above the large trash bin'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "refrigerator": {
+      "31": {
+        "grounding_text": [
+          "mop next to the refrigerator",
+          "refrigerator next to the windowsill",
+          "refrigerator next to the window"
+        ],
+        "qa": [
+          {
+            "question": "Is there a stove opposite the 'mop next to the refrigerator'",
+            "answer": "No.",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'refrigerator next to the windowsill' red?",
+            "answer": "No.",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is under the 'refrigerator next to the window'\n",
+            "answer": "floor",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "rice cooker": {
+      "35": {
+        "grounding_text": [
+          "The rice maker closest to the stove",
+          "The rice maker in the corner of the room",
+          "The rice maker closest to the cutting board"
+        ],
+        "qa": [
+          {
+            "question": "Is 'the rice maker closest to the stove' red?",
+            "answer": "No.",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is under 'the rice maker in the corner of the room'?",
+            "answer": "cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a refrigerator next to 'the rice maker closest to the cutting board'?",
+            "answer": "No.",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    }
+  },
+  "scene_00105_06": {
+    "clothes": {
+      "37": {
+        "grounding_text": [
+          "The clothes on the chair closest to the monitor",
+          "The clothes on the chair closest to the mouse",
+          "The clothes on the chair closest to the bed"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'clothes on the chair closest to the monitor' near the bed?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the 'clothes on the chair closest to the mouse' black?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a monitor next to the 'clothes on the chair closest to the bed'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "42": {
+        "grounding_text": [
+          "Clothes on the chair in the middle of the doorframe",
+          "Clothes on the chair under the beam",
+          "The dark grey clothes"
+        ],
+        "qa": [
+          {
+            "question": "What color are the 'Clothes on the chair in the middle of the doorframe'",
+            "answer": "Dark grey",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Are the 'Clothes on the chair under the beam' very close to the door",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Are the 'Dark grey clothes' on the chair",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "curtain": {
+      "40": {
+        "grounding_text": [
+          "Curtain next to the radiator shell",
+          "The curtain closer to calendar",
+          "The curtain right next to the wall cabinet"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'curtain next to the radiator shell' red",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a radiator shell next to 'the curtain closer to calendar'",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Between the 'curtain right next to the wall cabinet' and the door, which is taller",
+            "answer": "curtain",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "41": {
+        "grounding_text": [
+          "The curtain furthest from the radiator shell",
+          "The curtain closest to the monitor",
+          "The curtain next to the cabinet filled with clothes"
+        ],
+        "qa": [
+          {
+            "question": "Is 'The curtain furthest from the radiator shell' red?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which is taller, 'The curtain closest to the monitor' or the radiator shell?",
+            "answer": "curtain",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is 'The curtain next to the cabinet filled with clothes' far from the TV?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "clock": {
+      "16": {
+        "grounding_text": [
+          "The clock on the wall above the TV",
+          "The clock next to the calendar",
+          "The clock with a blue frame"
+        ],
+        "qa": [
+          {
+            "question": "What color is the frame of the 'clock on the wall above the TV'?",
+            "answer": "Blue",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "In what direction from the TV is the 'clock next to the calendar'?",
+            "answer": "Above",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a bed opposite to the 'clock with a blue frame'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "cabinet": {
+      "15": {
+        "grounding_text": [
+          "The wall cabinet closest to the clock",
+          "The wall cabinet closest to the calendar",
+          "The wall cabinet above the radiator shell"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'wall cabinet closest to the clock'?",
+            "answer": "Orange",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the position of the 'wall cabinet closest to the calendar' in relation to the radiator shell?",
+            "answer": "Above",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a curtain beside the 'wall cabinet above the radiator shell'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "14": {
+        "grounding_text": [
+          "The nightstand closest to the tv",
+          "The nightstand closest to the tv box",
+          "The nightstand right next to the radiator shell"
+        ],
+        "qa": [
+          {
+            "question": "Is 'The nightstand closest to the tv' right next to the radiator shell",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Compared to the chair, which is taller, 'The nightstand closest to the tv box'?",
+            "answer": "Chair",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is 'The nightstand right next to the radiator shell' red?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "6": {
+        "grounding_text": [
+          "The cabinet closest to the monitor",
+          "The cabinet closest to the keyboard",
+          "The cabinet closest to the mouse"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'cabinet closest to the monitor' right next to the small desk?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What's under the 'cabinet closest to the keyboard'?",
+            "answer": "Floor",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a telephone on top of the 'cabinet closest to the mouse'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "11": {
+        "grounding_text": [
+          "The cabinet under the TV",
+          "The cabinet with the remote control",
+          "The cabinet under the tv box"
+        ],
+        "qa": [
+          {
+            "question": "Is the cabinet under the TV white?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the cabinet with the remote control right next to the white box?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What material is the cabinet under the tv box made of?",
+            "answer": "Wood",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "23": {
+        "grounding_text": [
+          "The nightstand closest to the door",
+          "The nightstand closest to the bed",
+          "The nightstand closest to the bag"
+        ],
+        "qa": [
+          {
+            "question": "Is 'The nightstand closest to the door' mahogany colored?",
+            "answer": "Yes",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is under 'The nightstand closest to the bed'?",
+            "answer": "floor",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a green plant next to 'The nightstand closest to the bag'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "radiator shell": {
+      "33": {
+        "grounding_text": [
+          "Rectangular radiator shell",
+          "Radiator shell under the wall cabinet",
+          "Orange-yellow radiator shell"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'rectangular radiator shell'?",
+            "answer": "Orange-yellow",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a bed next to the 'radiator shell under the wall cabinet'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Who is taller, the 'orange-yellow radiator shell' or the nightstand right next to it?",
+            "answer": "Radiator shell",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "box": {
+      "13": {
+        "grounding_text": [
+          "White box",
+          "The box closest to the TV",
+          "The box closest to the door"
+        ],
+        "qa": [
+          {
+            "question": "Is there anything inside the 'white box'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'box closest to the TV' pink?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Which is bigger, the 'box closest to the door' or the bag?",
+            "answer": "box",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "30": {
+        "grounding_text": [
+          "light brown box",
+          "the box under the small desk",
+          "the box farthest from the TV"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'light brown box' right next to the radiator shell",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the 'box under the small desk'",
+            "answer": "light brown",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What's under the 'box farthest from the TV'",
+            "answer": "under the small desk",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "chair": {
+      "34": {
+        "grounding_text": [
+          "Chair with a pillow",
+          "Chair right next to the radiator shell",
+          "Chair closest to the clock"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'Chair with a pillow'?",
+            "answer": "Blue",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What item is on the 'Chair right next to the radiator shell'?",
+            "answer": "Pillow",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the 'Chair closest to the clock' right next to the TV?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "38": {
+        "grounding_text": [
+          "The chair right next to the bed",
+          "The chair placed at the corner between the small desk and the end of the bed",
+          "The chair closest to the keyboard"
+        ],
+        "qa": [
+          {
+            "question": "What is placed on 'The chair right next to the bed'",
+            "answer": "Clothes",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is 'The chair placed at the corner between the small desk and the end of the bed'",
+            "answer": "Blue",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which is closer to 'The chair closest to the keyboard', door or TV",
+            "answer": "TV",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "39": {
+        "grounding_text": [
+          "The chair between the door frames",
+          "The chair closest to the radiator shell with clothes on it",
+          "The chair right below the beam"
+        ],
+        "qa": [
+          {
+            "question": "What is on the 'The chair between the door frames'",
+            "answer": "Clothes",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is 'The chair closest to the radiator shell with clothes on it' pink?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is 'The chair right below the beam' close to the door frame?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "pillow": {
+      "31": {
+        "grounding_text": [
+          "The white and blue striped pillow on the bed",
+          "The pillow with white and blue stripes next to the bag",
+          "The pillow with white and blue stripes right next to the head of the bed"
+        ],
+        "qa": [
+          {
+            "question": "Is there a bag next to the 'white and blue striped pillow on the bed'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What's under the 'pillow with white and blue stripes next to the bag'?",
+            "answer": "Bed",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'pillow with white and blue stripes right next to the head of the bed' square?",
+            "answer": "No",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "19": {
+        "grounding_text": [
+          "red and white striped pillow",
+          "the pillow closest to the telephone",
+          "the pillow closest to the door"
+        ],
+        "qa": [
+          {
+            "question": "Is there a bag next to the red and white striped pillow?",
+            "answer": "Yes.",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the pillow closest to the telephone blue?",
+            "answer": "No.",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is the pillow closest to the door placed on?",
+            "answer": "bed",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "36": {
+        "grounding_text": [
+          "The pillow closest to the monitor",
+          "The pillow closest to the mouse",
+          "The pillow closest to the keyboard"
+        ],
+        "qa": [
+          {
+            "question": "Is there a quilt beside the pillow closest to the monitor",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the direction of the pillow closest to the mouse in relation to the TV",
+            "answer": "Opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is under the pillow closest to the keyboard",
+            "answer": "bed",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "35": {
+        "grounding_text": [
+          "The pillow closest to the radiator shell",
+          "The pillow closest to the calendar",
+          "The pillow closest to the clock"
+        ],
+        "qa": [
+          {
+            "question": "Is the pillow closest to the radiator shell pink?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a radiator shell near the pillow closest to the calendar?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What's under the pillow closest to the clock?",
+            "answer": "chair",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "table": {
+      "47": {
+        "grounding_text": [
+          "The desk closest to the window",
+          "The desk on the balcony",
+          "The desk closest to the black chair"
+        ],
+        "qa": [
+          {
+            "question": "What color is 'the desk closest to the window'?",
+            "answer": "Yellow",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which is closer to the door frame, 'the desk on the balcony' or the window?",
+            "answer": "desk",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a telephone on 'the desk closest to the black chair'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "29": {
+        "grounding_text": [
+          "Desk right next to the bed",
+          "Desk with a mouse on it",
+          "Desk with a monitor on it"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'Desk right next to the bed' blue?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the position of the 'Desk with a mouse on it' relative to the monitor?",
+            "answer": "Below",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Which is farther from the TV, the 'Desk with a monitor on it' or the TV box?",
+            "answer": "Desk with a monitor on it",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "speaker": {
+      "26": {
+        "grounding_text": [
+          "Light yellow speaker",
+          "Speaker on the small desk",
+          "Speaker next to the keyboard"
+        ],
+        "qa": [
+          {
+            "question": "What's under 'Light yellow speaker'",
+            "answer": "Small desk",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a mouse next to 'Speaker on the small desk'",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is 'Speaker next to the keyboard' black",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "quilt": {
+      "21": {
+        "grounding_text": [
+          "The quilt farthest from the keyboard",
+          "The quilt farthest from the monitor",
+          "The quilt closest to the bag"
+        ],
+        "qa": [
+          {
+            "question": "What's under 'The quilt farthest from the keyboard'",
+            "answer": "bed",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a bag next to 'The quilt farthest from the monitor'",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is 'The quilt closest to the bag' patterned",
+            "answer": "Yes",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "20": {
+        "grounding_text": [
+          "The light blue quilt at the end of the bed",
+          "The light blue quilt closest to the speaker",
+          "The light blue quilt closest to the keyboard"
+        ],
+        "qa": [
+          {
+            "question": "What's under 'The light blue quilt at the end of the bed'",
+            "answer": "Quilt",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is 'The light blue quilt closest to the speaker' placed on a chair",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a bag next to 'The light blue quilt closest to the keyboard'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "mouse": {
+      "28": {
+        "grounding_text": [
+          "Mouse next to the keyboard",
+          "Mouse next to the monitor",
+          "Mouse next to the speaker"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'Mouse next to the keyboard' next to the monitor",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which is bigger, the 'Mouse next to the monitor' or the speaker",
+            "answer": "Speaker",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'Mouse next to the speaker' red",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "monitor": {
+      "25": {
+        "grounding_text": [
+          "monitor next to the mouse",
+          "monitor next to the keyboard",
+          "monitor next to the bed"
+        ],
+        "qa": [
+          {
+            "question": "What color is the screen of the 'monitor next to the mouse'?",
+            "answer": "Black",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'monitor next to the keyboard' close to the bed?",
+            "answer": "Close",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is under the 'monitor next to the bed'?",
+            "answer": "desk",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "tv": {
+      "9": {
+        "grounding_text": [
+          "The TV below the calendar diagonally",
+          "The black TV",
+          "The TV next to the TV box"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'TV below the calendar diagonally'",
+            "answer": "Black",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a window opposite the 'black TV'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is under the 'TV next to the TV box'",
+            "answer": "Cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "door": {
+      "4": {
+        "grounding_text": [
+          "the door next to the telephone",
+          "yellow door",
+          "the door next to the white box"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'door next to the telephone' close to the white box",
+            "answer": "Close",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a clock above the 'yellow door'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the 'door next to the white box'",
+            "answer": "Yellow",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "telephone": {
+      "24": {
+        "grounding_text": [
+          "Telephone on the nightstand",
+          "Telephone next to the door",
+          "Black telephone"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'Telephone on the nightstand'?",
+            "answer": "Black",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a small desk under the 'Telephone next to the door'?",
+            "answer": "No",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'Black telephone' close to the door?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "tv box": {
+      "12": {
+        "grounding_text": [
+          "The TV box next to the TV",
+          "The light gray TV box",
+          "The rectangular TV box"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'TV box next to the TV' red?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the 'light gray TV box' rectangular?",
+            "answer": "Yes",
+            "tag": "geometry",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is under the 'rectangular TV box'?",
+            "answer": "cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "window": {
+      "49": {
+        "grounding_text": [
+          "The window next to the black chair",
+          "The window above the orange-yellow wall",
+          "The glass window"
+        ],
+        "qa": [
+          {
+            "question": "Is the frame of the 'window next to the black chair' pink?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'window above the orange-yellow wall' next to the black chair?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the 'glass window' opened or closed?",
+            "answer": "Closed",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "bed": {
+      "18": {
+        "grounding_text": [
+          "Bed with a bag",
+          "Bed with a quilt",
+          "Bed next to the monitor"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'Bed with a bag'?",
+            "answer": "Brown",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a bag on the 'Bed with a quilt'?",
+            "answer": "Yes.",
+            "tag": "existence",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the 'Bed next to the monitor' right next to the wall cabinet?",
+            "answer": "No.",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "calendar": {
+      "17": {
+        "grounding_text": [
+          "Calendar right next to the clock",
+          "Calendar hanging on the wall",
+          "Rectangular calendar"
+        ],
+        "qa": [
+          {
+            "question": "Does the 'Calendar right next to the clock' have a large tree pattern?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What shape is the 'Calendar hanging on the wall'?",
+            "answer": "Rectangular",
+            "tag": "geometry",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the 'Rectangular calendar' right next to the clock?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "keyboard": {
+      "27": {
+        "grounding_text": [
+          "keyboard next to the mouse",
+          "black keyboard",
+          "keyboard next to the monitor"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'keyboard next to the mouse'?",
+            "answer": "Black",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a telephone next to the 'black keyboard'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a desk under the 'keyboard next to the monitor'?",
+            "answer": "Yes",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "bag": {
+      "32": {
+        "grounding_text": [
+          "green bag",
+          "bag on the bed",
+          "bag next to the striped quilt"
+        ],
+        "qa": [
+          {
+            "question": "Which is smaller when comparing the 'green bag' with the red and white striped pillow",
+            "answer": "bag",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the 'bag on the bed'",
+            "answer": "green",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a pillow right next to the 'bag next to the striped quilt'",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    }
+  },
+  "scene_00109_00": {
+    "chair": {
+      "13": {
+        "grounding_text": [
+          "Chair with four pillows",
+          "Chair next to an empty chair",
+          "Chair with a yellow pillow"
+        ],
+        "qa": [
+          {
+            "question": "What color is the \"Chair with four pillows\"?",
+            "answer": "Grey",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the \"Chair next to an empty chair\" right next to the windowsill?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a suitcase next to the \"Chair with a yellow pillow\"?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "12": {
+        "grounding_text": [
+          "The chair furthest from the speaker with no pillow on it",
+          "The chair with no pillow",
+          "The chair closest to the small window"
+        ],
+        "qa": [
+          {
+            "question": "Is there a couch next to the chair furthest from the speaker with no pillow on it",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the chair with no pillow",
+            "answer": "Grey",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the chair closest to the small window right next to the TV",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "15": {
+        "grounding_text": [
+          "The chair closest to the green suitcase",
+          "The chair closest to the wood fence",
+          "The chair closest to the blue painting"
+        ],
+        "qa": [
+          {
+            "question": "What color is 'the chair closest to the green suitcase'",
+            "answer": "Gray",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which is bigger, 'the chair closest to the wood fence' or the green suitcase",
+            "answer": "Chair",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a TV next to 'the chair closest to the blue painting'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "speaker": {
+      "20": {
+        "grounding_text": [
+          "Speaker on the table",
+          "The black speaker",
+          "The round speaker"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'Speaker on the table'",
+            "answer": "Black",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What shape is the 'black speaker'",
+            "answer": "Round",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the 'round speaker' right next to the wood fence",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "box": {
+      "24": {
+        "grounding_text": [
+          "green suitcase",
+          "green suitcase next to the couch",
+          "green suitcase furthest from the window"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'green suitcase' upright?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a TV next to the 'green suitcase next to the couch'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which is closer to the speaker, the 'green suitcase furthest from the window' or the blue painting?",
+            "answer": "green suitcase",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "23": {
+        "grounding_text": [
+          "Black suitcase right next to the pillar",
+          "Black suitcase farthest from the windowsill",
+          "Black suitcase closest to the speaker"
+        ],
+        "qa": [
+          {
+            "question": "Is there another suitcase next to the 'Black suitcase right next to the pillar'",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'Black suitcase farthest from the windowsill' close to the tv",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which is smaller, the 'Black suitcase closest to the speaker' or the silver-white suitcase next to it",
+            "answer": "Black suitcase",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "21": {
+        "grounding_text": [
+          "The suitcase on the table",
+          "The flat suitcase",
+          "The black suitcase farthest from the speaker"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'suitcase on the table' blue?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is under 'the flat suitcase'?",
+            "answer": "Table",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Which is closer to the TV, the 'black suitcase farthest from the speaker' or the wood fence?",
+            "answer": "Suitcase",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "22": {
+        "grounding_text": [
+          "Silver-white suitcase",
+          "The silver-white suitcase opposite the TV",
+          "The silver-white suitcase closest to the pillar"
+        ],
+        "qa": [
+          {
+            "question": "Is there any other suitcase next to the 'silver-white suitcase'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'silver-white suitcase' opposite the TV right next to a green suitcase?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which is a bit farther from the TV stand, the 'silver-white suitcase' closest to the pillar or the speaker?",
+            "answer": "Silver-white suitcase",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "sofa cushion": {
+      "32": {
+        "grounding_text": [
+          "The sofa cushion furthest from the window",
+          "The sofa cushion closest to the blue painting",
+          "The sofa cushion furthest from the windowsill"
+        ],
+        "qa": [
+          {
+            "question": "Is there a silver-white suitcase next to the sofa cushion that is furthest from the window?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the sofa cushion closest to the blue painting?",
+            "answer": "Grey",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the sofa cushion furthest from the windowsill close to the wood fence?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "29": {
+        "grounding_text": [
+          "The sofa cushion closest to the windowsill",
+          "The sofa cushion closest to the large window",
+          "The sofa cushion farthest from the speaker"
+        ],
+        "qa": [
+          {
+            "question": "Is there a suitcase next to the 'sofa cushion closest to the windowsill'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the 'sofa cushion closest to the large window'",
+            "answer": "Gray",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'sofa cushion farthest from the speaker' right next to a pillow",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "tv": {
+      "10": {
+        "grounding_text": [
+          "black TV",
+          "TV hanging on the TV stand",
+          "TV opposite the silver suitcase"
+        ],
+        "qa": [
+          {
+            "question": "Does the 'black TV' have an image pattern?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the 'TV hanging on the TV stand'?",
+            "answer": "Black",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the 'TV opposite the silver suitcase' hanging above the TV stand?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "fence": {
+      "4": {
+        "grounding_text": [
+          "Natural colored wood fence",
+          "Wood fence next to the pillar",
+          "Wood fence behind the sofa"
+        ],
+        "qa": [
+          {
+            "question": "The natural colored wood fence and the windowsill, which is closer to the speaker?",
+            "answer": "The natural colored wood fence",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a window next to 'the wood fence next to the pillar'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is 'the wood fence behind the sofa'?",
+            "answer": "Natural colored",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "table": {
+      "19": {
+        "grounding_text": [
+          "the table with the speaker",
+          "the table farthest from the windowsill",
+          "the table farthest from the window"
+        ],
+        "qa": [
+          {
+            "question": "What color is 'the table with the speaker'?",
+            "answer": "Yellow",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a suitcase on 'the table farthest from the windowsill'?",
+            "answer": "No.",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is on 'the table farthest from the window'?",
+            "answer": "speaker",
+            "tag": "class",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "18": {
+        "grounding_text": [
+          "The table closest to the wood fence",
+          "The table with the suitcase on it",
+          "The table closest to the windowsill"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'table closest to the wood fence'?",
+            "answer": "Yellow",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'table with the suitcase on it' right next to the wall?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What item is on the 'table closest to the windowsill'?",
+            "answer": "suitcase",
+            "tag": "class",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "pillow": {
+      "27": {
+        "grounding_text": [
+          "The yellow pillow on the sofa closest to the windowsill",
+          "The yellow pillow on the sofa farthest from the speaker",
+          "The yellow pillow on the sofa closest to the large window"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'yellow pillow on the sofa closest to the windowsill' close to the wood fence",
+            "answer": "Yes.",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a painting next to the 'yellow pillow on the sofa farthest from the speaker'",
+            "answer": "No.",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'yellow pillow on the sofa closest to the windowsill' rectangular?",
+            "answer": "No.",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "36": {
+        "grounding_text": [
+          "The first yellow pillow on the chair closest to the window",
+          "The first yellow pillow on the chair farthest from the speaker",
+          "The first yellow pillow on the chair closest to the windowsill"
+        ],
+        "qa": [
+          {
+            "question": "What is the direction of 'the first yellow pillow on the chair closest to the window' relative to the windowsill",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is 'the first yellow pillow on the chair farthest from the speaker' square?",
+            "answer": "Yes",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a TV next to 'the first yellow pillow on the chair farthest from the speaker'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "30": {
+        "grounding_text": [
+          "The pure black pillow closest to the pillar",
+          "The pure black pillow closest to the wood fence",
+          "The pure black pillow on the couch"
+        ],
+        "qa": [
+          {
+            "question": "What's under 'The pure black pillow closest to the pillar'",
+            "answer": "Couch",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a suitcase near 'The pure black pillow closest to the wood fence'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is 'The pure black pillow on the couch' close to the TV?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "37": {
+        "grounding_text": [
+          "The second pillow from the top on the chair furthest from the big backpack",
+          "The second pillow from the top on the chair furthest from the speaker",
+          "The second pillow from the top on the chair closest to the windowsill"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'The second pillow from the top on the chair furthest from the big backpack' blue?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which is smaller, the 'The second pillow from the top on the chair furthest from the speaker' or the green suitcase?",
+            "answer": "Pillow",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there another chair next to 'The second pillow from the top on the chair closest to the windowsill'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "46": {
+        "grounding_text": [
+          "The outermost pillow on the chair closest to the green suitcase",
+          "The outermost pillow on the chair closest to the small backpack",
+          "The outermost pillow on the chair closest to the blue painting"
+        ],
+        "qa": [
+          {
+            "question": "Is there a bird pattern on 'The outermost pillow on the chair closest to the green suitcase'",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What shape is 'The outermost pillow on the chair closest to the small backpack'",
+            "answer": "Rectangular",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a green suitcase next to 'The outermost pillow on the chair closest to the blue painting'",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "couch": {
+      "17": {
+        "grounding_text": [
+          "Sofa with a backpack",
+          "The sofa closest to the speaker",
+          "The sofa closest to the green suitcase"
+        ],
+        "qa": [
+          {
+            "question": "What color is the sofa with a backpack",
+            "answer": "Light brown",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a backpack on the sofa closest to the speaker",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the sofa closest to the green suitcase under the windowsill",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "16": {
+        "grounding_text": [
+          "a sofa without a backpack",
+          "a sofa with two pillows",
+          "the sofa closest to the window"
+        ],
+        "qa": [
+          {
+            "question": "Is there a speaker next to the 'sofa without a backpack'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the 'sofa with two pillows'?",
+            "answer": "Gray",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'sofa closest to the window' near the wood fence?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "picture": {
+      "44": {
+        "grounding_text": [
+          "The painting closest to the windowsill",
+          "The painting closest to the window",
+          "The painting furthest from the speaker"
+        ],
+        "qa": [
+          {
+            "question": "Is 'The painting closest to the windowsill' very close to the sofa with the yellow cushions",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the frame of 'The painting closest to the window'",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a TV next to 'The painting furthest from the speaker'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "9": {
+        "grounding_text": [
+          "Blue painting",
+          "The blue painting farthest from the window",
+          "The blue painting closest to the green suitcase"
+        ],
+        "qa": [
+          {
+            "question": "What color is the frame of the 'blue painting'",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is 'the blue painting farthest from the window' very close to the speaker",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there another painting next to 'the blue painting closest to the green suitcase'",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "8": {
+        "grounding_text": [
+          "The painting closest to the chair with two pillows",
+          "The painting closest to the table with a speaker",
+          "The painting closest to the speaker"
+        ],
+        "qa": [
+          {
+            "question": "Is there a TV next to the painting closest to the chair with two pillows",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which is bigger, the painting closest to the table with a speaker or the green suitcase",
+            "answer": "Painting",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the frame of the painting closest to the speaker",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "bag": {
+      "26": {
+        "grounding_text": [
+          "The smallest backpack",
+          "The smallest backpack on the couch",
+          "The backpack farthest from the pillar"
+        ],
+        "qa": [
+          {
+            "question": "What color is 'the smallest backpack'",
+            "answer": "Black",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the position of 'the smallest backpack on the couch' relative to the speaker",
+            "answer": "Opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is under 'the backpack farthest from the pillar'",
+            "answer": "couch",
+            "tag": "class",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "25": {
+        "grounding_text": [
+          "The backpack closest to the silver suitcase",
+          "The biggest backpack on the couch",
+          "The backpack closest to the windowsill"
+        ],
+        "qa": [
+          {
+            "question": "Is the backpack closest to the silver suitcase blue?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the biggest backpack on the couch right next to the gray and white striped cushion?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is below the backpack closest to the windowsill?",
+            "answer": "Couch",
+            "tag": "class",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "cabinet": {
+      "6": {
+        "grounding_text": [
+          "A tv cabinet with a TV mounted on it",
+          "A tv cabinet right next to the largest wall",
+          "A golden tv cabinet"
+        ],
+        "qa": [
+          {
+            "question": "Is the tv cabinet with a TV mounted on it golden in color?",
+            "answer": "Yes",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Between the tv cabinet right next to the largest wall and the blue painting, which is taller?",
+            "answer": "The tv cabinet right next to the largest wall",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the golden tv cabinet right next to the wood fence?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "window": {
+      "42": {
+        "grounding_text": [
+          "The largest window",
+          "The window closest to the striped painting",
+          "The window closest to the chair with a yellow pillow"
+        ],
+        "qa": [
+          {
+            "question": "Which is further from the TV, 'The largest window' or the speaker?",
+            "answer": "The largest window",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a chair next to 'the window closest to the striped painting'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Does 'the window closest to the chair with a yellow pillow' have a flower pattern on it?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    }
+  },
+  "scene_00106_05": {
+    "cabinet": {
+      "1": {
+        "grounding_text": [
+          "The cabinet next to the mirror",
+          "The cabinet closest to the colorful box",
+          "The cabinet next to the orange chair"
+        ],
+        "qa": [
+          {
+            "question": "Is there a suitcase on the cabinet next to the mirror",
+            "answer": "Yes.",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the cabinet closest to the colorful box black?",
+            "answer": "No.",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What direction is the cabinet next to the orange chair in relation to the bed",
+            "answer": "Opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "17": {
+        "grounding_text": [
+          "A cabinet with a basket",
+          "A yellow cabinet right next to a blue chair",
+          "A yellow cabinet closest to the bed"
+        ],
+        "qa": [
+          {
+            "question": "What color is the cabinet with a basket?",
+            "answer": "Yellow",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is under the yellow cabinet right next to a blue chair?",
+            "answer": "Floor",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a basket on the yellow cabinet closest to the bed?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "22": {
+        "grounding_text": [
+          "A cabinet with a clock",
+          "The cabinet farthest from the curtain",
+          "The cabinet farthest from the window"
+        ],
+        "qa": [
+          {
+            "question": "Is the cabinet with a clock blue?",
+            "answer": "Yes",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What direction is the cabinet that is farthest from the curtain relative to the curtain box?",
+            "answer": "Opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is under the cabinet that is farthest from the window?",
+            "answer": "Floor",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "40": {
+        "grounding_text": [
+          "The cabinet closest to the curtain",
+          "The cabinet with white drawers",
+          "The cabinet with white drawers closest to the window"
+        ],
+        "qa": [
+          {
+            "question": "What's the color of the drawers of the 'cabinet closest to the curtain'",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the 'cabinet with white drawers' right next to the bed",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a door next to the 'cabinet with white drawers closest to the window'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "19": {
+        "grounding_text": [
+          "Yellow short commode",
+          "The yellow short commode farthest from the window",
+          "The yellow short commode farthest from the woodcarving"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'Yellow short commode' right next to the door",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there another commode next to 'The yellow short commode farthest from the window'",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which is taller, 'The yellow short commode farthest from the woodcarving' or the bed",
+            "answer": "Yellow short commode",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "pillow": {
+      "37": {
+        "grounding_text": [
+          "The pillow closest to the basket",
+          "The pillow on the chair opposite the door",
+          "The pillow on the chair with pink and yellow patterns"
+        ],
+        "qa": [
+          {
+            "question": "Does the 'pillow closest to the basket' have a pattern",
+            "answer": "Yes",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a box next to the 'pillow on the chair opposite the door'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which is bigger, the 'pillow on the chair with pink and yellow patterns' or the clock",
+            "answer": "Pillow",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "32": {
+        "grounding_text": [
+          "The pillow closest to the mirror",
+          "The pillow closest to the monitor",
+          "The pillow closest to the paper"
+        ],
+        "qa": [
+          {
+            "question": "Is the pillow closest to the mirror blue?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What's under the pillow closest to the monitor?",
+            "answer": "chair",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a chair under the pillow closest to the paper?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "39": {
+        "grounding_text": [
+          "A pillow with a blue dot pattern on a white background",
+          "The pillow on the bed",
+          "The pillow closest to the curtain"
+        ],
+        "qa": [
+          {
+            "question": "In which direction is the 'pillow with a blue dot pattern on a white background' from the curtain",
+            "answer": "below",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the 'pillow on the bed' red?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is below the 'pillow closest to the curtain'?",
+            "answer": "bed",
+            "tag": "class",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "basket": {
+      "18": {
+        "grounding_text": [
+          "Rectangular basket",
+          "Yellow basket",
+          "Basket near the bed"
+        ],
+        "qa": [
+          {
+            "question": "What color is the rectangular basket?",
+            "answer": "Yellow",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What shape is the yellow basket?",
+            "answer": "Rectangular",
+            "tag": "existence",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is under the 'Basket near the bed'?",
+            "answer": "Cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "chair": {
+      "10": {
+        "grounding_text": [
+          "The chair closest to the windowsill",
+          "The chair closest to the window",
+          "The chair closest to the curtain"
+        ],
+        "qa": [
+          {
+            "question": "Is the chair closest to the windowsill black?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What position is the chair closest to the window in relation to the woodcarving?",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a door next to the chair closest to the curtain?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "38": {
+        "grounding_text": [
+          "The chair closest to the bed",
+          "The chair closest to the basket",
+          "The blue chair farthest from the paper"
+        ],
+        "qa": [
+          {
+            "question": "What's on 'The chair closest to the bed'",
+            "answer": "pillow",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is 'The chair closest to the basket'",
+            "answer": "Blue",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "In what direction of the bed is 'The blue chair farthest from the paper'",
+            "answer": "beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "33": {
+        "grounding_text": [
+          "The chair closest to the pc",
+          "The chair closest to the paper",
+          "The chair right next to the desk"
+        ],
+        "qa": [
+          {
+            "question": "What is on the chair closest to the pc",
+            "answer": "pillow",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the chair closest to the paper right next to the desk",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the chair right next to the desk purely black",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "box": {
+      "29": {
+        "grounding_text": [
+          "The suitcase closest to the window",
+          "The suitcase closest to the curtain box",
+          "The suitcase farthest from the door"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'suitcase closest to the window'?",
+            "answer": "Black",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What direction from the bed is the 'suitcase closest to the curtain box' located?",
+            "answer": "Opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a telephone on top of the 'suitcase farthest from the door'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "36": {
+        "grounding_text": [
+          "The box closest to the bed",
+          "The box closest to the door",
+          "The box closest to the monitor"
+        ],
+        "qa": [
+          {
+            "question": "Is 'The box closest to the bed' black?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What's under 'The box closest to the door'?",
+            "answer": "floor",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a table next to 'The box closest to the monitor'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "26": {
+        "grounding_text": [
+          "The black suitcase directly below the colorful box",
+          "The black suitcase closest to the mirror",
+          "The black suitcase closest to the personal computer"
+        ],
+        "qa": [
+          {
+            "question": "Is there a red heart pattern on the 'Black suitcase directly below the colorful box'?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the direction of the 'Black suitcase closest to the mirror' relative to the colorful box?",
+            "answer": "Below",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a cabinet under the 'Black suitcase closest to the personal computer'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "25": {
+        "grounding_text": [
+          "suitcase closest to the mirror",
+          "suitcase closest to the clock",
+          "red suitcase farthest from the window"
+        ],
+        "qa": [
+          {
+            "question": "What color is the suitcase closest to the mirror?",
+            "answer": "Red",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is underneath the suitcase closest to the clock?",
+            "answer": "Cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a basket next to the red suitcase farthest from the window?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "30": {
+        "grounding_text": [
+          "colorful boxes",
+          "the colorful boxes on top of the black suitcase",
+          "the colorful boxes beside the wall"
+        ],
+        "qa": [
+          {
+            "question": "What is under the 'colorful boxes'",
+            "answer": "suitcase",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "In which direction of the wall is the 'colorful boxes' on top of the black suitcase",
+            "answer": "beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a pillow on top of the 'colorful boxes' beside the wall",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "31": {
+        "grounding_text": [
+          "White box",
+          "The white box closest to the mirror",
+          "The white box closest to the curtain box"
+        ],
+        "qa": [
+          {
+            "question": "What is the position of the 'White box' relative to the red suitcase",
+            "answer": "On top",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a pc next to the 'White box' closest to the mirror",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'White box' closest to the curtain box next to the door",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "table": {
+      "5": {
+        "grounding_text": [
+          "The table closest to the curtain box",
+          "The table closest to the window",
+          "The table furthest from the pen"
+        ],
+        "qa": [
+          {
+            "question": "Is the table closest to the curtain box black?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What direction is the table closest to the window from the bed?",
+            "answer": "Opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a curtain on the table furthest from the pen?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "35": {
+        "grounding_text": [
+          "The desk with a monitor",
+          "The desk with paper",
+          "The desk farthest from the window"
+        ],
+        "qa": [
+          {
+            "question": "What's the direction of the pen relative to 'the desk with a monitor'?",
+            "answer": "Below",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a pillow on 'the desk with paper'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What's under 'the desk farthest from the window'?",
+            "answer": "Floor",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "mirror": {
+      "3": {
+        "grounding_text": [
+          "The mirror closest to the monitor",
+          "The mirror closest to the computer",
+          "The mirror opposite the bed"
+        ],
+        "qa": [
+          {
+            "question": "Does the 'mirror closest to the monitor' have a frame?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the position of the 'mirror closest to the computer' relative to the basket",
+            "answer": "opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a telephone next to the 'mirror closest to the monitor'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "bed": {
+      "12": {
+        "grounding_text": [
+          "A bed with pillows on it",
+          "A bed with a white headboard",
+          "A bed below the curtain"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'bed with pillows on it' right next to the curtain?",
+            "answer": "Yes",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is the 'bed with a white headboard' close to the mirror?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the headboard of the 'bed below the curtain'?",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "windowsill": {
+      "42": {
+        "grounding_text": [
+          "the windowsill beside the window",
+          "the windowsill closest to the curtain",
+          "the windowsill above the woodcarving"
+        ],
+        "qa": [
+          {
+            "question": "What is the direction of 'the windowsill beside the window' from the door",
+            "answer": "Opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is under 'the windowsill closest to the curtain'",
+            "answer": "woodcarving",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is 'the windowsill above the woodcarving' pink",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "paper": {
+      "8": {
+        "grounding_text": [
+          "white paper",
+          "paper under the pen",
+          "the paper closest to the monitor"
+        ],
+        "qa": [
+          {
+            "question": "The position of the 'white paper' related to the pen?",
+            "answer": "under",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What color is the 'paper under the pen'?",
+            "answer": "white",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a bed next to the 'paper closest to the monitor'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "clock": {
+      "21": {
+        "grounding_text": [
+          "White clock",
+          "The clock hanging on the largest cabinet",
+          "The clock closest to the door"
+        ],
+        "qa": [
+          {
+            "question": "Is there a bed next to the 'White clock'",
+            "answer": "No",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is 'the clock hanging on the largest cabinet'",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "In what direction of the window is 'the clock closest to the door'",
+            "answer": "Opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "telephone": {
+      "4": {
+        "grounding_text": [
+          "The telephone closest to the mirror",
+          "The telephone farthest from the door",
+          "The telephone farthest from the personal computer"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'telephone closest to the mirror' yellow?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What direction from the mirror is the 'telephone farthest from the door'?",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a window beside the 'telephone farthest from the personal computer'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "34": {
+        "grounding_text": [
+          "White cellphone",
+          "cellphone next to the monitor",
+          "cellphone closest to the mirror"
+        ],
+        "qa": [
+          {
+            "question": "Where is the 'White cellphone' in relation to the monitor",
+            "answer": "Next to",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What color is the 'cellphone next to the monitor'",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a bed next to the 'cellphone closest to the mirror'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "window": {
+      "13": {
+        "grounding_text": [
+          "window next to the windowsill",
+          "window opposite the door",
+          "window next to the curtain"
+        ],
+        "qa": [
+          {
+            "question": "Is there paper next to the window by the windowsill?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is under the window opposite the door?",
+            "answer": "windowsill",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What direction from the door is the window next to the curtain?",
+            "answer": "opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "door": {
+      "20": {
+        "grounding_text": [
+          "Yellow door",
+          "The door closest to the clock",
+          "The door closest to the basket"
+        ],
+        "qa": [
+          {
+            "question": "What is the position of the 'yellow door' relative to the window",
+            "answer": "Opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the color of 'the door closest to the clock'",
+            "answer": "Yellow",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a telephone next to 'the door closest to the basket'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "monitor": {
+      "9": {
+        "grounding_text": [
+          "Black monitor",
+          "Monitor next to paper",
+          "Monitor on the desk"
+        ],
+        "qa": [
+          {
+            "question": "Is there a cabinet under the 'Black monitor'?",
+            "answer": "No",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What color is the 'Monitor next to paper'?",
+            "answer": "Black",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the 'Monitor on the desk' right next to the bed?",
+            "answer": "No",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "curtain": {
+      "14": {
+        "grounding_text": [
+          "The curtain closest to the windowsill",
+          "The curtain closest to the window",
+          "The curtain farthest from the door"
+        ],
+        "qa": [
+          {
+            "question": "Is 'The curtain closest to the windowsill' yellow?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What direction is 'The curtain closest to the window' from the windowsill?",
+            "answer": "Besides",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a clock beside 'The curtain farthest from the door'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "wood carving": {
+      "41": {
+        "grounding_text": [
+          "woodcarving under the windowsill",
+          "woodcarving closest to the window",
+          "woodcarving closest to the curtain"
+        ],
+        "qa": [
+          {
+            "question": "Is there a telephone on the woodcarving under the windowsill",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What direction of the windowsill is the woodcarving closest to the window",
+            "answer": "below",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the woodcarving closest to the curtain blue",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "computer": {
+      "6": {
+        "grounding_text": [
+          "The PC closest to the cellphone",
+          "The PC closest to the monitor",
+          "The PC closest to the mirror"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'PC closest to the cellphone'",
+            "answer": "Black",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What's under the 'PC closest to the monitor'",
+            "answer": "Floor",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a curtain next to the 'PC closest to the mirror'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    }
+  },
+  "scene_00116_03": {
+    "toilet paper": {
+      "20": {
+        "grounding_text": [
+          "White toilet paper",
+          "Toilet paper placed inside the wall cabinet",
+          "The toilet paper closest to the stove"
+        ],
+        "qa": [
+          {
+            "question": "What is the position of the 'White toilet paper' in the wall cabinet",
+            "answer": "inside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What color is the toilet paper placed inside the wall cabinet",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a door opposite the 'toilet paper closest to the stove'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "pot": {
+      "30": {
+        "grounding_text": [
+          "the pot in the sink",
+          "the pot next to the sponge",
+          "the pot closest to the books"
+        ],
+        "qa": [
+          {
+            "question": "Is 'the pot in the sink' close to the sponge",
+            "answer": "yes",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Where is 'the pot next to the sponge'?",
+            "answer": "In the sink",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a range hood above 'the pot closest to the books'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "23": {
+        "grounding_text": [
+          "On the stove, the large pot",
+          "The large pot nearest to the trash bin",
+          "The large pot nearest to the cutting board"
+        ],
+        "qa": [
+          {
+            "question": "Is 'the large pot on the stove' in red color?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What's under 'the large pot nearest to the trash bin'?",
+            "answer": "Stove",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a door next to 'the large pot nearest to the cutting board'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "24": {
+        "grounding_text": [
+          "Black pot",
+          "The pot closest to the trash bin",
+          "The small pot above the stove"
+        ],
+        "qa": [
+          {
+            "question": "What's under the 'Black pot'",
+            "answer": "Stove",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What color is 'The pot closest to the trash bin'",
+            "answer": "Black",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a sink next to 'The small pot above the stove'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "bottle": {
+      "35": {
+        "grounding_text": [
+          "The bottle closest to the toilet paper",
+          "The bottle with the orange cap",
+          "The bottle closest to the trash can"
+        ],
+        "qa": [
+          {
+            "question": "What color is the cap of 'the bottle closest to the toilet paper'?",
+            "answer": "Orange",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What's under 'the bottle with the orange cap'?",
+            "answer": "cabinet",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a cutting board next to 'the bottle closest to the trash can'?",
+            "answer": "Yes.",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "31": {
+        "grounding_text": [
+          "White bottle",
+          "The bottle closest to the refrigerator",
+          "The bottle closest to the book"
+        ],
+        "qa": [
+          {
+            "question": "Is there a door next to the 'White bottle'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is 'The bottle closest to the refrigerator'?",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is under 'The bottle closest to the book'?",
+            "answer": "cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "sponge": {
+      "33": {
+        "grounding_text": [
+          "The sponge next to the sink",
+          "Yellow sponge",
+          "The sponge near a pot"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'sponge next to the sink'",
+            "answer": "Yellow",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Where is the yellow sponge in relation to the sink?",
+            "answer": "Next to",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a pot near the yellow sponge?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "cabinet": {
+      "15": {
+        "grounding_text": [
+          "The wall cabinet right above the sink",
+          "The wall cabinet closest to the books",
+          "The wall cabinet above the kettle"
+        ],
+        "qa": [
+          {
+            "question": "Is 'The wall cabinet right above the sink' red?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "In what direction from the sink is 'The wall cabinet closest to the books'?",
+            "answer": "Directly above",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there toilet paper inside 'The wall cabinet above the kettle'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "18": {
+        "grounding_text": [
+          "The cabinet with the cutting board",
+          "The cabinet closest to the bifold door",
+          "The cabinet closest to the trash bin"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'cabinet with the cutting board'?",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Which side of the trash bin is the 'cabinet closest to the bifold door' located?",
+            "answer": "beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a refrigerator next to the 'cabinet closest to the trash bin'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "19": {
+        "grounding_text": [
+          "the cabinet under the rice maker",
+          "the cabinet with a sponge",
+          "the cabinet with a sink"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'cabinet under the rice maker'?",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "In which direction of the bifold door is 'the cabinet with a sponge'?",
+            "answer": "Opposite",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a chair next to 'the cabinet with a sink'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      },
+      "13": {
+        "grounding_text": [
+          "The wall cabinet with the range hood hanging",
+          "The wall cabinet containing toilet paper",
+          "The wall cabinet closest to the cutting board"
+        ],
+        "qa": [
+          {
+            "question": "What color is 'The wall cabinet with the range hood hanging'",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What direction is 'The wall cabinet containing toilet paper' relative to the stove",
+            "answer": "Directly above",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a refrigerator next to 'The wall cabinet closest to the cutting board'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "kettle": {
+      "22": {
+        "grounding_text": [
+          "The kettle in front of rice cooker",
+          "The kettle next to the sink",
+          "Kettle in white and black"
+        ],
+        "qa": [
+          {
+            "question": "Consider the kettle in white and black, is it closer to rice maker or sink?",
+            "answer": "Sink",
+            "tag": "spatial",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is 'the kettle next to the sink'?",
+            "answer": "White and black",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is above 'the kettle in front of rice maker'?",
+            "answer": "Wall cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "trash can": {
+      "38": {
+        "grounding_text": [
+          "trash bin under the cutting board",
+          "trash bin closest to the stove",
+          "gray trash bin"
+        ],
+        "qa": [
+          {
+            "question": "What color is the 'trash bin under the cutting board'",
+            "answer": "Gray",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a table next to the 'trash bin closest to the stove'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Where is the 'gray trash bin' in relation to the stove",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "board": {
+      "32": {
+        "grounding_text": [
+          "Light wood color cutting board",
+          "The cutting board closest to the bifold door",
+          "The cutting board closest to the toilet paper"
+        ],
+        "qa": [
+          {
+            "question": "What is under the 'Light wood color cutting board'",
+            "answer": "Cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the 'cutting board closest to the bifold door'",
+            "answer": "Light wood color",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "In what direction from the toilet paper is the 'cutting board closest to the toilet paper'",
+            "answer": "Below",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "box": {
+      "10": {
+        "grounding_text": [
+          "The box closest to the refrigerator",
+          "The box under the table",
+          "The box next to the black suitcase"
+        ],
+        "qa": [
+          {
+            "question": "Is 'the box closest to the refrigerator' red?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a pot next to 'the box under the table'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the position of 'the box next to the black suitcase' in relation to the table?",
+            "answer": "Under",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "9": {
+        "grounding_text": [
+          "Yellow polka dot suitcase",
+          "The suitcase under the table",
+          "The suitcase furthest from the rice cooker"
+        ],
+        "qa": [
+          {
+            "question": "Where is the yellow polka dot suitcase in relation to the table?",
+            "answer": "underneath",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Does 'The suitcase under the table' have a bird pattern on it",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is on top of 'the suitcase furthest from the rice cooker'",
+            "answer": "table",
+            "tag": "class",
+            "extra_knowledge": 0
+          }
+        ]
+      },
+      "36": {
+        "grounding_text": [
+          "black suitcase",
+          "the suitcase closest to the sink",
+          "the black suitcase next to the refrigerator"
+        ],
+        "qa": [
+          {
+            "question": "Where is the 'black suitcase' in relation to the refrigerator?",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is 'the suitcase closest to the sink' pink?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a book on 'the suitcase closest to the sink'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "stove": {
+      "37": {
+        "grounding_text": [
+          "White stove",
+          "The stove next to the trash can",
+          "The stove closest to the cutting board"
+        ],
+        "qa": [
+          {
+            "question": "Is there a pot on the 'White stove'",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What color is the 'stove next to the trash can'",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a trash can near 'the stove closest to the cutting board'?",
+            "answer": "Yes",
+            "tag": "existence",
+            "extra_knowledge": 0
+          }
+        ]
+      }
+    },
+    "door": {
+      "5": {
+        "grounding_text": [
+          "The white bifold door",
+          "The bifold door on the floor",
+          "The bifold door next to the white object"
+        ],
+        "qa": [
+          {
+            "question": "In which direction of the floor is the 'white bifold door'?",
+            "answer": "Above",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What color is 'the bifold door on the floor'?",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is there a sponge on 'the bifold door next to the white object'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "book": {
+      "16": {
+        "grounding_text": [
+          "Books on top of the refrigerator",
+          "Books closest to the ceiling",
+          "Colorful books"
+        ],
+        "qa": [
+          {
+            "question": "Is there a kettle next to the 'Books on top of the refrigerator'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is under the 'Books closest to the ceiling'",
+            "answer": "refrigerator",
+            "tag": "class",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Consider the books on top of the refrigerator, are they the same color as the suitcase below?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "faucet": {
+      "34": {
+        "grounding_text": [
+          "The water faucet above the sink",
+          "The water faucet next to the sponge",
+          "The water faucet near kettle"
+        ],
+        "qa": [
+          {
+            "question": "Where is 'The water faucet above the sink' relative to the sponge",
+            "answer": "next to",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is 'The water faucet next to the sponge' in the same color with the sponge?",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "Is 'the water faucet near kettle' taller or shorter than the kettle?",
+            "answer": "Shorter",
+            "tag": "geometry",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "refrigerator": {
+      "17": {
+        "grounding_text": [
+          "White refrigerator",
+          "Refrigerator under the book",
+          "Refrigerator next to the black suitcase"
+        ],
+        "qa": [
+          {
+            "question": "Where is the 'white refrigerator' in relation to the book",
+            "answer": "Underneath",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What color is the 'refrigerator under the book'",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a door next to the 'refrigerator next to the black suitcase'",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "range hood": {
+      "14": {
+        "grounding_text": [
+          "White range hood",
+          "Range hood above the stove",
+          "Range hood closest to the cutting board"
+        ],
+        "qa": [
+          {
+            "question": "Where is the 'White range hood' relative to the stove?",
+            "answer": "Above",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What color is the 'range hood above the stove'?",
+            "answer": "White",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a sink next to the 'range hood closest to the cutting board'?",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "sink": {
+      "29": {
+        "grounding_text": [
+          "sink under the water faucet",
+          "sink next to the kettle",
+          "sink closest to the refrigerator"
+        ],
+        "qa": [
+          {
+            "question": "Is the 'sink under the water faucet' red",
+            "answer": "No",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the position of the 'sink next to the kettle' in relation to the water faucet",
+            "answer": "below",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is there a stove next to the 'sink closest to the refrigerator'\n",
+            "answer": "No",
+            "tag": "existence",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "table": {
+      "8": {
+        "grounding_text": [
+          "The table next to the black suitcase",
+          "The table closest to the refrigerator",
+          "The table next to the chair"
+        ],
+        "qa": [
+          {
+            "question": "Is there a door opposite the table next to the black suitcase?",
+            "answer": "No.",
+            "tag": "existence",
+            "extra_knowledge": 1
+          },
+          {
+            "question": "What is the position of the table closest to the refrigerator relative to the chair?",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the table next to the chair blue?",
+            "answer": "No.",
+            "tag": "appearance",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    },
+    "rice cooker": {
+      "21": {
+        "grounding_text": [
+          "White rice cooker",
+          "Rice cooker next to the kettle",
+          "Rice cooker closest to the sponge"
+        ],
+        "qa": [
+          {
+            "question": "Where is the 'white rice cooker' located in relation to the kettle",
+            "answer": "Beside",
+            "tag": "spatial",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "Is the 'rice cooker next to the kettle' white?",
+            "answer": "Yes",
+            "tag": "appearance",
+            "extra_knowledge": 0
+          },
+          {
+            "question": "What is under the 'rice cooker closest to the sponge'?",
+            "answer": "Cabinet",
+            "tag": "class",
+            "extra_knowledge": 1
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,445 @@
+{
+ "note": "infer.py default path (the repo's own CaptionNet.forward generation) vs --fast on identical inputs; scores from score.py (Beacon3D QA judge gpt-4o-mini-2024-07-18)",
+ "item_agreement_fp16": {
+  "beacon3d_3rscan_qa": {
+   "items": 816,
+   "same_text": 98.04
+  },
+  "beacon3d_multiscan_qa": {
+   "items": 477,
+   "same_text": 98.74
+  },
+  "beacon3d_scannet_qa": {
+   "items": 1155,
+   "same_text": 96.8
+  },
+  "real3dqa_debiased_test": {
+   "items": 1485,
+   "same_text": 95.89
+  },
+  "real3dqa_rotation_0": {
+   "items": 750,
+   "same_text": 93.07
+  },
+  "real3dqa_rotation_180": {
+   "items": 750,
+   "same_text": 92.93
+  },
+  "real3dqa_rotation_270": {
+   "items": 750,
+   "same_text": 93.87
+  },
+  "real3dqa_rotation_90": {
+   "items": 750,
+   "same_text": 92.93
+  },
+  "scan2cap": {
+   "scenes": 141,
+   "proposals_a": 3369,
+   "proposals_b": 3369,
+   "proposals_both": 3369,
+   "same_caption": 73.97
+  },
+  "scanqa": {
+   "items": 4675,
+   "same_text": 93.37
+  },
+  "sqa3d_test": {
+   "items": 3519,
+   "same_text": 96.56
+  }
+ },
+ "item_agreement_fp16_gen_batch1_4scenes": {
+  "scan2cap": {
+   "scenes": 4,
+   "proposals_a": 109,
+   "proposals_b": 109,
+   "proposals_both": 109,
+   "same_caption": 80.73
+  },
+  "scanqa": {
+   "items": 330,
+   "same_text": 93.94
+  }
+ },
+ "fp32_check": "extra_eval/check_fast_fp32.py, 3 ScanQA scenes: QA 219/219 identical (gen_batch 1 and 32), captions 69/69 identical",
+ "scores": {
+  "scan2cap": {
+   "CIDEr@0.25": {
+    "default": 72.57,
+    "fast": 72.78
+   },
+   "BLEU-1@0.25": {
+    "default": 70.01,
+    "fast": 70.13
+   },
+   "BLEU-4@0.25": {
+    "default": 40.02,
+    "fast": 40.38
+   },
+   "METEOR@0.25": {
+    "default": 27.53,
+    "fast": 27.59
+   },
+   "ROUGE-L@0.25": {
+    "default": 58.73,
+    "fast": 58.86
+   },
+   "CIDEr@0.5": {
+    "default": 63.19,
+    "fast": 63.05
+   },
+   "BLEU-1@0.5": {
+    "default": 61.56,
+    "fast": 61.6
+   },
+   "BLEU-4@0.5": {
+    "default": 35.19,
+    "fast": 35.44
+   },
+   "METEOR@0.5": {
+    "default": 25.69,
+    "fast": 25.72
+   },
+   "ROUGE-L@0.5": {
+    "default": 54.02,
+    "fast": 54.1
+   }
+  },
+  "scanqa": {
+   "CIDEr": {
+    "default": 75.1,
+    "fast": 75.36
+   },
+   "BLEU-1": {
+    "default": 38.97,
+    "fast": 39.23
+   },
+   "BLEU-4": {
+    "default": 13.25,
+    "fast": 12.96
+   },
+   "METEOR": {
+    "default": 15.24,
+    "fast": 15.36
+   },
+   "ROUGE-L": {
+    "default": 36.56,
+    "fast": 36.87
+   },
+   "EM": {
+    "default": 15.87,
+    "fast": 15.87
+   },
+   "EM-R": {
+    "default": 34.4,
+    "fast": 34.48
+   }
+  },
+  "sqa3d_test": {
+   "EM": {
+    "default": 29.89,
+    "fast": 29.78
+   },
+   "EM-R": {
+    "default": 33.96,
+    "fast": 33.79
+   },
+   "EM_what": {
+    "default": 14.91,
+    "fast": 14.73
+   },
+   "EM-R_what": {
+    "default": 17.52,
+    "fast": 17.35
+   },
+   "EM_is": {
+    "default": 42.18,
+    "fast": 41.72
+   },
+   "EM-R_is": {
+    "default": 46.63,
+    "fast": 46.01
+   },
+   "EM_how": {
+    "default": 23.87,
+    "fast": 23.87
+   },
+   "EM-R_how": {
+    "default": 30.97,
+    "fast": 30.97
+   },
+   "EM_can": {
+    "default": 52.96,
+    "fast": 52.96
+   },
+   "EM-R_can": {
+    "default": 52.96,
+    "fast": 52.96
+   },
+   "EM_which": {
+    "default": 36.47,
+    "fast": 36.18
+   },
+   "EM-R_which": {
+    "default": 38.75,
+    "fast": 38.46
+   },
+   "EM_others": {
+    "default": 33.22,
+    "fast": 33.57
+   },
+   "EM-R_others": {
+    "default": 40.81,
+    "fast": 40.99
+   }
+  },
+  "real3dqa_debiased_test": {
+   "EM": {
+    "default": 15.76,
+    "fast": 15.69
+   },
+   "EM-R": {
+    "default": 19.73,
+    "fast": 19.6
+   }
+  },
+  "real3dqa_rotation_0": {
+   "EM": {
+    "default": 7.33,
+    "fast": 7.2
+   },
+   "EM-R": {
+    "default": 12.0,
+    "fast": 11.73
+   }
+  },
+  "real3dqa_rotation_90": {
+   "EM": {
+    "default": 6.13,
+    "fast": 6.13
+   },
+   "EM-R": {
+    "default": 9.73,
+    "fast": 9.73
+   }
+  },
+  "real3dqa_rotation_180": {
+   "EM": {
+    "default": 5.33,
+    "fast": 5.2
+   },
+   "EM-R": {
+    "default": 10.8,
+    "fast": 10.67
+   }
+  },
+  "real3dqa_rotation_270": {
+   "EM": {
+    "default": 7.07,
+    "fast": 7.33
+   },
+   "EM-R": {
+    "default": 11.6,
+    "fast": 11.2
+   }
+  },
+  "real3dqa_rotation": {
+   "one": {
+    "default": 36.93,
+    "fast": 36.0
+   },
+   "two": {
+    "default": 6.4,
+    "fast": 6.53
+   },
+   "three": {
+    "default": 0.67,
+    "fast": 0.8
+   },
+   "four": {
+    "default": 0.13,
+    "fast": 0.0
+   },
+   "VRS": {
+    "default": 11.03,
+    "fast": 10.83
+   }
+  },
+  "beacon3d_scannet": {
+   "case": {
+    "default": 44.91,
+    "fast": 45.04
+   },
+   "object": {
+    "default": 6.75,
+    "fast": 6.49
+   },
+   "EM": {
+    "default": 41.3,
+    "fast": 41.39
+   },
+   "EM-R": {
+    "default": 43.38,
+    "fast": 43.55
+   },
+   "class": {
+    "default": 22.3,
+    "fast": 21.85
+   },
+   "appearance": {
+    "default": 40.47,
+    "fast": 39.64
+   },
+   "geometry": {
+    "default": 55.7,
+    "fast": 56.49
+   },
+   "spatial": {
+    "default": 47.21,
+    "fast": 48.2
+   },
+   "existence": {
+    "default": 51.12,
+    "fast": 51.33
+   },
+   "functionality": {
+    "default": 66.67,
+    "fast": 66.67
+   }
+  },
+  "beacon3d_3rscan": {
+   "case": {
+    "default": 41.3,
+    "fast": 41.54
+   },
+   "object": {
+    "default": 0.37,
+    "fast": 0.37
+   },
+   "EM": {
+    "default": 38.85,
+    "fast": 38.97
+   },
+   "EM-R": {
+    "default": 41.42,
+    "fast": 41.67
+   },
+   "class": {
+    "default": 36.41,
+    "fast": 35.87
+   },
+   "appearance": {
+    "default": 36.48,
+    "fast": 36.7
+   },
+   "geometry": {
+    "default": 46.14,
+    "fast": 47.5
+   },
+   "spatial": {
+    "default": 40.72,
+    "fast": 40.83
+   },
+   "existence": {
+    "default": 45.5,
+    "fast": 45.5
+   }
+  },
+  "beacon3d_multiscan": {
+   "case": {
+    "default": 25.52,
+    "fast": 25.58
+   },
+   "object": {
+    "default": 1.26,
+    "fast": 1.26
+   },
+   "EM": {
+    "default": 22.01,
+    "fast": 22.01
+   },
+   "EM-R": {
+    "default": 24.95,
+    "fast": 25.16
+   },
+   "class": {
+    "default": 16.94,
+    "fast": 15.73
+   },
+   "appearance": {
+    "default": 22.81,
+    "fast": 22.45
+   },
+   "geometry": {
+    "default": 32.29,
+    "fast": 33.33
+   },
+   "spatial": {
+    "default": 25.74,
+    "fast": 26.84
+   },
+   "existence": {
+    "default": 31.57,
+    "fast": 31.36
+   }
+  }
+ },
+ "wall_clock_2gpu": {
+  "per_task_slower_gpu": {
+   "scan2cap": {
+    "default_s": 503.5,
+    "fast_s": 85.0
+   },
+   "scanqa": {
+    "default_s": 324.0,
+    "fast_s": 26.4
+   },
+   "sqa3d_test": {
+    "default_s": 289.2,
+    "fast_s": 24.5
+   },
+   "real3dqa_debiased_test": {
+    "default_s": 122.1,
+    "fast_s": 12.0
+   },
+   "real3dqa_rotation_0": {
+    "default_s": 61.9,
+    "fast_s": 6.0
+   },
+   "real3dqa_rotation_90": {
+    "default_s": 62.0,
+    "fast_s": 5.8
+   },
+   "real3dqa_rotation_180": {
+    "default_s": 61.9,
+    "fast_s": 5.8
+   },
+   "real3dqa_rotation_270": {
+    "default_s": 62.0,
+    "fast_s": 5.8
+   },
+   "beacon3d_scannet_qa": {
+    "default_s": 83.5,
+    "fast_s": 6.6
+   },
+   "beacon3d_3rscan_qa": {
+    "default_s": 63.5,
+    "fast_s": 4.9
+   },
+   "beacon3d_multiscan_qa": {
+    "default_s": 39.6,
+    "fast_s": 3.0
+   }
+  },
+  "run_infer_total_s": {
+   "default": 1681,
+   "fast": 193
+  },
+  "note": "blackwell, 2 GPUs; per task = infer.py time on the slower GPU, total = run_infer.sh incl. model load"
+ },
+ "peak_mem_gb_per_gpu": {
+  "default": 5.5,
+  "fast": 12.0
+ }
+}

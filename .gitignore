@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.so
+build/
+*.egg-info/
+
+# local cluster launchers, local paths/secrets, run logs, data links and outputs (see env.sh.example)
+*.sbatch
+env.sh
+*.log
+log/
+.venv/
+/deps/
+/eval_outputs/
+/data/scannet/scannet_data
+/data/ScanRefer
+/data/ScanQA
+/facebook
+/ckpts/

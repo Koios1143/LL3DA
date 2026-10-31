@@ -1,0 +1,14 @@
+{
+ "pred_dir": "eval_outputs/upstream",
+ "qa_judge": "gpt-4o-mini-2024-07-18",
+ "case": 41.299019607843135,
+ "object": 0.3676470588235294,
+ "EM": 38.84803921568628,
+ "EM-R": 41.42156862745098,
+ "class": 36.41304347826087,
+ "appearance": 36.47727272727273,
+ "geometry": 46.13636363636363,
+ "spatial": 40.720524017467255,
+ "existence": 45.497630331753555,
+ "functionality": null
+}

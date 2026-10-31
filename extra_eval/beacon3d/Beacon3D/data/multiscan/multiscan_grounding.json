@@ -1,0 +1,6095 @@
+[
+  {
+    "item_id": "scene_00114_00_19_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      19
+    ],
+    "instance_type": "bottle",
+    "utterance": "The bottle closest to the refrigerator"
+  },
+  {
+    "item_id": "scene_00114_00_19_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      22,
+      23,
+      20,
+      21,
+      19
+    ],
+    "instance_type": "bottle",
+    "utterance": "Bottle"
+  },
+  {
+    "item_id": "scene_00114_00_19_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      19
+    ],
+    "instance_type": "bottle",
+    "utterance": "The bottle closest to the mop"
+  },
+  {
+    "item_id": "scene_00114_00_19_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      19
+    ],
+    "instance_type": "bottle",
+    "utterance": "The bottle closest to the gray towel"
+  },
+  {
+    "item_id": "scene_00114_00_22_chain_1_0_class-appearance-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      22
+    ],
+    "instance_type": "bottle",
+    "utterance": "The yellow bottle farthest from the refrigerator"
+  },
+  {
+    "item_id": "scene_00114_00_22_chain_1_1_class-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      22,
+      20
+    ],
+    "instance_type": "bottle",
+    "utterance": "Yellow bottle"
+  },
+  {
+    "item_id": "scene_00114_00_22_chain_2_0_class-spatial-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      22
+    ],
+    "instance_type": "bottle",
+    "utterance": "The yellow bottle closest to the rice cooker"
+  },
+  {
+    "item_id": "scene_00114_00_22_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      22
+    ],
+    "instance_type": "bottle",
+    "utterance": "The yellow bottle closest to the cutting board"
+  },
+  {
+    "item_id": "scene_00114_00_21_chain_1_0_class-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      21
+    ],
+    "instance_type": "bottle",
+    "utterance": "Dark blue bottle"
+  },
+  {
+    "item_id": "scene_00114_00_21_chain_2_0_class-appearance-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      21
+    ],
+    "instance_type": "bottle",
+    "utterance": "Dark blue bottle on the windowsill"
+  },
+  {
+    "item_id": "scene_00114_00_21_chain_3_0_class-appearance-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      21
+    ],
+    "instance_type": "bottle",
+    "utterance": "Dark blue bottle closest to the window"
+  },
+  {
+    "item_id": "scene_00114_00_37_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      37
+    ],
+    "instance_type": "water bottle",
+    "utterance": "The water bottle near the kettle"
+  },
+  {
+    "item_id": "scene_00114_00_37_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      37
+    ],
+    "instance_type": "water bottle",
+    "utterance": "Water bottle"
+  },
+  {
+    "item_id": "scene_00114_00_37_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      37
+    ],
+    "instance_type": "water bottle",
+    "utterance": "The water bottle far from window"
+  },
+  {
+    "item_id": "scene_00114_00_37_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      37
+    ],
+    "instance_type": "water bottle",
+    "utterance": "The water bottle on the cabinet"
+  },
+  {
+    "item_id": "scene_00114_00_23_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      23
+    ],
+    "instance_type": "bottle",
+    "utterance": "The bottle in the middle of the three closely adjacent bottles"
+  },
+  {
+    "item_id": "scene_00114_00_23_chain_1_1_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      22,
+      23,
+      21
+    ],
+    "instance_type": "bottle",
+    "utterance": "The closely adjacent bottles"
+  },
+  {
+    "item_id": "scene_00114_00_23_chain_1_2_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      22,
+      23,
+      20,
+      37,
+      21,
+      19
+    ],
+    "instance_type": "bottle",
+    "utterance": "Bottles"
+  },
+  {
+    "item_id": "scene_00114_00_23_chain_2_0_class-spatial-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      23
+    ],
+    "instance_type": "bottle",
+    "utterance": "The blue and white striped bottle next to the deep blue bottle"
+  },
+  {
+    "item_id": "scene_00114_00_23_chain_2_1_class-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      23
+    ],
+    "instance_type": "bottle",
+    "utterance": "The blue and white striped bottle"
+  },
+  {
+    "item_id": "scene_00114_00_23_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      23
+    ],
+    "instance_type": "bottle",
+    "utterance": "The blue and white striped bottle closest to the cutting board"
+  },
+  {
+    "item_id": "scene_00114_00_20_chain_1_0_class-appearance-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      20
+    ],
+    "instance_type": "bottle",
+    "utterance": "The yellow bottle closest to the refrigerator"
+  },
+  {
+    "item_id": "scene_00114_00_20_chain_2_0_class-appearance-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      20
+    ],
+    "instance_type": "bottle",
+    "utterance": "The yellow bottle closest to the mop"
+  },
+  {
+    "item_id": "scene_00114_00_20_chain_3_0_class-appearance-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      20
+    ],
+    "instance_type": "bottle",
+    "utterance": "The yellow bottle farthest from the cutting board"
+  },
+  {
+    "item_id": "scene_00114_00_39_chain_1_0_class-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      39
+    ],
+    "instance_type": "bag",
+    "utterance": "Black plastic bag"
+  },
+  {
+    "item_id": "scene_00114_00_39_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      39
+    ],
+    "instance_type": "bag",
+    "utterance": "Plastic bag"
+  },
+  {
+    "item_id": "scene_00114_00_39_chain_2_0_class-appearance-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      39
+    ],
+    "instance_type": "bag",
+    "utterance": "Black plastic bag on the floor"
+  },
+  {
+    "item_id": "scene_00114_00_39_chain_3_0_class-appearance-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      39
+    ],
+    "instance_type": "bag",
+    "utterance": "Black plastic bag closest to the trash bin"
+  },
+  {
+    "item_id": "scene_00114_00_41_chain_1_0_class-appearance-geometry",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      41
+    ],
+    "instance_type": "paper bag",
+    "utterance": "Brown big paper bag"
+  },
+  {
+    "item_id": "scene_00114_00_41_chain_1_1_class-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      41,
+      43
+    ],
+    "instance_type": "paper bag",
+    "utterance": "Brown paper bag"
+  },
+  {
+    "item_id": "scene_00114_00_41_chain_1_2_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      41,
+      43
+    ],
+    "instance_type": "paper bag",
+    "utterance": "Paper bag"
+  },
+  {
+    "item_id": "scene_00114_00_41_chain_2_0_class-appearance-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      41
+    ],
+    "instance_type": "paper bag",
+    "utterance": "Brown paper bag on the floor"
+  },
+  {
+    "item_id": "scene_00114_00_41_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      41
+    ],
+    "instance_type": "paper bag",
+    "utterance": "Paper bag next to the plastic bag"
+  },
+  {
+    "item_id": "scene_00114_00_43_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      43
+    ],
+    "instance_type": "paper bag",
+    "utterance": "The paper bag closest to the kettle"
+  },
+  {
+    "item_id": "scene_00114_00_43_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      43
+    ],
+    "instance_type": "paper bag",
+    "utterance": "The paper bag closest to the stove"
+  },
+  {
+    "item_id": "scene_00114_00_43_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      43
+    ],
+    "instance_type": "paper bag",
+    "utterance": "The paper bag on the cabinet"
+  },
+  {
+    "item_id": "scene_00114_00_50_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      50
+    ],
+    "instance_type": "pot",
+    "utterance": "Pot cover on the commode"
+  },
+  {
+    "item_id": "scene_00114_00_50_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      50
+    ],
+    "instance_type": "pot",
+    "utterance": "Pot cover"
+  },
+  {
+    "item_id": "scene_00114_00_50_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      50
+    ],
+    "instance_type": "pot",
+    "utterance": "Pot cover opposite the sink"
+  },
+  {
+    "item_id": "scene_00114_00_50_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      50
+    ],
+    "instance_type": "pot",
+    "utterance": "Pot cover farthest from the mop"
+  },
+  {
+    "item_id": "scene_00114_00_51_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      51
+    ],
+    "instance_type": "trash bin",
+    "utterance": "The trash bin lid next to the trash bin"
+  },
+  {
+    "item_id": "scene_00114_00_51_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      51
+    ],
+    "instance_type": "trash bin",
+    "utterance": "Trash bin lid"
+  },
+  {
+    "item_id": "scene_00114_00_51_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      51
+    ],
+    "instance_type": "trash bin",
+    "utterance": "The trash bin lid closest to the refrigerator"
+  },
+  {
+    "item_id": "scene_00114_00_51_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      51
+    ],
+    "instance_type": "trash bin",
+    "utterance": "The trash bin lid closest to the mop"
+  },
+  {
+    "item_id": "scene_00114_00_28_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      28
+    ],
+    "instance_type": "cabinet",
+    "utterance": "A cabinet with a kettle"
+  },
+  {
+    "item_id": "scene_00114_00_28_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      27,
+      28
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Cabinet"
+  },
+  {
+    "item_id": "scene_00114_00_28_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      28
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet closest to the trash bin"
+  },
+  {
+    "item_id": "scene_00114_00_28_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      28
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet closest to the trash bin lid"
+  },
+  {
+    "item_id": "scene_00114_00_25_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      25
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet closest to the yellow towel"
+  },
+  {
+    "item_id": "scene_00114_00_25_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      30,
+      25
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Wall cabinet"
+  },
+  {
+    "item_id": "scene_00114_00_25_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      25
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet closest to the stove"
+  },
+  {
+    "item_id": "scene_00114_00_25_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      25
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet closest to the microwave"
+  },
+  {
+    "item_id": "scene_00114_00_30_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      30
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet closest to the refrigerator"
+  },
+  {
+    "item_id": "scene_00114_00_30_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      30
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet closest to the door"
+  },
+  {
+    "item_id": "scene_00114_00_30_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      30
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet closest to the mop"
+  },
+  {
+    "item_id": "scene_00114_00_27_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      27
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Cabinet under the sink"
+  },
+  {
+    "item_id": "scene_00114_00_27_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      27
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Cabinet under the steel ball"
+  },
+  {
+    "item_id": "scene_00114_00_27_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      27
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Cabinet closest to the water faucet"
+  },
+  {
+    "item_id": "scene_00114_00_24_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      24
+    ],
+    "instance_type": "faucet",
+    "utterance": "The water faucet next to the steel ball"
+  },
+  {
+    "item_id": "scene_00114_00_24_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      24
+    ],
+    "instance_type": "faucet",
+    "utterance": "Water faucet"
+  },
+  {
+    "item_id": "scene_00114_00_24_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      24
+    ],
+    "instance_type": "faucet",
+    "utterance": "The water faucet next to the sink"
+  },
+  {
+    "item_id": "scene_00114_00_24_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      24
+    ],
+    "instance_type": "faucet",
+    "utterance": "The water faucet closest to the window"
+  },
+  {
+    "item_id": "scene_00114_00_36_chain_1_0_class-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      36
+    ],
+    "instance_type": "kettle",
+    "utterance": "Black kettle"
+  },
+  {
+    "item_id": "scene_00114_00_36_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      36
+    ],
+    "instance_type": "kettle",
+    "utterance": "Kettle"
+  },
+  {
+    "item_id": "scene_00114_00_36_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      36
+    ],
+    "instance_type": "kettle",
+    "utterance": "Kettle closest to the stove"
+  },
+  {
+    "item_id": "scene_00114_00_36_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      36
+    ],
+    "instance_type": "kettle",
+    "utterance": "Kettle opposite the trash can"
+  },
+  {
+    "item_id": "scene_00114_00_26_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      26
+    ],
+    "instance_type": "microwave",
+    "utterance": "The microwave above the stove"
+  },
+  {
+    "item_id": "scene_00114_00_26_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      26
+    ],
+    "instance_type": "microwave",
+    "utterance": "Microwave"
+  },
+  {
+    "item_id": "scene_00114_00_26_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      26
+    ],
+    "instance_type": "microwave",
+    "utterance": "The microwave closest to the kettle"
+  },
+  {
+    "item_id": "scene_00114_00_26_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      26
+    ],
+    "instance_type": "microwave",
+    "utterance": "The microwave closest to the rice cooker"
+  },
+  {
+    "item_id": "scene_00114_00_49_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      49
+    ],
+    "instance_type": "cutting board",
+    "utterance": "The cutting board closest to the rice maker"
+  },
+  {
+    "item_id": "scene_00114_00_49_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      49,
+      48
+    ],
+    "instance_type": "cutting board",
+    "utterance": "Cutting board"
+  },
+  {
+    "item_id": "scene_00114_00_49_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      49
+    ],
+    "instance_type": "cutting board",
+    "utterance": "The cutting board closest to the microwave"
+  },
+  {
+    "item_id": "scene_00114_00_49_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      49
+    ],
+    "instance_type": "cutting board",
+    "utterance": "The cutting board farthest from the refrigerator"
+  },
+  {
+    "item_id": "scene_00114_00_48_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      48
+    ],
+    "instance_type": "cutting board",
+    "utterance": "The cutting board closest to the sink"
+  },
+  {
+    "item_id": "scene_00114_00_48_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      48
+    ],
+    "instance_type": "cutting board",
+    "utterance": "The cutting board farthest from the rice cooker"
+  },
+  {
+    "item_id": "scene_00114_00_48_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      48
+    ],
+    "instance_type": "cutting board",
+    "utterance": "The cutting board closest to the steel ball"
+  },
+  {
+    "item_id": "scene_00114_00_45_chain_1_0_class-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      45
+    ],
+    "instance_type": "towel",
+    "utterance": "White towel"
+  },
+  {
+    "item_id": "scene_00114_00_45_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      47,
+      45
+    ],
+    "instance_type": "towel",
+    "utterance": "Towel"
+  },
+  {
+    "item_id": "scene_00114_00_45_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      45
+    ],
+    "instance_type": "towel",
+    "utterance": "The towel closest to the mop"
+  },
+  {
+    "item_id": "scene_00114_00_45_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      45
+    ],
+    "instance_type": "towel",
+    "utterance": "The towel closest to the fridge"
+  },
+  {
+    "item_id": "scene_00114_00_47_chain_1_0_class-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      47
+    ],
+    "instance_type": "towel",
+    "utterance": "Yellow towel"
+  },
+  {
+    "item_id": "scene_00114_00_47_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      47
+    ],
+    "instance_type": "towel",
+    "utterance": "The towel closest to the stove"
+  },
+  {
+    "item_id": "scene_00114_00_47_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      47
+    ],
+    "instance_type": "towel",
+    "utterance": "The towel closest to the microwave"
+  },
+  {
+    "item_id": "scene_00114_00_34_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      34
+    ],
+    "instance_type": "ball",
+    "utterance": "The steel ball next to the water faucet"
+  },
+  {
+    "item_id": "scene_00114_00_34_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      34
+    ],
+    "instance_type": "ball",
+    "utterance": "Steel ball"
+  },
+  {
+    "item_id": "scene_00114_00_34_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      34
+    ],
+    "instance_type": "ball",
+    "utterance": "The steel ball above the sink"
+  },
+  {
+    "item_id": "scene_00114_00_34_chain_3_0_spatial-class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      34
+    ],
+    "instance_type": "ball",
+    "utterance": "The steel ball closest to the refrigerator"
+  },
+  {
+    "item_id": "scene_00114_00_14_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      14
+    ],
+    "instance_type": "window",
+    "utterance": "The window next to the door"
+  },
+  {
+    "item_id": "scene_00114_00_14_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      14,
+      17
+    ],
+    "instance_type": "window",
+    "utterance": "Window"
+  },
+  {
+    "item_id": "scene_00114_00_14_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      14
+    ],
+    "instance_type": "window",
+    "utterance": "The window closest to the mop"
+  },
+  {
+    "item_id": "scene_00114_00_14_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      14
+    ],
+    "instance_type": "window",
+    "utterance": "The window farthest from the rice cooker"
+  },
+  {
+    "item_id": "scene_00114_00_17_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      17
+    ],
+    "instance_type": "window",
+    "utterance": "The window closest to the sink"
+  },
+  {
+    "item_id": "scene_00114_00_17_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      17
+    ],
+    "instance_type": "window",
+    "utterance": "The window closest to the steel ball"
+  },
+  {
+    "item_id": "scene_00114_00_17_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      17
+    ],
+    "instance_type": "window",
+    "utterance": "The window closest to the yellow towel"
+  },
+  {
+    "item_id": "scene_00114_00_13_chain_1_0_class-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      13
+    ],
+    "instance_type": "door",
+    "utterance": "White door"
+  },
+  {
+    "item_id": "scene_00114_00_13_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      13
+    ],
+    "instance_type": "door",
+    "utterance": "Door"
+  },
+  {
+    "item_id": "scene_00114_00_13_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      13
+    ],
+    "instance_type": "door",
+    "utterance": "Door closest to the refrigerator"
+  },
+  {
+    "item_id": "scene_00114_00_13_chain_3_0_class-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      13
+    ],
+    "instance_type": "door",
+    "utterance": "Open door"
+  },
+  {
+    "item_id": "scene_00114_00_44_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      44
+    ],
+    "instance_type": "box",
+    "utterance": "The box closest to the sink"
+  },
+  {
+    "item_id": "scene_00114_00_44_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      42,
+      44,
+      40
+    ],
+    "instance_type": "box",
+    "utterance": "Box"
+  },
+  {
+    "item_id": "scene_00114_00_44_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      44
+    ],
+    "instance_type": "box",
+    "utterance": "The box closest to the steel ball"
+  },
+  {
+    "item_id": "scene_00114_00_44_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      44
+    ],
+    "instance_type": "box",
+    "utterance": "The box closest to the faucet"
+  },
+  {
+    "item_id": "scene_00114_00_42_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      42
+    ],
+    "instance_type": "box",
+    "utterance": "The box closest to the kettle"
+  },
+  {
+    "item_id": "scene_00114_00_42_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      42
+    ],
+    "instance_type": "box",
+    "utterance": "The box farthest from the mop"
+  },
+  {
+    "item_id": "scene_00114_00_42_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      42
+    ],
+    "instance_type": "box",
+    "utterance": "The box closest to the stove"
+  },
+  {
+    "item_id": "scene_00114_00_40_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      40
+    ],
+    "instance_type": "box",
+    "utterance": "The box next to the black plastic bag"
+  },
+  {
+    "item_id": "scene_00114_00_40_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      40
+    ],
+    "instance_type": "box",
+    "utterance": "The box closest to the trash bin lid"
+  },
+  {
+    "item_id": "scene_00114_00_40_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      40
+    ],
+    "instance_type": "box",
+    "utterance": "The box closest to the door"
+  },
+  {
+    "item_id": "scene_00114_00_16_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      16
+    ],
+    "instance_type": "broom",
+    "utterance": "The mop closest to the trash bin"
+  },
+  {
+    "item_id": "scene_00114_00_16_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      16
+    ],
+    "instance_type": "broom",
+    "utterance": "Mop"
+  },
+  {
+    "item_id": "scene_00114_00_16_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      16
+    ],
+    "instance_type": "broom",
+    "utterance": "The mop next to the refrigerator"
+  },
+  {
+    "item_id": "scene_00114_00_16_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      16
+    ],
+    "instance_type": "broom",
+    "utterance": "The mop closest to the sink"
+  },
+  {
+    "item_id": "scene_00114_00_33_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      33
+    ],
+    "instance_type": "sink",
+    "utterance": "The sink closest to the steel ball"
+  },
+  {
+    "item_id": "scene_00114_00_33_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      33
+    ],
+    "instance_type": "sink",
+    "utterance": "Sink"
+  },
+  {
+    "item_id": "scene_00114_00_33_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      33
+    ],
+    "instance_type": "sink",
+    "utterance": "The sink closest to the water faucet"
+  },
+  {
+    "item_id": "scene_00114_00_33_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      33
+    ],
+    "instance_type": "sink",
+    "utterance": "The sink in front of window"
+  },
+  {
+    "item_id": "scene_00114_00_29_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      29
+    ],
+    "instance_type": "stove",
+    "utterance": "Range under the microwave"
+  },
+  {
+    "item_id": "scene_00114_00_29_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      29
+    ],
+    "instance_type": "stove",
+    "utterance": "Range"
+  },
+  {
+    "item_id": "scene_00114_00_29_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      29
+    ],
+    "instance_type": "stove",
+    "utterance": "Range on the floor"
+  },
+  {
+    "item_id": "scene_00114_00_29_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      29
+    ],
+    "instance_type": "stove",
+    "utterance": "The range closest to the kettle"
+  },
+  {
+    "item_id": "scene_00114_00_38_chain_1_0_class-geometry",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      38
+    ],
+    "instance_type": "trash bin",
+    "utterance": "Large trash bin"
+  },
+  {
+    "item_id": "scene_00114_00_38_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      38
+    ],
+    "instance_type": "trash bin",
+    "utterance": "Trash bin"
+  },
+  {
+    "item_id": "scene_00114_00_38_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      38
+    ],
+    "instance_type": "trash bin",
+    "utterance": "The trash bin opposite the sink"
+  },
+  {
+    "item_id": "scene_00114_00_38_chain_3_0_class-appearance",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      38
+    ],
+    "instance_type": "trash bin",
+    "utterance": "White trash bin"
+  },
+  {
+    "item_id": "scene_00114_00_46_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      46
+    ],
+    "instance_type": "light",
+    "utterance": "The light on the ceiling"
+  },
+  {
+    "item_id": "scene_00114_00_46_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      46
+    ],
+    "instance_type": "light",
+    "utterance": "Light"
+  },
+  {
+    "item_id": "scene_00114_00_46_chain_2_0_appearance-class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      46
+    ],
+    "instance_type": "light",
+    "utterance": "The white light"
+  },
+  {
+    "item_id": "scene_00114_00_46_chain_3_0_class-spatial-geometry",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      46
+    ],
+    "instance_type": "light",
+    "utterance": "The light above the large trash bin"
+  },
+  {
+    "item_id": "scene_00114_00_31_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      31
+    ],
+    "instance_type": "refrigerator",
+    "utterance": "Mop next to the refrigerator"
+  },
+  {
+    "item_id": "scene_00114_00_31_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      31
+    ],
+    "instance_type": "refrigerator",
+    "utterance": "Refrigerator"
+  },
+  {
+    "item_id": "scene_00114_00_31_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      31
+    ],
+    "instance_type": "refrigerator",
+    "utterance": "Refrigerator next to the windowsill"
+  },
+  {
+    "item_id": "scene_00114_00_31_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      31
+    ],
+    "instance_type": "refrigerator",
+    "utterance": "Refrigerator next to the window"
+  },
+  {
+    "item_id": "scene_00114_00_35_chain_1_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      35
+    ],
+    "instance_type": "rice cooker",
+    "utterance": "The rice maker closest to the stove"
+  },
+  {
+    "item_id": "scene_00114_00_35_chain_1_1_class",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      35
+    ],
+    "instance_type": "rice cooker",
+    "utterance": "Rice maker"
+  },
+  {
+    "item_id": "scene_00114_00_35_chain_2_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      35
+    ],
+    "instance_type": "rice cooker",
+    "utterance": "The rice maker in the corner of the room"
+  },
+  {
+    "item_id": "scene_00114_00_35_chain_3_0_class-spatial",
+    "scan_id": "scene_00114_00",
+    "target_id": [
+      35
+    ],
+    "instance_type": "rice cooker",
+    "utterance": "The rice maker closest to the cutting board"
+  },
+  {
+    "item_id": "scene_00105_06_37_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      37
+    ],
+    "instance_type": "clothes",
+    "utterance": "The clothes on the chair closest to the monitor"
+  },
+  {
+    "item_id": "scene_00105_06_37_chain_1_1_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      37,
+      42
+    ],
+    "instance_type": "clothes",
+    "utterance": "Clothes on the chair"
+  },
+  {
+    "item_id": "scene_00105_06_37_chain_1_2_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      37,
+      42
+    ],
+    "instance_type": "clothes",
+    "utterance": "Clothes"
+  },
+  {
+    "item_id": "scene_00105_06_37_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      37
+    ],
+    "instance_type": "clothes",
+    "utterance": "The clothes on the chair closest to the mouse"
+  },
+  {
+    "item_id": "scene_00105_06_37_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      37
+    ],
+    "instance_type": "clothes",
+    "utterance": "The clothes on the chair closest to the bed"
+  },
+  {
+    "item_id": "scene_00105_06_42_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      42
+    ],
+    "instance_type": "clothes",
+    "utterance": "Clothes on the chair in the middle of the doorframe"
+  },
+  {
+    "item_id": "scene_00105_06_42_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      42
+    ],
+    "instance_type": "clothes",
+    "utterance": "Clothes on the chair under the beam"
+  },
+  {
+    "item_id": "scene_00105_06_42_chain_3_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      42
+    ],
+    "instance_type": "clothes",
+    "utterance": "The dark grey clothes"
+  },
+  {
+    "item_id": "scene_00105_06_40_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      40
+    ],
+    "instance_type": "curtain",
+    "utterance": "Curtain next to the radiator shell"
+  },
+  {
+    "item_id": "scene_00105_06_40_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      40,
+      41
+    ],
+    "instance_type": "curtain",
+    "utterance": "Curtain"
+  },
+  {
+    "item_id": "scene_00105_06_40_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      40
+    ],
+    "instance_type": "curtain",
+    "utterance": "The curtain closer to calendar"
+  },
+  {
+    "item_id": "scene_00105_06_40_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      40
+    ],
+    "instance_type": "curtain",
+    "utterance": "The curtain right next to the wall cabinet"
+  },
+  {
+    "item_id": "scene_00105_06_41_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      41
+    ],
+    "instance_type": "curtain",
+    "utterance": "The curtain furthest from the radiator shell"
+  },
+  {
+    "item_id": "scene_00105_06_41_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      41
+    ],
+    "instance_type": "curtain",
+    "utterance": "The curtain closest to the monitor"
+  },
+  {
+    "item_id": "scene_00105_06_41_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      41
+    ],
+    "instance_type": "curtain",
+    "utterance": "The curtain next to the cabinet filled with clothes"
+  },
+  {
+    "item_id": "scene_00105_06_41_chain_3_1_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      41,
+      40
+    ],
+    "instance_type": "curtain",
+    "utterance": "The curtain next to the cabinet"
+  },
+  {
+    "item_id": "scene_00105_06_16_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      16
+    ],
+    "instance_type": "clock",
+    "utterance": "The clock on the wall above the TV"
+  },
+  {
+    "item_id": "scene_00105_06_16_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      16
+    ],
+    "instance_type": "clock",
+    "utterance": "The clock on the wall"
+  },
+  {
+    "item_id": "scene_00105_06_16_chain_1_2_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      16
+    ],
+    "instance_type": "clock",
+    "utterance": "The clock"
+  },
+  {
+    "item_id": "scene_00105_06_16_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      16
+    ],
+    "instance_type": "clock",
+    "utterance": "The clock next to the calendar"
+  },
+  {
+    "item_id": "scene_00105_06_16_chain_3_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      16
+    ],
+    "instance_type": "clock",
+    "utterance": "The clock with a blue frame"
+  },
+  {
+    "item_id": "scene_00105_06_15_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      15
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet closest to the clock"
+  },
+  {
+    "item_id": "scene_00105_06_15_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      15
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Wall cabinet"
+  },
+  {
+    "item_id": "scene_00105_06_15_chain_1_2_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      6,
+      23,
+      14,
+      11,
+      15
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Cabinet"
+  },
+  {
+    "item_id": "scene_00105_06_15_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      15
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet closest to the calendar"
+  },
+  {
+    "item_id": "scene_00105_06_15_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      15
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet above the radiator shell"
+  },
+  {
+    "item_id": "scene_00105_06_14_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      14
+    ],
+    "instance_type": "nightstand",
+    "utterance": "The nightstand closest to the TV"
+  },
+  {
+    "item_id": "scene_00105_06_14_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      23,
+      14
+    ],
+    "instance_type": "nightstand",
+    "utterance": "Nightstand"
+  },
+  {
+    "item_id": "scene_00105_06_14_chain_2_0_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      14
+    ],
+    "instance_type": "nightstand",
+    "utterance": "The nightstand closest to the TV box"
+  },
+  {
+    "item_id": "scene_00105_06_14_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      14
+    ],
+    "instance_type": "nightstand",
+    "utterance": "The nightstand right next to the radiator shell"
+  },
+  {
+    "item_id": "scene_00105_06_6_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      6
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet closest to the monitor"
+  },
+  {
+    "item_id": "scene_00105_06_6_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      6
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet closest to the keyboard"
+  },
+  {
+    "item_id": "scene_00105_06_6_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      6
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet closest to the mouse"
+  },
+  {
+    "item_id": "scene_00105_06_11_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      11
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet under the TV"
+  },
+  {
+    "item_id": "scene_00105_06_11_chain_2_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      11
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet with the remote control"
+  },
+  {
+    "item_id": "scene_00105_06_11_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      11
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet under the TV box"
+  },
+  {
+    "item_id": "scene_00105_06_23_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      23
+    ],
+    "instance_type": "nightstand",
+    "utterance": "The nightstand closest to the door"
+  },
+  {
+    "item_id": "scene_00105_06_23_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      23
+    ],
+    "instance_type": "nightstand",
+    "utterance": "The nightstand closest to the bed"
+  },
+  {
+    "item_id": "scene_00105_06_23_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      23
+    ],
+    "instance_type": "nightstand",
+    "utterance": "The nightstand closest to the bag"
+  },
+  {
+    "item_id": "scene_00105_06_33_chain_1_0_class-geometry",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      33
+    ],
+    "instance_type": "radiator",
+    "utterance": "Rectangular radiator shell"
+  },
+  {
+    "item_id": "scene_00105_06_33_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      33
+    ],
+    "instance_type": "radiator",
+    "utterance": "Radiator shell"
+  },
+  {
+    "item_id": "scene_00105_06_33_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      33
+    ],
+    "instance_type": "radiator",
+    "utterance": "Radiator shell under the wall cabinet"
+  },
+  {
+    "item_id": "scene_00105_06_33_chain_3_0_appearance-class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      33
+    ],
+    "instance_type": "radiator",
+    "utterance": "Orange-yellow radiator shell"
+  },
+  {
+    "item_id": "scene_00105_06_13_chain_1_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      13
+    ],
+    "instance_type": "box",
+    "utterance": "White box"
+  },
+  {
+    "item_id": "scene_00105_06_13_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      30,
+      13
+    ],
+    "instance_type": "box",
+    "utterance": "Box"
+  },
+  {
+    "item_id": "scene_00105_06_13_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      13
+    ],
+    "instance_type": "box",
+    "utterance": "The box closest to the TV"
+  },
+  {
+    "item_id": "scene_00105_06_13_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      13
+    ],
+    "instance_type": "box",
+    "utterance": "The box closest to the door"
+  },
+  {
+    "item_id": "scene_00105_06_30_chain_1_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      30
+    ],
+    "instance_type": "box",
+    "utterance": "Light brown box"
+  },
+  {
+    "item_id": "scene_00105_06_30_chain_2_0_class-spatial-geometry",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      30
+    ],
+    "instance_type": "box",
+    "utterance": "The box under the small desk"
+  },
+  {
+    "item_id": "scene_00105_06_30_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      30
+    ],
+    "instance_type": "box",
+    "utterance": "The box farthest from the TV"
+  },
+  {
+    "item_id": "scene_00105_06_34_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      34
+    ],
+    "instance_type": "chair",
+    "utterance": "Chair with a pillow"
+  },
+  {
+    "item_id": "scene_00105_06_34_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      34,
+      39,
+      38,
+      44,
+      45
+    ],
+    "instance_type": "chair",
+    "utterance": "Chairs"
+  },
+  {
+    "item_id": "scene_00105_06_34_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      34
+    ],
+    "instance_type": "chair",
+    "utterance": "Chair right next to the radiator shell"
+  },
+  {
+    "item_id": "scene_00105_06_34_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      34
+    ],
+    "instance_type": "chair",
+    "utterance": "Chair closest to the clock"
+  },
+  {
+    "item_id": "scene_00105_06_38_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      38
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair right next to the bed"
+  },
+  {
+    "item_id": "scene_00105_06_38_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      45,
+      44,
+      38,
+      39,
+      34
+    ],
+    "instance_type": "chair",
+    "utterance": "Chair"
+  },
+  {
+    "item_id": "scene_00105_06_38_chain_2_0_class-spatial-geometry",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      38
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair placed at the corner between the small desk and the end of the bed"
+  },
+  {
+    "item_id": "scene_00105_06_38_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      38
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the keyboard"
+  },
+  {
+    "item_id": "scene_00105_06_39_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      39
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair between the door frames"
+  },
+  {
+    "item_id": "scene_00105_06_39_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      39
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the radiator shell with clothes on it"
+  },
+  {
+    "item_id": "scene_00105_06_39_chain_2_1_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      38,
+      39
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair with clothes on it"
+  },
+  {
+    "item_id": "scene_00105_06_39_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      39
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair right below the beam"
+  },
+  {
+    "item_id": "scene_00105_06_31_chain_1_0_class-appearance-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      31
+    ],
+    "instance_type": "pillow",
+    "utterance": "The white and blue striped pillow on the bed"
+  },
+  {
+    "item_id": "scene_00105_06_31_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      31,
+      35
+    ],
+    "instance_type": "pillow",
+    "utterance": "White and blue striped pillow"
+  },
+  {
+    "item_id": "scene_00105_06_31_chain_1_2_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      36,
+      31,
+      35,
+      19
+    ],
+    "instance_type": "pillow",
+    "utterance": "Pillow"
+  },
+  {
+    "item_id": "scene_00105_06_31_chain_2_0_class-spatial-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      31
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow with white and blue stripes next to the bag"
+  },
+  {
+    "item_id": "scene_00105_06_31_chain_2_1_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      31,
+      35
+    ],
+    "instance_type": "pillow",
+    "utterance": "Pillow with white and blue stripes"
+  },
+  {
+    "item_id": "scene_00105_06_31_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      31
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow with white and blue stripes right next to the head of the bed"
+  },
+  {
+    "item_id": "scene_00105_06_19_chain_1_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      19
+    ],
+    "instance_type": "pillow",
+    "utterance": "Red and white striped pillow"
+  },
+  {
+    "item_id": "scene_00105_06_19_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      19
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow closest to the telephone"
+  },
+  {
+    "item_id": "scene_00105_06_19_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      19
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow closest to the door"
+  },
+  {
+    "item_id": "scene_00105_06_36_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      36
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow closest to the monitor"
+  },
+  {
+    "item_id": "scene_00105_06_36_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      36
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow closest to the mouse"
+  },
+  {
+    "item_id": "scene_00105_06_36_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      36
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow closest to the keyboard"
+  },
+  {
+    "item_id": "scene_00105_06_35_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      35
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow closest to the radiator shell"
+  },
+  {
+    "item_id": "scene_00105_06_35_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      35
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow closest to the calendar"
+  },
+  {
+    "item_id": "scene_00105_06_35_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      35
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow closest to the clock"
+  },
+  {
+    "item_id": "scene_00105_06_47_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      47
+    ],
+    "instance_type": "desk",
+    "utterance": "The desk closest to the window"
+  },
+  {
+    "item_id": "scene_00105_06_47_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      29,
+      47
+    ],
+    "instance_type": "desk",
+    "utterance": "Desk"
+  },
+  {
+    "item_id": "scene_00105_06_47_chain_1_2_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      29,
+      47
+    ],
+    "instance_type": "desk",
+    "utterance": "Table"
+  },
+  {
+    "item_id": "scene_00105_06_47_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      47
+    ],
+    "instance_type": "desk",
+    "utterance": "The desk on the balcony"
+  },
+  {
+    "item_id": "scene_00105_06_47_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      47
+    ],
+    "instance_type": "desk",
+    "utterance": "The desk closest to the black chair"
+  },
+  {
+    "item_id": "scene_00105_06_47_chain_3_1_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      29,
+      47
+    ],
+    "instance_type": "desk",
+    "utterance": "The desk closest to the chair"
+  },
+  {
+    "item_id": "scene_00105_06_29_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      29
+    ],
+    "instance_type": "desk",
+    "utterance": "Desk right next to the bed"
+  },
+  {
+    "item_id": "scene_00105_06_29_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      29
+    ],
+    "instance_type": "desk",
+    "utterance": "Desk with a mouse on it"
+  },
+  {
+    "item_id": "scene_00105_06_29_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      29
+    ],
+    "instance_type": "desk",
+    "utterance": "Desk with a monitor on it"
+  },
+  {
+    "item_id": "scene_00105_06_26_chain_1_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      26
+    ],
+    "instance_type": "speaker",
+    "utterance": "Light yellow speaker"
+  },
+  {
+    "item_id": "scene_00105_06_26_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      26
+    ],
+    "instance_type": "speaker",
+    "utterance": "Speaker"
+  },
+  {
+    "item_id": "scene_00105_06_26_chain_2_0_class-spatial-geometry",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      26
+    ],
+    "instance_type": "speaker",
+    "utterance": "Speaker on the small desk"
+  },
+  {
+    "item_id": "scene_00105_06_26_chain_2_1_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      26
+    ],
+    "instance_type": "speaker",
+    "utterance": "Speaker on the desk"
+  },
+  {
+    "item_id": "scene_00105_06_26_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      26
+    ],
+    "instance_type": "speaker",
+    "utterance": "Speaker next to the keyboard"
+  },
+  {
+    "item_id": "scene_00105_06_21_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      21
+    ],
+    "instance_type": "blanket",
+    "utterance": "The quilt farthest from the keyboard"
+  },
+  {
+    "item_id": "scene_00105_06_21_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      22,
+      21,
+      20
+    ],
+    "instance_type": "blanket",
+    "utterance": "Quilt"
+  },
+  {
+    "item_id": "scene_00105_06_21_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      21
+    ],
+    "instance_type": "blanket",
+    "utterance": "The quilt farthest from the monitor"
+  },
+  {
+    "item_id": "scene_00105_06_21_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      21
+    ],
+    "instance_type": "blanket",
+    "utterance": "The quilt closest to the bag"
+  },
+  {
+    "item_id": "scene_00105_06_20_chain_1_0_class-spatial-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      20
+    ],
+    "instance_type": "blanket",
+    "utterance": "The light blue quilt at the end of the bed"
+  },
+  {
+    "item_id": "scene_00105_06_20_chain_1_1_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      20
+    ],
+    "instance_type": "blanket",
+    "utterance": "Light blue quilt"
+  },
+  {
+    "item_id": "scene_00105_06_20_chain_2_0_class-spatial-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      20
+    ],
+    "instance_type": "blanket",
+    "utterance": "The light blue quilt closest to the speaker"
+  },
+  {
+    "item_id": "scene_00105_06_20_chain_3_0_appearance-class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      20
+    ],
+    "instance_type": "blanket",
+    "utterance": "The light blue quilt closest to the keyboard"
+  },
+  {
+    "item_id": "scene_00105_06_28_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      28
+    ],
+    "instance_type": "mouse",
+    "utterance": "Mouse next to the keyboard"
+  },
+  {
+    "item_id": "scene_00105_06_28_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      28
+    ],
+    "instance_type": "mouse",
+    "utterance": "Mouse"
+  },
+  {
+    "item_id": "scene_00105_06_28_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      28
+    ],
+    "instance_type": "mouse",
+    "utterance": "Mouse next to the monitor"
+  },
+  {
+    "item_id": "scene_00105_06_28_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      28
+    ],
+    "instance_type": "mouse",
+    "utterance": "Mouse next to the speaker"
+  },
+  {
+    "item_id": "scene_00105_06_25_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      25
+    ],
+    "instance_type": "monitor",
+    "utterance": "Monitor next to the mouse"
+  },
+  {
+    "item_id": "scene_00105_06_25_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      25
+    ],
+    "instance_type": "monitor",
+    "utterance": "Monitor"
+  },
+  {
+    "item_id": "scene_00105_06_25_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      25
+    ],
+    "instance_type": "monitor",
+    "utterance": "Monitor next to the keyboard"
+  },
+  {
+    "item_id": "scene_00105_06_25_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      25
+    ],
+    "instance_type": "monitor",
+    "utterance": "Monitor next to the bed"
+  },
+  {
+    "item_id": "scene_00105_06_9_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      9
+    ],
+    "instance_type": "tv",
+    "utterance": "The TV below the calendar diagonally"
+  },
+  {
+    "item_id": "scene_00105_06_9_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      9
+    ],
+    "instance_type": "tv",
+    "utterance": "TV"
+  },
+  {
+    "item_id": "scene_00105_06_9_chain_2_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      9
+    ],
+    "instance_type": "tv",
+    "utterance": "The black TV"
+  },
+  {
+    "item_id": "scene_00105_06_9_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      9
+    ],
+    "instance_type": "tv",
+    "utterance": "The TV next to the TV box"
+  },
+  {
+    "item_id": "scene_00105_06_4_chain_1_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      4
+    ],
+    "instance_type": "door",
+    "utterance": "The door next to the telephone"
+  },
+  {
+    "item_id": "scene_00105_06_4_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      4
+    ],
+    "instance_type": "door",
+    "utterance": "Door"
+  },
+  {
+    "item_id": "scene_00105_06_4_chain_2_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      4
+    ],
+    "instance_type": "door",
+    "utterance": "Yellow door"
+  },
+  {
+    "item_id": "scene_00105_06_4_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      4
+    ],
+    "instance_type": "door",
+    "utterance": "The door next to the white box"
+  },
+  {
+    "item_id": "scene_00105_06_4_chain_3_1_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      4
+    ],
+    "instance_type": "door",
+    "utterance": "The door next to the box"
+  },
+  {
+    "item_id": "scene_00105_06_24_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      24
+    ],
+    "instance_type": "telephone",
+    "utterance": "Telephone on the nightstand"
+  },
+  {
+    "item_id": "scene_00105_06_24_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      24
+    ],
+    "instance_type": "telephone",
+    "utterance": "Telephone"
+  },
+  {
+    "item_id": "scene_00105_06_24_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      24
+    ],
+    "instance_type": "telephone",
+    "utterance": "Telephone next to the door"
+  },
+  {
+    "item_id": "scene_00105_06_24_chain_3_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      24
+    ],
+    "instance_type": "telephone",
+    "utterance": "Black telephone"
+  },
+  {
+    "item_id": "scene_00105_06_12_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      12
+    ],
+    "instance_type": "tv stand",
+    "utterance": "The TV box next to the TV"
+  },
+  {
+    "item_id": "scene_00105_06_12_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      12
+    ],
+    "instance_type": "tv stand",
+    "utterance": "TV box"
+  },
+  {
+    "item_id": "scene_00105_06_12_chain_2_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      12
+    ],
+    "instance_type": "tv stand",
+    "utterance": "The light gray TV box"
+  },
+  {
+    "item_id": "scene_00105_06_12_chain_3_0_class-geometry",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      12
+    ],
+    "instance_type": "tv stand",
+    "utterance": "The rectangular TV box"
+  },
+  {
+    "item_id": "scene_00105_06_49_chain_1_0_class-spatial-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      49
+    ],
+    "instance_type": "window",
+    "utterance": "The window next to the black chair"
+  },
+  {
+    "item_id": "scene_00105_06_49_chain_1_1_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      49
+    ],
+    "instance_type": "window",
+    "utterance": "The window next to the chair"
+  },
+  {
+    "item_id": "scene_00105_06_49_chain_1_2_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      49
+    ],
+    "instance_type": "window",
+    "utterance": "Window"
+  },
+  {
+    "item_id": "scene_00105_06_49_chain_2_0_class-spatial-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      49
+    ],
+    "instance_type": "window",
+    "utterance": "The window above the orange-yellow wall"
+  },
+  {
+    "item_id": "scene_00105_06_49_chain_2_1_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      49
+    ],
+    "instance_type": "window",
+    "utterance": "The window above the wall"
+  },
+  {
+    "item_id": "scene_00105_06_49_chain_3_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      49
+    ],
+    "instance_type": "window",
+    "utterance": "The glass window"
+  },
+  {
+    "item_id": "scene_00105_06_18_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      18
+    ],
+    "instance_type": "bed",
+    "utterance": "Bed with a bag"
+  },
+  {
+    "item_id": "scene_00105_06_18_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      18
+    ],
+    "instance_type": "bed",
+    "utterance": "Bed"
+  },
+  {
+    "item_id": "scene_00105_06_18_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      18
+    ],
+    "instance_type": "bed",
+    "utterance": "Bed with a quilt"
+  },
+  {
+    "item_id": "scene_00105_06_18_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      18
+    ],
+    "instance_type": "bed",
+    "utterance": "Bed next to the monitor"
+  },
+  {
+    "item_id": "scene_00105_06_17_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      17
+    ],
+    "instance_type": "calendar",
+    "utterance": "Calendar right next to the clock"
+  },
+  {
+    "item_id": "scene_00105_06_17_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      17
+    ],
+    "instance_type": "calendar",
+    "utterance": "Calendar"
+  },
+  {
+    "item_id": "scene_00105_06_17_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      17
+    ],
+    "instance_type": "calendar",
+    "utterance": "Calendar hanging on the wall"
+  },
+  {
+    "item_id": "scene_00105_06_17_chain_3_0_class-geometry",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      17
+    ],
+    "instance_type": "calendar",
+    "utterance": "Rectangular calendar"
+  },
+  {
+    "item_id": "scene_00105_06_27_chain_1_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      27
+    ],
+    "instance_type": "keyboard",
+    "utterance": "Keyboard next to the mouse"
+  },
+  {
+    "item_id": "scene_00105_06_27_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      27
+    ],
+    "instance_type": "keyboard",
+    "utterance": "Keyboard"
+  },
+  {
+    "item_id": "scene_00105_06_27_chain_2_0_class-appearance",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      27
+    ],
+    "instance_type": "keyboard",
+    "utterance": "Black keyboard"
+  },
+  {
+    "item_id": "scene_00105_06_27_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      27
+    ],
+    "instance_type": "keyboard",
+    "utterance": "Keyboard next to the monitor"
+  },
+  {
+    "item_id": "scene_00105_06_32_chain_1_0_appearance-class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      32
+    ],
+    "instance_type": "bag",
+    "utterance": "Green bag"
+  },
+  {
+    "item_id": "scene_00105_06_32_chain_1_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      32
+    ],
+    "instance_type": "bag",
+    "utterance": "Bag"
+  },
+  {
+    "item_id": "scene_00105_06_32_chain_2_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      32
+    ],
+    "instance_type": "bag",
+    "utterance": "Bag on the bed"
+  },
+  {
+    "item_id": "scene_00105_06_32_chain_3_0_class-spatial",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      32
+    ],
+    "instance_type": "bag",
+    "utterance": "Bag next to the striped quilt"
+  },
+  {
+    "item_id": "scene_00105_06_32_chain_3_1_class",
+    "scan_id": "scene_00105_06",
+    "target_id": [
+      32
+    ],
+    "instance_type": "bag",
+    "utterance": "Bag next to the quilt"
+  },
+  {
+    "item_id": "scene_00109_00_13_chain_1_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      13
+    ],
+    "instance_type": "chair",
+    "utterance": "Chair with four pillows"
+  },
+  {
+    "item_id": "scene_00109_00_13_chain_1_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      15,
+      14,
+      13
+    ],
+    "instance_type": "chair",
+    "utterance": "Chair with pillows"
+  },
+  {
+    "item_id": "scene_00109_00_13_chain_1_2_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      12,
+      15,
+      14,
+      13
+    ],
+    "instance_type": "chair",
+    "utterance": "Chair"
+  },
+  {
+    "item_id": "scene_00109_00_13_chain_2_0_spatial-class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      13
+    ],
+    "instance_type": "chair",
+    "utterance": "Chair next to an empty chair"
+  },
+  {
+    "item_id": "scene_00109_00_13_chain_3_0_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      13
+    ],
+    "instance_type": "chair",
+    "utterance": "Chair with a yellow pillow"
+  },
+  {
+    "item_id": "scene_00109_00_12_chain_1_0_spatial-class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      12
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair furthest from the speaker with no pillow on it"
+  },
+  {
+    "item_id": "scene_00109_00_12_chain_1_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      12,
+      13
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair furthest from the speaker"
+  },
+  {
+    "item_id": "scene_00109_00_12_chain_2_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      12
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair with no pillow"
+  },
+  {
+    "item_id": "scene_00109_00_12_chain_3_0_class-spatial-geometry",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      12
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the small window"
+  },
+  {
+    "item_id": "scene_00109_00_12_chain_3_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      12,
+      13
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the window"
+  },
+  {
+    "item_id": "scene_00109_00_15_chain_1_0_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      15
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the green suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_15_chain_1_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      15
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_15_chain_2_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      15
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the wood fence"
+  },
+  {
+    "item_id": "scene_00109_00_15_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      15
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the blue painting"
+  },
+  {
+    "item_id": "scene_00109_00_15_chain_3_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      15,
+      14,
+      13,
+      12
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the painting"
+  },
+  {
+    "item_id": "scene_00109_00_20_chain_1_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      20
+    ],
+    "instance_type": "speaker",
+    "utterance": "Speaker on the table"
+  },
+  {
+    "item_id": "scene_00109_00_20_chain_1_1_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      20
+    ],
+    "instance_type": "speaker",
+    "utterance": "Speaker"
+  },
+  {
+    "item_id": "scene_00109_00_20_chain_2_0_appearance-class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      20
+    ],
+    "instance_type": "speaker",
+    "utterance": "The black speaker"
+  },
+  {
+    "item_id": "scene_00109_00_20_chain_3_0_class-geometry",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      20
+    ],
+    "instance_type": "speaker",
+    "utterance": "The round speaker"
+  },
+  {
+    "item_id": "scene_00109_00_24_chain_1_0_class-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      24
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Green suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_24_chain_1_1_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      24,
+      23,
+      21,
+      22
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_24_chain_1_2_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      24,
+      22,
+      21,
+      23
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Box"
+  },
+  {
+    "item_id": "scene_00109_00_24_chain_2_0_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      24
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Green suitcase next to the couch"
+  },
+  {
+    "item_id": "scene_00109_00_24_chain_3_0_spatial-class-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      24
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Green suitcase furthest from the window"
+  },
+  {
+    "item_id": "scene_00109_00_23_chain_1_0_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      23
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Black suitcase right next to the pillar"
+  },
+  {
+    "item_id": "scene_00109_00_23_chain_1_1_class-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      23,
+      21
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Black suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_23_chain_2_0_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      23
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Black suitcase farthest from the windowsill"
+  },
+  {
+    "item_id": "scene_00109_00_23_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      23
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Black suitcase closest to the speaker"
+  },
+  {
+    "item_id": "scene_00109_00_21_chain_1_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      21
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The suitcase on the table"
+  },
+  {
+    "item_id": "scene_00109_00_21_chain_2_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      21
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The flat suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_21_chain_3_0_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      21
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The black suitcase farthest from the speaker"
+  },
+  {
+    "item_id": "scene_00109_00_22_chain_1_0_class-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      22
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Silver-white suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_22_chain_2_0_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      23
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The silver-white suitcase opposite the TV"
+  },
+  {
+    "item_id": "scene_00109_00_22_chain_3_0_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      22
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The silver-white suitcase closest to the pillar"
+  },
+  {
+    "item_id": "scene_00109_00_32_chain_1_0_spatial-class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      32
+    ],
+    "instance_type": "couch cushions",
+    "utterance": "The sofa cushion furthest from the window"
+  },
+  {
+    "item_id": "scene_00109_00_32_chain_1_1_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      32,
+      31,
+      29,
+      28
+    ],
+    "instance_type": "couch cushions",
+    "utterance": "Sofa cushion"
+  },
+  {
+    "item_id": "scene_00109_00_32_chain_2_0_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      32
+    ],
+    "instance_type": "couch cushions",
+    "utterance": "The sofa cushion closest to the blue painting"
+  },
+  {
+    "item_id": "scene_00109_00_32_chain_2_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      32,
+      29
+    ],
+    "instance_type": "couch cushions",
+    "utterance": "The sofa cushion closest to the painting"
+  },
+  {
+    "item_id": "scene_00109_00_32_chain_3_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      32
+    ],
+    "instance_type": "couch cushions",
+    "utterance": "The sofa cushion furthest from the windowsill"
+  },
+  {
+    "item_id": "scene_00109_00_29_chain_1_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      29
+    ],
+    "instance_type": "couch cushions",
+    "utterance": "The sofa cushion closest to the windowsill"
+  },
+  {
+    "item_id": "scene_00109_00_29_chain_2_0_class-spatial-geometry",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      29
+    ],
+    "instance_type": "couch cushions",
+    "utterance": "The sofa cushion closest to the large window"
+  },
+  {
+    "item_id": "scene_00109_00_29_chain_2_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      29
+    ],
+    "instance_type": "couch cushions",
+    "utterance": "The sofa cushion closest to the window"
+  },
+  {
+    "item_id": "scene_00109_00_29_chain_3_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      29
+    ],
+    "instance_type": "couch cushions",
+    "utterance": "The sofa cushion farthest from the speaker"
+  },
+  {
+    "item_id": "scene_00109_00_10_chain_1_0_class-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      10
+    ],
+    "instance_type": "tv",
+    "utterance": "Black TV"
+  },
+  {
+    "item_id": "scene_00109_00_10_chain_1_1_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      10
+    ],
+    "instance_type": "tv",
+    "utterance": "TV"
+  },
+  {
+    "item_id": "scene_00109_00_10_chain_2_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      10
+    ],
+    "instance_type": "tv",
+    "utterance": "TV hanging on the TV stand"
+  },
+  {
+    "item_id": "scene_00109_00_10_chain_3_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      10
+    ],
+    "instance_type": "tv",
+    "utterance": "TV opposite the silver suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_10_chain_3_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      10
+    ],
+    "instance_type": "tv",
+    "utterance": "TV opposite the suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_4_chain_1_0_class-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      4
+    ],
+    "instance_type": "wood beam",
+    "utterance": "Natural colored wood fence"
+  },
+  {
+    "item_id": "scene_00109_00_4_chain_1_1_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      4
+    ],
+    "instance_type": "wood beam",
+    "utterance": "Wood fence"
+  },
+  {
+    "item_id": "scene_00109_00_4_chain_1_2_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      4
+    ],
+    "instance_type": "wood beam",
+    "utterance": "Fence"
+  },
+  {
+    "item_id": "scene_00109_00_4_chain_2_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      4
+    ],
+    "instance_type": "wood beam",
+    "utterance": "Wood fence next to the pillar"
+  },
+  {
+    "item_id": "scene_00109_00_4_chain_3_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      4
+    ],
+    "instance_type": "wood beam",
+    "utterance": "Wood fence behind the sofa"
+  },
+  {
+    "item_id": "scene_00109_00_19_chain_1_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      19
+    ],
+    "instance_type": "table",
+    "utterance": "The table with the speaker"
+  },
+  {
+    "item_id": "scene_00109_00_19_chain_1_1_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      19,
+      18
+    ],
+    "instance_type": "table",
+    "utterance": "Table"
+  },
+  {
+    "item_id": "scene_00109_00_19_chain_2_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      19
+    ],
+    "instance_type": "table",
+    "utterance": "The table farthest from the windowsill"
+  },
+  {
+    "item_id": "scene_00109_00_19_chain_3_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      19
+    ],
+    "instance_type": "table",
+    "utterance": "The table farthest from the window"
+  },
+  {
+    "item_id": "scene_00109_00_18_chain_1_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      18
+    ],
+    "instance_type": "table",
+    "utterance": "The table closest to the wood fence"
+  },
+  {
+    "item_id": "scene_00109_00_18_chain_2_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      18
+    ],
+    "instance_type": "table",
+    "utterance": "The table with the suitcase on it"
+  },
+  {
+    "item_id": "scene_00109_00_18_chain_3_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      18
+    ],
+    "instance_type": "table",
+    "utterance": "The table closest to the windowsill"
+  },
+  {
+    "item_id": "scene_00109_00_27_chain_1_0_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      27
+    ],
+    "instance_type": "pillow",
+    "utterance": "The yellow pillow on the sofa closest to the windowsill"
+  },
+  {
+    "item_id": "scene_00109_00_27_chain_1_1_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      48,
+      33,
+      45,
+      27
+    ],
+    "instance_type": "pillow",
+    "utterance": "The yellow pillow on the sofa"
+  },
+  {
+    "item_id": "scene_00109_00_27_chain_1_2_class-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      33,
+      48,
+      45,
+      27,
+      38,
+      36
+    ],
+    "instance_type": "pillow",
+    "utterance": "The yellow pillow"
+  },
+  {
+    "item_id": "scene_00109_00_27_chain_1_3_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      45,
+      35,
+      38,
+      30,
+      48,
+      50,
+      33,
+      36,
+      34,
+      46,
+      27,
+      47,
+      37,
+      49
+    ],
+    "instance_type": "pillow",
+    "utterance": "Pillow"
+  },
+  {
+    "item_id": "scene_00109_00_27_chain_2_0_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      27
+    ],
+    "instance_type": "pillow",
+    "utterance": "The yellow pillow on the sofa farthest from the speaker"
+  },
+  {
+    "item_id": "scene_00109_00_27_chain_3_0_class-appearance-spatial-geometry",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      27
+    ],
+    "instance_type": "pillow",
+    "utterance": "The yellow pillow on the sofa closest to the large window"
+  },
+  {
+    "item_id": "scene_00109_00_27_chain_3_1_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      27
+    ],
+    "instance_type": "pillow",
+    "utterance": "The yellow pillow on the sofa closest to the window"
+  },
+  {
+    "item_id": "scene_00109_00_36_chain_1_0_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      36
+    ],
+    "instance_type": "pillow",
+    "utterance": "The first yellow pillow on the chair closest to the window"
+  },
+  {
+    "item_id": "scene_00109_00_36_chain_1_1_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      36,
+      38
+    ],
+    "instance_type": "pillow",
+    "utterance": "The yellow pillow on the chair closest to the window"
+  },
+  {
+    "item_id": "scene_00109_00_36_chain_1_2_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      36,
+      38
+    ],
+    "instance_type": "pillow",
+    "utterance": "The yellow pillow on the chair"
+  },
+  {
+    "item_id": "scene_00109_00_36_chain_1_3_class-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      36,
+      33,
+      48,
+      38,
+      45,
+      27
+    ],
+    "instance_type": "pillow",
+    "utterance": "Yellow pillow"
+  },
+  {
+    "item_id": "scene_00109_00_36_chain_2_0_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      36
+    ],
+    "instance_type": "pillow",
+    "utterance": "The first yellow pillow on the chair farthest from the speaker"
+  },
+  {
+    "item_id": "scene_00109_00_36_chain_2_1_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      36,
+      38
+    ],
+    "instance_type": "pillow",
+    "utterance": "The yellow pillow on the chair farthest from the speaker"
+  },
+  {
+    "item_id": "scene_00109_00_36_chain_3_0_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      36
+    ],
+    "instance_type": "pillow",
+    "utterance": "The first yellow pillow on the chair closest to the windowsill"
+  },
+  {
+    "item_id": "scene_00109_00_36_chain_3_1_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      36,
+      38
+    ],
+    "instance_type": "pillow",
+    "utterance": "The yellow pillow on the chair closest to the windowsill"
+  },
+  {
+    "item_id": "scene_00109_00_30_chain_1_0_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      30
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pure black pillow closest to the pillar"
+  },
+  {
+    "item_id": "scene_00109_00_30_chain_1_1_class-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      30,
+      50
+    ],
+    "instance_type": "pillow",
+    "utterance": "Pure black pillow"
+  },
+  {
+    "item_id": "scene_00109_00_30_chain_2_0_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      30
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pure black pillow closest to the wood fence"
+  },
+  {
+    "item_id": "scene_00109_00_30_chain_3_0_class-appearance-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      30
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pure black pillow on the couch"
+  },
+  {
+    "item_id": "scene_00109_00_37_chain_1_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      37
+    ],
+    "instance_type": "pillow",
+    "utterance": "The second pillow from the top on the chair furthest from the big backpack"
+  },
+  {
+    "item_id": "scene_00109_00_37_chain_1_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      37
+    ],
+    "instance_type": "pillow",
+    "utterance": "The second pillow from the top on the chair furthest from the backpack"
+  },
+  {
+    "item_id": "scene_00109_00_37_chain_1_2_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      37,
+      36,
+      50,
+      38
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow on the chair furthest from the backpack"
+  },
+  {
+    "item_id": "scene_00109_00_37_chain_1_3_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      34,
+      36,
+      50,
+      38,
+      35,
+      46,
+      47,
+      37
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow on the chair"
+  },
+  {
+    "item_id": "scene_00109_00_37_chain_2_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      37
+    ],
+    "instance_type": "pillow",
+    "utterance": "The second pillow from the top on the chair furthest from the speaker"
+  },
+  {
+    "item_id": "scene_00109_00_37_chain_2_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      37,
+      50,
+      36,
+      38
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow on the chair furthest from the speaker"
+  },
+  {
+    "item_id": "scene_00109_00_37_chain_3_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      37
+    ],
+    "instance_type": "pillow",
+    "utterance": "The second pillow from the top on the chair closest to the windowsill"
+  },
+  {
+    "item_id": "scene_00109_00_37_chain_3_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      37,
+      50,
+      36,
+      38
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow on the chair closest to the windowsill"
+  },
+  {
+    "item_id": "scene_00109_00_46_chain_1_0_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      46
+    ],
+    "instance_type": "pillow",
+    "utterance": "The outermost pillow on the chair closest to the green suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_46_chain_1_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      46
+    ],
+    "instance_type": "pillow",
+    "utterance": "The outermost pillow on the chair closest to the suitcase."
+  },
+  {
+    "item_id": "scene_00109_00_46_chain_1_2_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      46,
+      47
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow on the chair closest to the suitcase."
+  },
+  {
+    "item_id": "scene_00109_00_46_chain_2_0_class-spatial-geometry",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      46
+    ],
+    "instance_type": "pillow",
+    "utterance": "The outermost pillow on the chair closest to the small backpack"
+  },
+  {
+    "item_id": "scene_00109_00_46_chain_2_1_class-spatial-geometry",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      46,
+      47
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow on the chair closest to the small backpack"
+  },
+  {
+    "item_id": "scene_00109_00_46_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      46
+    ],
+    "instance_type": "pillow",
+    "utterance": "The outermost pillow on the chair closest to the blue painting"
+  },
+  {
+    "item_id": "scene_00109_00_46_chain_3_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      46,
+      34
+    ],
+    "instance_type": "pillow",
+    "utterance": "The outermost pillow on the chair closest to the painting"
+  },
+  {
+    "item_id": "scene_00109_00_46_chain_3_2_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      34,
+      36,
+      50,
+      38,
+      35,
+      46,
+      47,
+      37
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow on the chair closest to the painting"
+  },
+  {
+    "item_id": "scene_00109_00_17_chain_1_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      17
+    ],
+    "instance_type": "sofa",
+    "utterance": "Sofa with a backpack"
+  },
+  {
+    "item_id": "scene_00109_00_17_chain_1_1_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      16,
+      17
+    ],
+    "instance_type": "sofa",
+    "utterance": "Sofa"
+  },
+  {
+    "item_id": "scene_00109_00_17_chain_2_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      17
+    ],
+    "instance_type": "sofa",
+    "utterance": "The sofa closest to the speaker"
+  },
+  {
+    "item_id": "scene_00109_00_17_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      17
+    ],
+    "instance_type": "sofa",
+    "utterance": "The sofa closest to the green suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_17_chain_3_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      16,
+      17
+    ],
+    "instance_type": "sofa",
+    "utterance": "The sofa closest to the suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_16_chain_1_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      16
+    ],
+    "instance_type": "sofa",
+    "utterance": "A sofa without a backpack"
+  },
+  {
+    "item_id": "scene_00109_00_16_chain_2_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      16
+    ],
+    "instance_type": "sofa",
+    "utterance": "A sofa with two pillows"
+  },
+  {
+    "item_id": "scene_00109_00_16_chain_3_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      16
+    ],
+    "instance_type": "sofa",
+    "utterance": "The sofa closest to the window"
+  },
+  {
+    "item_id": "scene_00109_00_44_chain_1_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      44
+    ],
+    "instance_type": "painting",
+    "utterance": "The painting closest to the windowsill"
+  },
+  {
+    "item_id": "scene_00109_00_44_chain_1_1_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      44,
+      8,
+      9
+    ],
+    "instance_type": "painting",
+    "utterance": "Painting"
+  },
+  {
+    "item_id": "scene_00109_00_44_chain_1_2_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      44,
+      8,
+      9
+    ],
+    "instance_type": "painting",
+    "utterance": "Picture"
+  },
+  {
+    "item_id": "scene_00109_00_44_chain_2_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      44
+    ],
+    "instance_type": "painting",
+    "utterance": "The painting closest to the window"
+  },
+  {
+    "item_id": "scene_00109_00_44_chain_3_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      44
+    ],
+    "instance_type": "painting",
+    "utterance": "The painting furthest from the speaker"
+  },
+  {
+    "item_id": "scene_00109_00_9_chain_1_0_class-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      9
+    ],
+    "instance_type": "painting",
+    "utterance": "Blue painting"
+  },
+  {
+    "item_id": "scene_00109_00_9_chain_2_0_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      9
+    ],
+    "instance_type": "painting",
+    "utterance": "The blue painting farthest from the window"
+  },
+  {
+    "item_id": "scene_00109_00_9_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      9
+    ],
+    "instance_type": "painting",
+    "utterance": "The blue painting closest to the green suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_9_chain_3_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      9
+    ],
+    "instance_type": "painting",
+    "utterance": "The blue painting closest to the suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_8_chain_1_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      8
+    ],
+    "instance_type": "painting",
+    "utterance": "The painting closest to the chair with two pillows"
+  },
+  {
+    "item_id": "scene_00109_00_8_chain_1_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      8
+    ],
+    "instance_type": "painting",
+    "utterance": "The painting closest to the chair"
+  },
+  {
+    "item_id": "scene_00109_00_8_chain_2_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      8
+    ],
+    "instance_type": "painting",
+    "utterance": "The painting closest to the table with a speaker"
+  },
+  {
+    "item_id": "scene_00109_00_8_chain_2_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      8,
+      9,
+      44
+    ],
+    "instance_type": "painting",
+    "utterance": "The painting closest to the table"
+  },
+  {
+    "item_id": "scene_00109_00_8_chain_3_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      8
+    ],
+    "instance_type": "painting",
+    "utterance": "The painting closest to the speaker"
+  },
+  {
+    "item_id": "scene_00109_00_26_chain_1_0_geometry-class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      26
+    ],
+    "instance_type": "backpack",
+    "utterance": "The smallest backpack"
+  },
+  {
+    "item_id": "scene_00109_00_26_chain_1_1_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      26
+    ],
+    "instance_type": "backpack",
+    "utterance": "Backpack"
+  },
+  {
+    "item_id": "scene_00109_00_26_chain_1_2_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      26,
+      25
+    ],
+    "instance_type": "backpack",
+    "utterance": "Bag"
+  },
+  {
+    "item_id": "scene_00109_00_26_chain_2_0_class-spatial-geometry",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      26
+    ],
+    "instance_type": "backpack",
+    "utterance": "The smallest backpack on the couch"
+  },
+  {
+    "item_id": "scene_00109_00_26_chain_2_2_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      26,
+      25
+    ],
+    "instance_type": "backpack",
+    "utterance": "Backpack "
+  },
+  {
+    "item_id": "scene_00109_00_26_chain_3_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      26
+    ],
+    "instance_type": "backpack",
+    "utterance": "The backpack farthest from the pillar"
+  },
+  {
+    "item_id": "scene_00109_00_25_chain_1_0_geometry-class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      25
+    ],
+    "instance_type": "backpack",
+    "utterance": "The backpack closest to the silver suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_25_chain_1_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      26,
+      25
+    ],
+    "instance_type": "backpack",
+    "utterance": "The backpack closest to the suitcase"
+  },
+  {
+    "item_id": "scene_00109_00_25_chain_2_0_class-spatial-geometry",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      25
+    ],
+    "instance_type": "backpack",
+    "utterance": "The biggest backpack on the couch"
+  },
+  {
+    "item_id": "scene_00109_00_25_chain_2_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      26,
+      25
+    ],
+    "instance_type": "backpack",
+    "utterance": "The backpack on the couch"
+  },
+  {
+    "item_id": "scene_00109_00_25_chain_3_0_spatial-class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      25
+    ],
+    "instance_type": "backpack",
+    "utterance": "The backpack closest to the windowsill"
+  },
+  {
+    "item_id": "scene_00109_00_6_chain_1_0_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      6
+    ],
+    "instance_type": "tv stand",
+    "utterance": "A TV cabinet with a TV mounted on it"
+  },
+  {
+    "item_id": "scene_00109_00_6_chain_1_1_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      6
+    ],
+    "instance_type": "tv stand",
+    "utterance": "TV cabinet"
+  },
+  {
+    "item_id": "scene_00109_00_6_chain_1_2_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      6
+    ],
+    "instance_type": "tv stand",
+    "utterance": "Cabinet"
+  },
+  {
+    "item_id": "scene_00109_00_6_chain_2_0_spatial-class-geometry",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      6
+    ],
+    "instance_type": "tv stand",
+    "utterance": "A TV cabinet right next to the largest wall"
+  },
+  {
+    "item_id": "scene_00109_00_6_chain_2_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      6
+    ],
+    "instance_type": "tv stand",
+    "utterance": "A TV cabinet next to the wall"
+  },
+  {
+    "item_id": "scene_00109_00_6_chain_3_0_class-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      6
+    ],
+    "instance_type": "tv stand",
+    "utterance": "A golden TV cabinet"
+  },
+  {
+    "item_id": "scene_00109_00_42_chain_1_0_geometry-class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      42
+    ],
+    "instance_type": "window",
+    "utterance": "The largest window"
+  },
+  {
+    "item_id": "scene_00109_00_42_chain_1_1_class",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      42,
+      40
+    ],
+    "instance_type": "window",
+    "utterance": "Window"
+  },
+  {
+    "item_id": "scene_00109_00_42_chain_2_0_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      42
+    ],
+    "instance_type": "window",
+    "utterance": "The window closest to the striped painting"
+  },
+  {
+    "item_id": "scene_00109_00_42_chain_2_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      42
+    ],
+    "instance_type": "window",
+    "utterance": "The window closest to the painting"
+  },
+  {
+    "item_id": "scene_00109_00_42_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      42
+    ],
+    "instance_type": "window",
+    "utterance": "The window closest to the chair with a yellow pillow"
+  },
+  {
+    "item_id": "scene_00109_00_42_chain_3_1_class-spatial",
+    "scan_id": "scene_00109_00",
+    "target_id": [
+      42,
+      40
+    ],
+    "instance_type": "window",
+    "utterance": "The window closest to the chair"
+  },
+  {
+    "item_id": "scene_00106_05_1_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      1
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet next to the mirror"
+  },
+  {
+    "item_id": "scene_00106_05_1_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      40,
+      19,
+      1,
+      17,
+      22
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Cabinet"
+  },
+  {
+    "item_id": "scene_00106_05_1_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      1
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet closest to the colorful box"
+  },
+  {
+    "item_id": "scene_00106_05_1_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      1
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet next to the orange chair"
+  },
+  {
+    "item_id": "scene_00106_05_17_chain_1_0_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      17
+    ],
+    "instance_type": "cabinet",
+    "utterance": "A cabinet with a basket"
+  },
+  {
+    "item_id": "scene_00106_05_17_chain_2_0_class-spatial-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      17
+    ],
+    "instance_type": "cabinet",
+    "utterance": "A yellow cabinet right next to a blue chair"
+  },
+  {
+    "item_id": "scene_00106_05_17_chain_2_1_class-appearance-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      17
+    ],
+    "instance_type": "cabinet",
+    "utterance": "A yellow cabinet right next to a chair"
+  },
+  {
+    "item_id": "scene_00106_05_17_chain_2_2_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      19,
+      1,
+      17,
+      22
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Yellow cabinet"
+  },
+  {
+    "item_id": "scene_00106_05_17_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      17
+    ],
+    "instance_type": "cabinet",
+    "utterance": "A yellow cabinet closest to the bed"
+  },
+  {
+    "item_id": "scene_00106_05_22_chain_1_0_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      22
+    ],
+    "instance_type": "cabinet",
+    "utterance": "A cabinet with a clock"
+  },
+  {
+    "item_id": "scene_00106_05_22_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      22
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet farthest from the curtain"
+  },
+  {
+    "item_id": "scene_00106_05_22_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      22
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet farthest from the window"
+  },
+  {
+    "item_id": "scene_00106_05_40_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      40
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet closest to the curtain"
+  },
+  {
+    "item_id": "scene_00106_05_40_chain_2_0_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      40
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet with white drawers"
+  },
+  {
+    "item_id": "scene_00106_05_40_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      40
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet with white drawers closest to the window"
+  },
+  {
+    "item_id": "scene_00106_05_19_chain_1_0_class-appearance-geometry",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      19
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Yellow short commode"
+  },
+  {
+    "item_id": "scene_00106_05_19_chain_1_1_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      19,
+      1,
+      17,
+      22
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Yellow commode"
+  },
+  {
+    "item_id": "scene_00106_05_19_chain_1_2_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      40,
+      19,
+      1,
+      17,
+      22
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Commode"
+  },
+  {
+    "item_id": "scene_00106_05_19_chain_2_0_class-appearance-geometry-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      19
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The yellow short commode farthest from the window"
+  },
+  {
+    "item_id": "scene_00106_05_19_chain_2_2_class-geometry",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      40,
+      19
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Short commode"
+  },
+  {
+    "item_id": "scene_00106_05_19_chain_3_0_class-geometry-spatial-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      19
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The yellow short commode farthest from the woodcarving"
+  },
+  {
+    "item_id": "scene_00106_05_37_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      37
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow closest to the basket"
+  },
+  {
+    "item_id": "scene_00106_05_37_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      32,
+      37,
+      39
+    ],
+    "instance_type": "pillow",
+    "utterance": "Pillow"
+  },
+  {
+    "item_id": "scene_00106_05_37_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      37
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow on the chair opposite the door"
+  },
+  {
+    "item_id": "scene_00106_05_37_chain_2_1_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      37,
+      32
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow on the chair"
+  },
+  {
+    "item_id": "scene_00106_05_37_chain_3_0_class-appearance-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      37
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow on the chair with pink and yellow patterns"
+  },
+  {
+    "item_id": "scene_00106_05_32_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      32
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow closest to the mirror"
+  },
+  {
+    "item_id": "scene_00106_05_32_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      32
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow closest to the monitor"
+  },
+  {
+    "item_id": "scene_00106_05_32_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      32
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow closest to the paper"
+  },
+  {
+    "item_id": "scene_00106_05_39_chain_1_0_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      39
+    ],
+    "instance_type": "pillow",
+    "utterance": "A pillow with a blue dot pattern on a white background"
+  },
+  {
+    "item_id": "scene_00106_05_39_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      39
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow on the bed"
+  },
+  {
+    "item_id": "scene_00106_05_39_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      39
+    ],
+    "instance_type": "pillow",
+    "utterance": "The pillow closest to the curtain"
+  },
+  {
+    "item_id": "scene_00106_05_18_chain_1_0_class-geometry",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      18
+    ],
+    "instance_type": "basket",
+    "utterance": "Rectangular basket"
+  },
+  {
+    "item_id": "scene_00106_05_18_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      18
+    ],
+    "instance_type": "basket",
+    "utterance": "Basket"
+  },
+  {
+    "item_id": "scene_00106_05_18_chain_2_0_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      18
+    ],
+    "instance_type": "basket",
+    "utterance": "Yellow basket"
+  },
+  {
+    "item_id": "scene_00106_05_18_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      18
+    ],
+    "instance_type": "basket",
+    "utterance": "Basket near the bed"
+  },
+  {
+    "item_id": "scene_00106_05_10_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      10
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the windowsill"
+  },
+  {
+    "item_id": "scene_00106_05_10_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      10
+    ],
+    "instance_type": "chair",
+    "utterance": "Chair"
+  },
+  {
+    "item_id": "scene_00106_05_10_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      10
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the window"
+  },
+  {
+    "item_id": "scene_00106_05_10_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      10
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the curtain"
+  },
+  {
+    "item_id": "scene_00106_05_38_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      38
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the bed"
+  },
+  {
+    "item_id": "scene_00106_05_38_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      38
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the basket"
+  },
+  {
+    "item_id": "scene_00106_05_38_chain_3_0_class-appearance-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      38
+    ],
+    "instance_type": "chair",
+    "utterance": "The blue chair farthest from the paper"
+  },
+  {
+    "item_id": "scene_00106_05_38_chain_3_1_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      33,
+      38
+    ],
+    "instance_type": "chair",
+    "utterance": "Blue chair"
+  },
+  {
+    "item_id": "scene_00106_05_33_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      33
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the PC"
+  },
+  {
+    "item_id": "scene_00106_05_33_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      33
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair closest to the paper"
+  },
+  {
+    "item_id": "scene_00106_05_33_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      33
+    ],
+    "instance_type": "chair",
+    "utterance": "The chair right next to the desk"
+  },
+  {
+    "item_id": "scene_00106_05_29_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      29
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The suitcase closest to the window"
+  },
+  {
+    "item_id": "scene_00106_05_29_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      27,
+      26,
+      28,
+      29,
+      25
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Suitcase"
+  },
+  {
+    "item_id": "scene_00106_05_29_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      29
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The suitcase closest to the curtain box"
+  },
+  {
+    "item_id": "scene_00106_05_29_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      29
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The suitcase farthest from the door"
+  },
+  {
+    "item_id": "scene_00106_05_36_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      36
+    ],
+    "instance_type": "box",
+    "utterance": "The box closest to the bed"
+  },
+  {
+    "item_id": "scene_00106_05_36_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      30,
+      36,
+      31
+    ],
+    "instance_type": "box",
+    "utterance": "Box"
+  },
+  {
+    "item_id": "scene_00106_05_36_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      36
+    ],
+    "instance_type": "box",
+    "utterance": "The box closest to the door"
+  },
+  {
+    "item_id": "scene_00106_05_36_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      36
+    ],
+    "instance_type": "box",
+    "utterance": "The box closest to the monitor"
+  },
+  {
+    "item_id": "scene_00106_05_26_chain_1_0_class-spatial-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      26
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The black suitcase directly below the colorful box"
+  },
+  {
+    "item_id": "scene_00106_05_26_chain_1_1_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      26,
+      28,
+      29
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Black suitcase"
+  },
+  {
+    "item_id": "scene_00106_05_26_chain_2_0_class-appearance-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      26
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The black suitcase closest to the mirror"
+  },
+  {
+    "item_id": "scene_00106_05_26_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      26
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The black suitcase closest to the personal computer"
+  },
+  {
+    "item_id": "scene_00106_05_25_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      25
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Suitcase closest to the mirror"
+  },
+  {
+    "item_id": "scene_00106_05_25_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      25
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Suitcase closest to the clock"
+  },
+  {
+    "item_id": "scene_00106_05_25_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      25
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Red suitcase farthest from the window"
+  },
+  {
+    "item_id": "scene_00106_05_25_chain_3_1_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      27
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Red suitcase"
+  },
+  {
+    "item_id": "scene_00106_05_30_chain_1_0_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      30
+    ],
+    "instance_type": "box",
+    "utterance": "Colorful boxes"
+  },
+  {
+    "item_id": "scene_00106_05_30_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      30,
+      36,
+      31
+    ],
+    "instance_type": "box",
+    "utterance": "Boxes"
+  },
+  {
+    "item_id": "scene_00106_05_30_chain_2_0_class-appearance-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      30
+    ],
+    "instance_type": "box",
+    "utterance": "The colorful boxes on top of the black suitcase"
+  },
+  {
+    "item_id": "scene_00106_05_30_chain_3_0_class-appearance-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      30
+    ],
+    "instance_type": "box",
+    "utterance": "The colorful boxes beside the wall"
+  },
+  {
+    "item_id": "scene_00106_05_31_chain_1_0_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      31
+    ],
+    "instance_type": "box",
+    "utterance": "White box"
+  },
+  {
+    "item_id": "scene_00106_05_31_chain_2_0_class-spatial-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      31
+    ],
+    "instance_type": "box",
+    "utterance": "The white box closest to the mirror"
+  },
+  {
+    "item_id": "scene_00106_05_31_chain_3_0_class-appearance-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      31
+    ],
+    "instance_type": "box",
+    "utterance": "The white box closest to the curtain box"
+  },
+  {
+    "item_id": "scene_00106_05_5_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      5
+    ],
+    "instance_type": "table",
+    "utterance": "The table closest to the curtain box"
+  },
+  {
+    "item_id": "scene_00106_05_5_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      5
+    ],
+    "instance_type": "table",
+    "utterance": "Table"
+  },
+  {
+    "item_id": "scene_00106_05_5_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      5
+    ],
+    "instance_type": "table",
+    "utterance": "The table closest to the window"
+  },
+  {
+    "item_id": "scene_00106_05_5_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      5
+    ],
+    "instance_type": "table",
+    "utterance": "The table furthest from the pen"
+  },
+  {
+    "item_id": "scene_00106_05_35_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      35
+    ],
+    "instance_type": "desk",
+    "utterance": "The desk with a monitor"
+  },
+  {
+    "item_id": "scene_00106_05_35_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      35
+    ],
+    "instance_type": "desk",
+    "utterance": "Desk"
+  },
+  {
+    "item_id": "scene_00106_05_35_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      35
+    ],
+    "instance_type": "desk",
+    "utterance": "The desk with paper"
+  },
+  {
+    "item_id": "scene_00106_05_35_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      35
+    ],
+    "instance_type": "desk",
+    "utterance": "The desk farthest from the window"
+  },
+  {
+    "item_id": "scene_00106_05_3_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      3
+    ],
+    "instance_type": "mirror",
+    "utterance": "The mirror closest to the monitor"
+  },
+  {
+    "item_id": "scene_00106_05_3_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      3
+    ],
+    "instance_type": "mirror",
+    "utterance": "Mirror"
+  },
+  {
+    "item_id": "scene_00106_05_3_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      3
+    ],
+    "instance_type": "mirror",
+    "utterance": "The mirror closest to the computer"
+  },
+  {
+    "item_id": "scene_00106_05_3_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      3
+    ],
+    "instance_type": "mirror",
+    "utterance": "The mirror opposite the bed"
+  },
+  {
+    "item_id": "scene_00106_05_12_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      12
+    ],
+    "instance_type": "bed",
+    "utterance": "A bed with pillows on it"
+  },
+  {
+    "item_id": "scene_00106_05_12_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      12
+    ],
+    "instance_type": "bed",
+    "utterance": "Bed"
+  },
+  {
+    "item_id": "scene_00106_05_12_chain_2_0_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      12
+    ],
+    "instance_type": "bed",
+    "utterance": "A bed with a white headboard"
+  },
+  {
+    "item_id": "scene_00106_05_12_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      12
+    ],
+    "instance_type": "bed",
+    "utterance": "A bed below the curtain"
+  },
+  {
+    "item_id": "scene_00106_05_42_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      42
+    ],
+    "instance_type": "windowsill",
+    "utterance": "The windowsill beside the window"
+  },
+  {
+    "item_id": "scene_00106_05_42_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      42
+    ],
+    "instance_type": "windowsill",
+    "utterance": "Windowsill"
+  },
+  {
+    "item_id": "scene_00106_05_42_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      42
+    ],
+    "instance_type": "windowsill",
+    "utterance": "The windowsill closest to the curtain"
+  },
+  {
+    "item_id": "scene_00106_05_42_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      42
+    ],
+    "instance_type": "windowsill",
+    "utterance": "The windowsill above the woodcarving"
+  },
+  {
+    "item_id": "scene_00106_05_8_chain_1_0_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      8
+    ],
+    "instance_type": "paper",
+    "utterance": "White paper"
+  },
+  {
+    "item_id": "scene_00106_05_8_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      8
+    ],
+    "instance_type": "paper",
+    "utterance": "Paper"
+  },
+  {
+    "item_id": "scene_00106_05_8_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      8
+    ],
+    "instance_type": "paper",
+    "utterance": "Paper under the pen"
+  },
+  {
+    "item_id": "scene_00106_05_8_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      8
+    ],
+    "instance_type": "paper",
+    "utterance": "The paper closest to the monitor"
+  },
+  {
+    "item_id": "scene_00106_05_21_chain_1_0_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      21
+    ],
+    "instance_type": "clock",
+    "utterance": "White clock"
+  },
+  {
+    "item_id": "scene_00106_05_21_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      21
+    ],
+    "instance_type": "clock",
+    "utterance": "Clock"
+  },
+  {
+    "item_id": "scene_00106_05_21_chain_2_0_class-spatial-geometry",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      21
+    ],
+    "instance_type": "clock",
+    "utterance": "The clock hanging on the largest cabinet"
+  },
+  {
+    "item_id": "scene_00106_05_21_chain_2_1_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      21
+    ],
+    "instance_type": "clock",
+    "utterance": "The clock hanging on the cabinet"
+  },
+  {
+    "item_id": "scene_00106_05_21_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      21
+    ],
+    "instance_type": "clock",
+    "utterance": "The clock closest to the door"
+  },
+  {
+    "item_id": "scene_00106_05_4_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      4
+    ],
+    "instance_type": "telephone",
+    "utterance": "The telephone closest to the mirror"
+  },
+  {
+    "item_id": "scene_00106_05_4_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      4
+    ],
+    "instance_type": "telephone",
+    "utterance": "Telephone"
+  },
+  {
+    "item_id": "scene_00106_05_4_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      4
+    ],
+    "instance_type": "telephone",
+    "utterance": "The telephone farthest from the door"
+  },
+  {
+    "item_id": "scene_00106_05_4_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      4
+    ],
+    "instance_type": "telephone",
+    "utterance": "The telephone farthest from the personal computer"
+  },
+  {
+    "item_id": "scene_00106_05_34_chain_1_0_appearance-class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      34
+    ],
+    "instance_type": "telephone",
+    "utterance": "White cellphone"
+  },
+  {
+    "item_id": "scene_00106_05_34_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      34
+    ],
+    "instance_type": "telephone",
+    "utterance": "Cellphone"
+  },
+  {
+    "item_id": "scene_00106_05_34_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      34
+    ],
+    "instance_type": "telephone",
+    "utterance": "Cellphone next to the monitor"
+  },
+  {
+    "item_id": "scene_00106_05_34_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      34
+    ],
+    "instance_type": "telephone",
+    "utterance": "Cellphone closest to the mirror"
+  },
+  {
+    "item_id": "scene_00106_05_13_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      13
+    ],
+    "instance_type": "window",
+    "utterance": "Window next to the windowsill"
+  },
+  {
+    "item_id": "scene_00106_05_13_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      13
+    ],
+    "instance_type": "window",
+    "utterance": "Window"
+  },
+  {
+    "item_id": "scene_00106_05_13_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      13
+    ],
+    "instance_type": "window",
+    "utterance": "Window opposite the door"
+  },
+  {
+    "item_id": "scene_00106_05_13_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      13
+    ],
+    "instance_type": "window",
+    "utterance": "Window next to the curtain"
+  },
+  {
+    "item_id": "scene_00106_05_20_chain_1_0_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      20
+    ],
+    "instance_type": "door",
+    "utterance": "Yellow door"
+  },
+  {
+    "item_id": "scene_00106_05_20_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      20
+    ],
+    "instance_type": "door",
+    "utterance": "Door"
+  },
+  {
+    "item_id": "scene_00106_05_20_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      20
+    ],
+    "instance_type": "door",
+    "utterance": "The door closest to the clock"
+  },
+  {
+    "item_id": "scene_00106_05_20_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      20
+    ],
+    "instance_type": "door",
+    "utterance": "The door closest to the basket"
+  },
+  {
+    "item_id": "scene_00106_05_9_chain_1_0_class-appearance",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      9
+    ],
+    "instance_type": "monitor",
+    "utterance": "Black monitor"
+  },
+  {
+    "item_id": "scene_00106_05_9_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      9
+    ],
+    "instance_type": "monitor",
+    "utterance": "Monitor"
+  },
+  {
+    "item_id": "scene_00106_05_9_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      9
+    ],
+    "instance_type": "monitor",
+    "utterance": "Monitor next to paper"
+  },
+  {
+    "item_id": "scene_00106_05_9_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      9
+    ],
+    "instance_type": "monitor",
+    "utterance": "Monitor on the desk"
+  },
+  {
+    "item_id": "scene_00106_05_14_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      14
+    ],
+    "instance_type": "curtain",
+    "utterance": "The curtain closest to the windowsill"
+  },
+  {
+    "item_id": "scene_00106_05_14_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      14
+    ],
+    "instance_type": "curtain",
+    "utterance": "Curtain"
+  },
+  {
+    "item_id": "scene_00106_05_14_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      14
+    ],
+    "instance_type": "curtain",
+    "utterance": "The curtain closest to the window"
+  },
+  {
+    "item_id": "scene_00106_05_14_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      14
+    ],
+    "instance_type": "curtain",
+    "utterance": "The curtain farthest from the door"
+  },
+  {
+    "item_id": "scene_00106_05_41_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      41
+    ],
+    "instance_type": "wood",
+    "utterance": "Woodcarving under the windowsill"
+  },
+  {
+    "item_id": "scene_00106_05_41_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      41
+    ],
+    "instance_type": "wood",
+    "utterance": "Woodcarving"
+  },
+  {
+    "item_id": "scene_00106_05_41_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      41
+    ],
+    "instance_type": "wood",
+    "utterance": "Woodcarving closest to the window"
+  },
+  {
+    "item_id": "scene_00106_05_41_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      41
+    ],
+    "instance_type": "wood",
+    "utterance": "Woodcarving closest to the curtain"
+  },
+  {
+    "item_id": "scene_00106_05_6_chain_1_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      6
+    ],
+    "instance_type": "computer tower",
+    "utterance": "The PC closest to the cellphone"
+  },
+  {
+    "item_id": "scene_00106_05_6_chain_1_1_class",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      6
+    ],
+    "instance_type": "computer tower",
+    "utterance": "PC"
+  },
+  {
+    "item_id": "scene_00106_05_6_chain_2_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      6
+    ],
+    "instance_type": "computer tower",
+    "utterance": "The PC closest to the monitor"
+  },
+  {
+    "item_id": "scene_00106_05_6_chain_3_0_class-spatial",
+    "scan_id": "scene_00106_05",
+    "target_id": [
+      6
+    ],
+    "instance_type": "computer tower",
+    "utterance": "The PC closest to the mirror"
+  },
+  {
+    "item_id": "scene_00116_03_20_chain_1_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      20
+    ],
+    "instance_type": "toilet paper",
+    "utterance": "White toilet paper"
+  },
+  {
+    "item_id": "scene_00116_03_20_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      20
+    ],
+    "instance_type": "toilet paper",
+    "utterance": "Toilet paper"
+  },
+  {
+    "item_id": "scene_00116_03_20_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      20
+    ],
+    "instance_type": "toilet paper",
+    "utterance": "Toilet paper placed inside the wall cabinet"
+  },
+  {
+    "item_id": "scene_00116_03_20_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      20
+    ],
+    "instance_type": "toilet paper",
+    "utterance": "The toilet paper closest to the stove"
+  },
+  {
+    "item_id": "scene_00116_03_30_chain_1_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      30
+    ],
+    "instance_type": "pot",
+    "utterance": "The pot in the sink"
+  },
+  {
+    "item_id": "scene_00116_03_30_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      30,
+      24,
+      23
+    ],
+    "instance_type": "pot",
+    "utterance": "Pot"
+  },
+  {
+    "item_id": "scene_00116_03_30_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      30
+    ],
+    "instance_type": "pot",
+    "utterance": "The pot next to the sponge"
+  },
+  {
+    "item_id": "scene_00116_03_30_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      30
+    ],
+    "instance_type": "pot",
+    "utterance": "The pot closest to the books"
+  },
+  {
+    "item_id": "scene_00116_03_23_chain_1_0_class-geometry-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      23
+    ],
+    "instance_type": "pot",
+    "utterance": "On the stove, the large pot"
+  },
+  {
+    "item_id": "scene_00116_03_23_chain_1_1_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      23,
+      24
+    ],
+    "instance_type": "pot",
+    "utterance": "Pot on the stove"
+  },
+  {
+    "item_id": "scene_00116_03_23_chain_2_0_class-geometry-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      23
+    ],
+    "instance_type": "pot",
+    "utterance": "The large pot nearest to the trash bin"
+  },
+  {
+    "item_id": "scene_00116_03_23_chain_2_1_class-geometry",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      23
+    ],
+    "instance_type": "pot",
+    "utterance": "Large pot"
+  },
+  {
+    "item_id": "scene_00116_03_23_chain_3_0_class-spatial-geometry",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      23
+    ],
+    "instance_type": "pot",
+    "utterance": "The large pot nearest to the cutting board"
+  },
+  {
+    "item_id": "scene_00116_03_24_chain_1_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      24
+    ],
+    "instance_type": "pot",
+    "utterance": "Black pot"
+  },
+  {
+    "item_id": "scene_00116_03_24_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      24
+    ],
+    "instance_type": "pot",
+    "utterance": "The pot closest to the trash bin"
+  },
+  {
+    "item_id": "scene_00116_03_24_chain_3_0_class-geometry-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      24
+    ],
+    "instance_type": "pot",
+    "utterance": "The small pot above the stove"
+  },
+  {
+    "item_id": "scene_00116_03_35_chain_1_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      35
+    ],
+    "instance_type": "bottle",
+    "utterance": "The bottle closest to the toilet paper"
+  },
+  {
+    "item_id": "scene_00116_03_35_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      31,
+      35
+    ],
+    "instance_type": "bottle",
+    "utterance": "Bottle"
+  },
+  {
+    "item_id": "scene_00116_03_35_chain_2_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      35
+    ],
+    "instance_type": "bottle",
+    "utterance": "The bottle with the orange cap"
+  },
+  {
+    "item_id": "scene_00116_03_35_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      35
+    ],
+    "instance_type": "bottle",
+    "utterance": "The bottle closest to the trash can"
+  },
+  {
+    "item_id": "scene_00116_03_31_chain_1_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      31
+    ],
+    "instance_type": "bottle",
+    "utterance": "White bottle"
+  },
+  {
+    "item_id": "scene_00116_03_31_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      31,
+      35
+    ],
+    "instance_type": "bottle",
+    "utterance": "Bottles"
+  },
+  {
+    "item_id": "scene_00116_03_31_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      31
+    ],
+    "instance_type": "bottle",
+    "utterance": "The bottle closest to the refrigerator"
+  },
+  {
+    "item_id": "scene_00116_03_31_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      31
+    ],
+    "instance_type": "bottle",
+    "utterance": "The bottle closest to the book"
+  },
+  {
+    "item_id": "scene_00116_03_33_chain_1_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      33
+    ],
+    "instance_type": "sponge",
+    "utterance": "The sponge next to the sink"
+  },
+  {
+    "item_id": "scene_00116_03_33_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      33
+    ],
+    "instance_type": "sponge",
+    "utterance": "Sponge"
+  },
+  {
+    "item_id": "scene_00116_03_33_chain_2_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      33
+    ],
+    "instance_type": "sponge",
+    "utterance": "Yellow sponge"
+  },
+  {
+    "item_id": "scene_00116_03_33_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      33
+    ],
+    "instance_type": "sponge",
+    "utterance": "The sponge near a pot"
+  },
+  {
+    "item_id": "scene_00116_03_15_chain_1_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      15
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet right above the sink"
+  },
+  {
+    "item_id": "scene_00116_03_15_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      13,
+      15
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Wall cabinet"
+  },
+  {
+    "item_id": "scene_00116_03_15_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      15
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet closest to the books"
+  },
+  {
+    "item_id": "scene_00116_03_15_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      15
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet above the kettle"
+  },
+  {
+    "item_id": "scene_00116_03_18_chain_1_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      18
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet with the cutting board"
+  },
+  {
+    "item_id": "scene_00116_03_18_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      18,
+      19
+    ],
+    "instance_type": "cabinet",
+    "utterance": "Cabinet"
+  },
+  {
+    "item_id": "scene_00116_03_18_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      18
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet closest to the bifold door"
+  },
+  {
+    "item_id": "scene_00116_03_18_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      18
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet closest to the trash bin"
+  },
+  {
+    "item_id": "scene_00116_03_19_chain_1_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      19
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet under the rice maker"
+  },
+  {
+    "item_id": "scene_00116_03_19_chain_2_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      19
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet with a sponge"
+  },
+  {
+    "item_id": "scene_00116_03_19_chain_3_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      19
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The cabinet with a sink"
+  },
+  {
+    "item_id": "scene_00116_03_13_chain_1_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      13
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet with the range hood hanging"
+  },
+  {
+    "item_id": "scene_00116_03_13_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      13
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet containing toilet paper"
+  },
+  {
+    "item_id": "scene_00116_03_13_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      13
+    ],
+    "instance_type": "cabinet",
+    "utterance": "The wall cabinet closest to the cutting board"
+  },
+  {
+    "item_id": "scene_00116_03_22_chain_1_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      22
+    ],
+    "instance_type": "kettle",
+    "utterance": "The kettle in front of rice cooker"
+  },
+  {
+    "item_id": "scene_00116_03_22_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      22
+    ],
+    "instance_type": "kettle",
+    "utterance": "Kettle"
+  },
+  {
+    "item_id": "scene_00116_03_22_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      22
+    ],
+    "instance_type": "kettle",
+    "utterance": "The kettle next to the sink"
+  },
+  {
+    "item_id": "scene_00116_03_22_chain_3_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      22
+    ],
+    "instance_type": "kettle",
+    "utterance": "Kettle in white and black"
+  },
+  {
+    "item_id": "scene_00116_03_38_chain_1_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      38
+    ],
+    "instance_type": "trash bin",
+    "utterance": "Trash bin under the cutting board"
+  },
+  {
+    "item_id": "scene_00116_03_38_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      38
+    ],
+    "instance_type": "trash bin",
+    "utterance": "Trash bin"
+  },
+  {
+    "item_id": "scene_00116_03_38_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      38
+    ],
+    "instance_type": "trash bin",
+    "utterance": "Trash bin closest to the stove"
+  },
+  {
+    "item_id": "scene_00116_03_38_chain_3_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      38
+    ],
+    "instance_type": "trash bin",
+    "utterance": "Gray trash bin"
+  },
+  {
+    "item_id": "scene_00116_03_32_chain_1_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      32
+    ],
+    "instance_type": "cutting board",
+    "utterance": "Light wood color cutting board"
+  },
+  {
+    "item_id": "scene_00116_03_32_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      32
+    ],
+    "instance_type": "cutting board",
+    "utterance": "Cutting board"
+  },
+  {
+    "item_id": "scene_00116_03_32_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      32
+    ],
+    "instance_type": "cutting board",
+    "utterance": "The cutting board closest to the bifold door"
+  },
+  {
+    "item_id": "scene_00116_03_32_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      32
+    ],
+    "instance_type": "cutting board",
+    "utterance": "The cutting board closest to the toilet paper"
+  },
+  {
+    "item_id": "scene_00116_03_10_chain_1_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      10
+    ],
+    "instance_type": "box",
+    "utterance": "The box closest to the refrigerator"
+  },
+  {
+    "item_id": "scene_00116_03_10_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      10
+    ],
+    "instance_type": "box",
+    "utterance": "Box"
+  },
+  {
+    "item_id": "scene_00116_03_10_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      10
+    ],
+    "instance_type": "box",
+    "utterance": "The box under the table"
+  },
+  {
+    "item_id": "scene_00116_03_10_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      10
+    ],
+    "instance_type": "box",
+    "utterance": "The box next to the black suitcase"
+  },
+  {
+    "item_id": "scene_00116_03_9_chain_1_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      9
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Yellow polka dot suitcase"
+  },
+  {
+    "item_id": "scene_00116_03_9_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      9,
+      36
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Suitcase"
+  },
+  {
+    "item_id": "scene_00116_03_9_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      9
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The suitcase under the table"
+  },
+  {
+    "item_id": "scene_00116_03_9_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      9
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The suitcase furthest from the rice cooker"
+  },
+  {
+    "item_id": "scene_00116_03_36_chain_1_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      36
+    ],
+    "instance_type": "suitcase",
+    "utterance": "Black suitcase"
+  },
+  {
+    "item_id": "scene_00116_03_36_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      36
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The suitcase closest to the sink"
+  },
+  {
+    "item_id": "scene_00116_03_36_chain_3_0_class-spatial-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      36
+    ],
+    "instance_type": "suitcase",
+    "utterance": "The black suitcase next to the refrigerator"
+  },
+  {
+    "item_id": "scene_00116_03_37_chain_1_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      37
+    ],
+    "instance_type": "stove",
+    "utterance": "White stove"
+  },
+  {
+    "item_id": "scene_00116_03_37_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      37
+    ],
+    "instance_type": "stove",
+    "utterance": "Stove"
+  },
+  {
+    "item_id": "scene_00116_03_37_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      37
+    ],
+    "instance_type": "stove",
+    "utterance": "The stove next to the trash can"
+  },
+  {
+    "item_id": "scene_00116_03_37_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      37
+    ],
+    "instance_type": "stove",
+    "utterance": "The stove closest to the cutting board"
+  },
+  {
+    "item_id": "scene_00116_03_5_chain_1_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      5
+    ],
+    "instance_type": "door",
+    "utterance": "The white bifold door"
+  },
+  {
+    "item_id": "scene_00116_03_5_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      5
+    ],
+    "instance_type": "door",
+    "utterance": "The bifold door"
+  },
+  {
+    "item_id": "scene_00116_03_5_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      5
+    ],
+    "instance_type": "door",
+    "utterance": "The bifold door on the floor"
+  },
+  {
+    "item_id": "scene_00116_03_5_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      5
+    ],
+    "instance_type": "door",
+    "utterance": "The bifold door next to the white object"
+  },
+  {
+    "item_id": "scene_00116_03_16_chain_1_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      16
+    ],
+    "instance_type": "books",
+    "utterance": "Books on top of the refrigerator"
+  },
+  {
+    "item_id": "scene_00116_03_16_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      16
+    ],
+    "instance_type": "books",
+    "utterance": "Books"
+  },
+  {
+    "item_id": "scene_00116_03_16_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      16
+    ],
+    "instance_type": "books",
+    "utterance": "Books closest to the ceiling"
+  },
+  {
+    "item_id": "scene_00116_03_16_chain_3_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      16
+    ],
+    "instance_type": "books",
+    "utterance": "Colorful books"
+  },
+  {
+    "item_id": "scene_00116_03_34_chain_1_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      34
+    ],
+    "instance_type": "faucet",
+    "utterance": "The water faucet above the sink"
+  },
+  {
+    "item_id": "scene_00116_03_34_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      34
+    ],
+    "instance_type": "faucet",
+    "utterance": "Water faucet"
+  },
+  {
+    "item_id": "scene_00116_03_34_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      34
+    ],
+    "instance_type": "faucet",
+    "utterance": "The water faucet next to the sponge"
+  },
+  {
+    "item_id": "scene_00116_03_34_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      34
+    ],
+    "instance_type": "faucet",
+    "utterance": "The water faucet near kettle"
+  },
+  {
+    "item_id": "scene_00116_03_17_chain_1_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      17
+    ],
+    "instance_type": "refrigerator",
+    "utterance": "White refrigerator"
+  },
+  {
+    "item_id": "scene_00116_03_17_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      17
+    ],
+    "instance_type": "refrigerator",
+    "utterance": "Refrigerator"
+  },
+  {
+    "item_id": "scene_00116_03_17_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      17
+    ],
+    "instance_type": "refrigerator",
+    "utterance": "Refrigerator under the book"
+  },
+  {
+    "item_id": "scene_00116_03_17_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      17
+    ],
+    "instance_type": "refrigerator",
+    "utterance": "Refrigerator next to the black suitcase"
+  },
+  {
+    "item_id": "scene_00116_03_14_chain_1_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      14
+    ],
+    "instance_type": "range hood",
+    "utterance": "White range hood"
+  },
+  {
+    "item_id": "scene_00116_03_14_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      14
+    ],
+    "instance_type": "range hood",
+    "utterance": "Range hood\n"
+  },
+  {
+    "item_id": "scene_00116_03_14_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      14
+    ],
+    "instance_type": "range hood",
+    "utterance": "Range hood above the stove"
+  },
+  {
+    "item_id": "scene_00116_03_14_chain_2_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      14
+    ],
+    "instance_type": "range hood",
+    "utterance": "Range hood"
+  },
+  {
+    "item_id": "scene_00116_03_14_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      14
+    ],
+    "instance_type": "range hood",
+    "utterance": "Range hood closest to the cutting board"
+  },
+  {
+    "item_id": "scene_00116_03_29_chain_1_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      29
+    ],
+    "instance_type": "sink",
+    "utterance": "Sink under the water faucet"
+  },
+  {
+    "item_id": "scene_00116_03_29_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      29
+    ],
+    "instance_type": "sink",
+    "utterance": "Sink"
+  },
+  {
+    "item_id": "scene_00116_03_29_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      29
+    ],
+    "instance_type": "sink",
+    "utterance": "Sink next to the kettle"
+  },
+  {
+    "item_id": "scene_00116_03_29_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      29
+    ],
+    "instance_type": "sink",
+    "utterance": "Sink closest to the refrigerator"
+  },
+  {
+    "item_id": "scene_00116_03_8_chain_1_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      8
+    ],
+    "instance_type": "table",
+    "utterance": "The table next to the black suitcase"
+  },
+  {
+    "item_id": "scene_00116_03_8_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      8
+    ],
+    "instance_type": "table",
+    "utterance": "Table"
+  },
+  {
+    "item_id": "scene_00116_03_8_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      8
+    ],
+    "instance_type": "table",
+    "utterance": "The table closest to the refrigerator"
+  },
+  {
+    "item_id": "scene_00116_03_8_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      8
+    ],
+    "instance_type": "table",
+    "utterance": "The table next to the chair"
+  },
+  {
+    "item_id": "scene_00116_03_21_chain_1_0_class-appearance",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      21
+    ],
+    "instance_type": "rice cooker",
+    "utterance": "White rice cooker"
+  },
+  {
+    "item_id": "scene_00116_03_21_chain_1_1_class",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      21
+    ],
+    "instance_type": "rice cooker",
+    "utterance": "Rice cooker"
+  },
+  {
+    "item_id": "scene_00116_03_21_chain_2_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      21
+    ],
+    "instance_type": "rice cooker",
+    "utterance": "Rice cooker next to the kettle"
+  },
+  {
+    "item_id": "scene_00116_03_21_chain_3_0_class-spatial",
+    "scan_id": "scene_00116_03",
+    "target_id": [
+      21
+    ],
+    "instance_type": "rice cooker",
+    "utterance": "Rice cooker closest to the sponge"
+  }
+]

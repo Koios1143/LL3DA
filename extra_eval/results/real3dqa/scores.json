@@ -1,0 +1,41 @@
+{
+ "pred_dir": "eval_outputs/upstream",
+ "debiased_test": {
+  "total": 1485,
+  "em": 15.757575757575756,
+  "em_refined": 19.73063973063973,
+  "empty_preds": 0
+ },
+ "rotation_0": {
+  "total": 750,
+  "em": 7.333333333333333,
+  "em_refined": 12.0,
+  "empty_preds": 0
+ },
+ "rotation_90": {
+  "total": 750,
+  "em": 6.133333333333333,
+  "em_refined": 9.733333333333333,
+  "empty_preds": 0
+ },
+ "rotation_180": {
+  "total": 750,
+  "em": 5.333333333333334,
+  "em_refined": 10.8,
+  "empty_preds": 0
+ },
+ "rotation_270": {
+  "total": 750,
+  "em": 7.066666666666667,
+  "em_refined": 11.600000000000001,
+  "empty_preds": 0
+ },
+ "rotation": {
+  "total_questions": 750,
+  "one": 36.93333333333334,
+  "two": 6.4,
+  "three": 0.6666666666666667,
+  "four": 0.13333333333333333,
+  "VRS": 11.033333333333333
+ }
+}
