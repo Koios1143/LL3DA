@@ -24,6 +24,10 @@ longest one in the batch (right padding, so this changes nothing but the cost).
     python extra_eval/xr/finetune_xr.py --placement rc --out_dir eval_outputs/xr_ft_rc ...
 Per epoch: ``<out_dir>/epoch<k>/<task>/predictions_chunk_0.json`` (infer.py's format, scored
 by score_xr.py) and ``<out_dir>/trainable_epoch<k>.pt`` (the trained parameters only).
+Resumable: ``<out_dir>/resume.pt`` (optimizer and RNG states of the last finished epoch) lets a
+rerun with the same ``--out_dir`` (e.g. a Slurm requeue after preemption) continue with the next
+epoch, after finishing that epoch's evaluation if it was cut short; at most the interrupted
+epoch is lost.
 """
 
 import argparse
@@ -117,6 +121,7 @@ def evaluate(model, inp, args, out_dir):
             d.mkdir(parents=True, exist_ok=True)
             json.dump(done, open(d / "predictions_chunk_0.json", "w"))
             print(f"eval {name}: {len(done)} items", flush=True)
+    (out_dir / "EVAL_DONE").touch()
     model.train()
 
 
@@ -167,8 +172,24 @@ def main():
     opt = torch.optim.AdamW(params, lr=args.lr, weight_decay=0.1)
     print(f"{len(ds)} train items, {steps_per_epoch} steps/epoch x {args.epochs}, batch {args.batch_size} "
           f"({accum} x {args.micro_batch}), lr {args.lr} -> {args.final_lr}", flush=True)
-    it = 0
-    for epoch in range(args.epochs):
+    it, start = 0, 0
+    if (out / "resume.pt").exists():
+        st = torch.load(out / "resume.pt", map_location="cpu", weights_only=False)
+        done = st["epoch"]
+        trained = torch.load(out / f"trainable_epoch{done}.pt", map_location="cpu")
+        with torch.no_grad():
+            for k, v in model.named_parameters():
+                if v.requires_grad:
+                    v.copy_(trained[k])
+        opt.load_state_dict(st["opt"])
+        torch.set_rng_state(st["torch_rng"])
+        random.setstate(st["py_rng"])
+        np.random.set_state(st["np_rng"])
+        it, start = st["it"], done + 1
+        print(f"resumed after epoch {done} (step {it})", flush=True)
+        if not (out / f"epoch{done}" / "EVAL_DONE").exists():
+            evaluate(model, inp, args, out / f"epoch{done}")
+    for epoch in range(start, args.epochs):
         t0, mb, losses = time.time(), 0, []
         opt.zero_grad(set_to_none=True)
         for b in loader:
@@ -195,6 +216,9 @@ def main():
                       f"lr {lr:.2e} {time.time() - t0:.0f}s", flush=True)
         torch.save({k: v.detach().cpu() for k, v in model.named_parameters() if v.requires_grad},
                    out / f"trainable_epoch{epoch}.pt")
+        torch.save({"epoch": epoch, "it": it, "opt": opt.state_dict(), "torch_rng": torch.get_rng_state(),
+                    "py_rng": random.getstate(), "np_rng": np.random.get_state()}, out / "resume.pt.tmp")
+        (out / "resume.pt.tmp").replace(out / "resume.pt")
         evaluate(model, inp, args, out / f"epoch{epoch}")
         print(f"EPOCH_DONE {epoch} {time.time() - t0:.0f}s", flush=True)
     print("FINETUNE_DONE")

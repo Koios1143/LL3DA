@@ -13,7 +13,8 @@ cd "$(dirname "${BASH_SOURCE[0]}")/../.."
 [ -f env.sh ] && source env.sh
 unset CONDA_PREFIX CONDA_DEFAULT_ENV
 PY="${LL3DA_ENV:-.venv}/bin/python"
-OUT="${OUT:-eval_outputs/xr_ft_$(date +%Y%m%d_%H%M%S)}"
+# under Slurm the job id names OUT, so a requeued job (same id) resumes per epoch (finetune_xr.py resume.pt)
+OUT="${OUT:-eval_outputs/xr_ft_${SLURM_JOB_ID:-$(date +%Y%m%d_%H%M%S)}}"
 gpu_list="${CUDA_VISIBLE_DEVICES:-$(nvidia-smi --query-gpu=index --format=csv,noheader | paste -sd,)}"
 IFS=',' read -ra GPULIST <<< "$gpu_list"
 PLS=(${PLACEMENTS:-rc glb})
@@ -27,7 +28,7 @@ for i in "${!PLS[@]}"; do
         --epochs "${EPOCHS:-3}" --lr "${LR:-1e-4}" --batch_size "${BATCH_SIZE:-32}" \
         --micro_batch "${MICRO_BATCH:-8}" --cap_decode ${CAP_DECODE:-chat beam} --workers "${WORKERS:-8}" \
         --xr_protocol "${XR_PROTOCOL:-lscenellm}" \
-        > "$OUT/$pl/train.log" 2>&1 &
+        >> "$OUT/$pl/train.log" 2>&1 &
     pids+=($!)
 done
 rc=0
