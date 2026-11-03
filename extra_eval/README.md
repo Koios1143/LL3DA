@@ -119,53 +119,75 @@ capeval (the same code as this repo's `utils/capeval`), keyed by its episode ids
 283 captions), raw text as LSceneLLM validates.
 
 ```bash
-SPLITS="train val" bash extra_eval/xr/prepare_xr.sh   # per-region points + normals -> $XR_CACHE
+SPLITS="train val" bash extra_eval/xr/prepare_xr.sh   # per-region points + mesh normals -> $XR_CACHE
 bash extra_eval/xr/run_xr.sh                          # zero-shot, both placements
 bash extra_eval/xr/run_xr_finetune.sh                 # finetune, one placement per visible GPU
 ```
 
-**Inputs.** LL3DA needs normals (`use_normal`); SceneVerse regions are points only, so
-`prepare_xr.py` estimates them (PCA over 16 neighbours, oriented to the region's centre; the
-same normals as Open3D's). Two placements of the regions: **rc** as LSceneLLM's loader
-(region + `room_center`) and **glb** the real house layout (offsets registered against the
-HM3D v0.2 meshes). 40k points per scene, seeded per scene.
+**Inputs.** LL3DA needs normals (`use_normal`); SceneVerse regions are points only.
+`prepare_xr.py` takes them from the HM3D v0.2 meshes (`NORMALS=glb`, the default): each region
+is moved into the glb frame with its registered offset (`region_offsets.json`), and every point
+gets the face normal of its closest triangle (Open3D `RaycastingScene`, geometry only). Points
+farther than 5 cm from the mesh, or on a degenerate face, fall back to PCA normals (16
+neighbours, oriented to the region's centre; `NORMALS=pca` uses these everywhere, as our first
+run did). A region whose median distance to the mesh is above 25 cm aborts (wrong frame or
+offset); above 1 cm it is logged. The mesh agrees with the points: median distance 0.003 cm,
+PCA fallback for 0.14% of the points, and only 5 regions have a median above 1 cm (one at
+24.7 cm, `00894-HY1NcmCgn3n_sub005`, where 66% of its points fall back to PCA). These numbers
+come from `normals_stats.json`, which covers 1,503 of the 2,035 regions (the rest were written
+by a run that stopped before saving its statistics). `check_glb_normals.py` compares them with PCA and checks the
+orientation: floor normals point up, ceiling normals down. Two placements of the regions:
+**rc** as LSceneLLM's loader (region + `room_center`) and **glb** the real house layout. 40k
+points per scene, seeded per scene.
 
 **Protocol (`--xr_protocol`).** The paper "re-implements LL3DA keeping all other settings the
 same as ours", i.e. inside LSceneLLM's framework. Only that reproduces its zero-shot row
 (`lscenellm`, the default): the scene is centred and scaled into the unit sphere (`pc_norm`),
 and the question goes into LSceneLLM's `hd_scene_qa` prompt as written. LL3DA's own setup
-(`ll3da`: metric coordinates, its ScanQA prompt, lower-cased question) scores QA ~10 CIDEr
-higher. Zero-shot QA, rc: `ll3da` 34.40, unit coords + ScanQA prompt 33.50, metric +
-`hd_scene_qa` 27.00, `lscenellm` 24.52 — the prompt accounts for most of the gap.
+(`ll3da`: metric coordinates, its ScanQA prompt, lower-cased question) scores zero-shot QA ~9
+CIDEr higher (rc: 34.12 vs 25.26). In the first (PCA-normal) run, unit coords + ScanQA prompt gave 33.50
+and metric + `hd_scene_qa` 27.00, so the prompt accounts for most of the gap.
 Captions use LL3DA's chat decoding (`predict_chat`: top-k 50 / top-p 0.95 sampling, seeded
 per scene); with beam search (`CAP_DECODE=beam`) they are ~130–180 words and lower in CIDEr.
 
+CIDEr / ROUGE-L / METEOR, mesh normals; the PCA-normal run in brackets (QA CIDEr):
+
 | Setting | XR-QA | XR-SceneCaption |
 | --- | --- | --- |
-| zero-shot, rc | 24.52 / 11.87 / 5.76 | 0.49 / 10.97 / 5.55 |
-| zero-shot, glb | 24.81 / 11.91 / 5.65 | 0.31 / 10.99 / 5.94 |
+| zero-shot, `lscenellm`, rc | 25.26 / 12.08 / 5.77 (24.52) | 0.44 / 10.80 / 5.77 |
+| zero-shot, `lscenellm`, glb | 25.08 / 12.03 / 5.75 (24.81) | 0.36 / 10.95 / 5.74 |
+| zero-shot, `ll3da`, rc | 34.12 / 16.05 / 7.23 (34.40) | 0.36 / 10.48 / 6.73 |
+| zero-shot, `ll3da`, glb | 33.22 / 15.76 / 7.23 (33.68) | 0.33 / 10.75 / 6.25 |
 | zero-shot, paper | 24.78 / 12.66 / 5.31 | 0.12 / 8.71 / 5.14 |
-| finetuned, rc, epoch 3 | **114.38 / 36.34 / 18.58** | 1.52 / 17.12 / 12.11 |
-| finetuned, glb, epoch 3 | 114.85 / 36.75 / 18.74 | 1.42 / 17.22 / 12.04 |
+| finetuned, `ll3da` prompt, rc, epoch 3 | **115.04 / 36.80 / 18.82** | 1.99 / 16.72 / 11.92 |
+| finetuned, `ll3da` prompt, glb, epoch 3 | 114.11 / 36.72 / 18.72 | 2.09 / 16.21 / 11.44 |
+| finetuned, `lscenellm` prompt, rc, epoch 3 | 118.04 / 37.56 / 19.03 (114.38) | 1.78 / 17.35 / 12.18 |
+| finetuned, `lscenellm` prompt, glb, epoch 3 | 113.72 / 36.51 / 18.58 (114.85) | 1.48 / 17.01 / 11.93 |
 | finetuned, paper | 112.80 / 36.94 / 18.68 | 3.22 / 20.95 / 13.49 |
 
 - **Finetuning** (`finetune_xr.py`) follows the repo's generalist training: detector and
   OPT-1.3B frozen, the rest trained (111.0 M) with `CaptionNet`'s loss, AdamW (wd 0.1),
   per-iteration cosine to 1e-6, no warm-up, gradient clipping 0.1, batch 32. Data: XR data
   only (the paper adds LL3DA's own data): XR-QA train + XR-SceneCaption train, one item per
-  answer (19,440), in the `lscenellm` protocol, a fresh 40k-point sample per item; 3 epochs
-  (~20 min each on one GPU, including evaluation). lr 1e-4 (the repo's); LSceneLLM's own 1e-5
-  reaches only 102.91 / 33.84 / 17.66 on QA after 3 epochs (`finetune_rc_lr1e-5/`).
-- **QA matches the paper; captions stay below it** (best: rc epoch 2, 1.94 / 17.75 / 12.85).
-  The missing LL3DA training data is a likely cause; not tested.
-- Placement barely matters (≤ 0.5 CIDEr on QA after finetuning). Scenes with > 100
-  SceneVerse objects score like the rest.
+  answer (19,440), a fresh 40k-point sample per item; 3 epochs (~20 min each on one GPU,
+  including evaluation); training and evaluation use the same protocol (`XR_PROTOCOL`). LL3DA's own prompt
+  (`ll3da`) is the headline; `lscenellm` as the paper. lr 1e-4 (the repo's); LSceneLLM's own
+  1e-5 reaches only 102.14 / 33.80 / 17.47 on QA after 3 epochs (`finetune_rc_lr1e-5/`; PCA
+  normals 102.91). A preempted run resumes after its last finished epoch (`resume.pt`).
+- **QA matches the paper with either prompt; captions stay below it** (best: `lscenellm` rc
+  epoch 2, 2.30 / 17.98 / 12.84). The missing LL3DA training data is a likely cause; not tested.
+- **Mesh vs PCA normals:** zero-shot moves by < 1 CIDEr. After finetuning, rc gains 3.7 and glb
+  loses 1.1 QA CIDEr. These are single runs, so the differences are within seed-to-seed spread;
+  the normals do not change the conclusions.
+- Placement barely matters. Scenes with > 100 SceneVerse objects score like the rest.
 
 Predictions and scores (all, ≤ 100 / > 100 objects; `raw` and `ll3da`, which lower-cases the
-caption references as `evaluate_scene_description.py` does):
-[`results/xr/`](results/xr) (`zeroshot/`, `zeroshot_ll3da_protocol/`,
-`finetune_{rc,glb}/epoch<k>/`, `finetune_rc_lr1e-5/` scores only; `*_beam` = beam-search
-captions), summary in [`results/xr/summary.json`](results/xr/summary.json).
+caption references as `evaluate_scene_description.py` does; the tables use `raw`):
+[`results/xr/`](results/xr) (`zeroshot/` = `lscenellm`, `zeroshot_ll3da_protocol/`,
+`finetune_ll3daprompt_{rc,glb}/epoch<k>/`, `finetune_{rc,glb}/epoch<k>/` and
+`finetune_rc_lr1e-5/` with the `lscenellm` prompt; `*_beam` = beam-search captions), summary in
+[`results/xr/summary.json`](results/xr/summary.json). The PCA-normal run is kept in
+[`results/xr/pca_normals/`](results/xr/pca_normals).
 
 ## Faster evaluation: `PREFIX_CACHE=1`
 
@@ -218,6 +240,7 @@ re-runs. The venv's interpreter is a copy too (`pyvenv.cfg` home -> `deps/uv-pyt
   official scripts), Beacon3D QA (official evaluator)
 * `prepare_scans.py` — Beacon3D 3RScan / MultiScan scenes in LL3DA's `scannet_data` layout
 * `compare_preds.py`, `check_fast_fp32.py` — agreement and exactness checks of `--fast`
-* `xr/` — XR-QA / XR-SceneCaption: `prepare_xr.py` (items, region points + normals), `xr_data.py`
-  (scene assembly), `score_xr.py`, `finetune_xr.py`, and their `.sh` runners
+* `xr/` — XR-QA / XR-SceneCaption: `prepare_xr.py` (items, region points + mesh normals),
+  `check_glb_normals.py` (normal orientation check), `xr_data.py` (scene assembly), `score_xr.py`,
+  `finetune_xr.py`, and their `.sh` runners
 * `real3dqa/`, `beacon3d/Beacon3D/` — the official evaluators, vendored unmodified
