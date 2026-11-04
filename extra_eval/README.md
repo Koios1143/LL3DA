@@ -216,6 +216,13 @@ paper-protocol scores above stay in their own result files.
 - In zero-shot with `zeroshot_ll3da_protocol`, 37–53 of the 283 captions and 60–81 of the 2,994
   QA predictions run on into a self-generated `### human:` turn; they are kept (no truncation).
 
+**SPICE (XR-SceneCaption)**, computed as in just3d: SPICE 1.0 (CoreNLP 3.6.0 + nashorn) on JDK 17;
+captions are split into sentences of at most 40 words (whitespace-free or initial-like run-ons over
+120 tokens are re-chunked so CoreNLP's parser does not run out of memory); score = mean per-item
+All-F x100, an empty prediction scores 0. Needs `deps/spice/` (`spice-1.0.jar` + `lib/`) and
+`deps/jdk17/` (gitignored); without them the script warns and skips SPICE. Headline: zero-shot 5.14,
+finetune 11.52 (the `"spice"` block in each XR-SceneCaption JSON; parse cache in `deps/spice_cache/`).
+
 ```bash
 bash extra_eval/aligned/run_score_aligned.sh          # CPU only; Java from deps/jre11 unless JAVA_HOME
 ONLY=scanqa,xr bash extra_eval/aligned/run_score_aligned.sh   # subset (sqa3d_test,scanqa,scan2cap,xr)

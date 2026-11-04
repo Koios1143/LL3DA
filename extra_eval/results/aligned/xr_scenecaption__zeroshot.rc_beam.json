@@ -19,6 +19,17 @@
    "BLEU-4": 0.42597746091822786,
    "METEOR": 8.523749914604807,
    "ROUGE-L": 12.220391340915109
+  },
+  "spice": {
+   "SPICE": 6.195304069372864,
+   "n": 283,
+   "n_empty_pred": 6,
+   "SPICE_Object": 14.508652612248584,
+   "SPICE_Attribute": 1.4403905212355028,
+   "SPICE_Relation": 0.269732433716167,
+   "SPICE_Color": 0.0,
+   "SPICE_Size": 0.0,
+   "SPICE_Cardinality": 0.0
   }
  },
  "existing_headline": false
