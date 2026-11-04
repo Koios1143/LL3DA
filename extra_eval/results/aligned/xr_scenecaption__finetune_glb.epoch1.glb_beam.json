@@ -1,0 +1,27 @@
+{
+ "bench": "xr_scenecaption",
+ "variant": "finetune_glb.epoch1.glb_beam",
+ "source": "extra_eval/results/xr/finetune_glb/epoch1/xrcap_glb_beam.jsonl",
+ "n": 283,
+ "n_unique_episodes": 283,
+ "empty_preds": 1,
+ "metrics": {
+  "ptb": {
+   "CIDEr": 0.1372412129271574,
+   "BLEU-1": 15.363206234344254,
+   "BLEU-4": 1.7245046142708005,
+   "METEOR": 10.247789550287873,
+   "ROUGE-L": 16.746428924558554
+  },
+  "raw": {
+   "CIDEr": 0.09602310156791176,
+   "BLEU-1": 13.13989101467696,
+   "BLEU-4": 1.3245152131715323,
+   "METEOR": 11.759133191211287,
+   "ROUGE-L": 14.435656317625266
+  }
+ },
+ "epoch": 1,
+ "existing_table_epoch": false,
+ "existing_headline": false
+}

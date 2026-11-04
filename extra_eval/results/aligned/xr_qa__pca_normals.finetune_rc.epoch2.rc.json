@@ -1,0 +1,31 @@
+{
+ "bench": "xr_qa",
+ "variant": "pca_normals.finetune_rc.epoch2.rc",
+ "source": "extra_eval/results/xr/pca_normals/finetune_rc/epoch2/xrqa_rc.jsonl",
+ "n": 2994,
+ "n_unique_episodes": 2981,
+ "empty_preds": 0,
+ "metrics": {
+  "clean_ptb": {
+   "CIDEr": 123.0414093157868,
+   "BLEU-1": 32.76187686812611,
+   "BLEU-4": 12.512016478563995,
+   "METEOR": 15.237039344991526,
+   "ROUGE-L": 37.600272347811845,
+   "EM": 21.609886439545757,
+   "EM-R": 25.450901803607213
+  },
+  "raw": {
+   "CIDEr": 111.20216742749736,
+   "BLEU-1": 37.48037288996437,
+   "BLEU-4": 16.493999898985237,
+   "METEOR": 19.03426456773701,
+   "ROUGE-L": 35.60858332651383,
+   "EM": 21.609886439545757,
+   "EM-R": 25.450901803607213
+  }
+ },
+ "epoch": 2,
+ "existing_table_epoch": false,
+ "existing_headline": false
+}

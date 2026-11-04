@@ -21,7 +21,10 @@ bash extra_eval/download.sh         # checkpoint + preprocessed ScanNet (scannet
 PREFIX_CACHE=1 bash extra_eval/run_infer.sh   # GPU; one process per visible GPU; all benchmarks
                                               # (drop PREFIX_CACHE=1 for the repo's own generation code)
 bash extra_eval/score.sh            # CPU; Java for METEOR
+bash extra_eval/aligned/run_score_aligned.sh   # CPU; cross-baseline re-scoring, see "Aligned scoring"
 ```
+
+XR-QA / XR-SceneCaption have their own scripts (see their section).
 
 The README's torch 1.13.1+cu116 has no Blackwell (sm_120) kernels, hence the newer stack; the
 model code is the repo's, unchanged. `extra_eval/infer.py` replaces `main.py --test_only` so
@@ -120,9 +123,15 @@ capeval (the same code as this repo's `utils/capeval`), keyed by its episode ids
 
 ```bash
 SPLITS="train val" bash extra_eval/xr/prepare_xr.sh   # per-region points + mesh normals -> $XR_CACHE
-bash extra_eval/xr/run_xr.sh                          # zero-shot, both placements
-bash extra_eval/xr/run_xr_finetune.sh                 # finetune, one placement per visible GPU
+bash extra_eval/xr/run_xr.sh                          # zero-shot, both placements, lscenellm protocol
+XR_PROTOCOL=ll3da bash extra_eval/xr/run_xr.sh        # zero-shot, LL3DA's own protocol
+XR_PROTOCOL=ll3da bash extra_eval/xr/run_xr_finetune.sh   # finetune (headline), one placement per visible GPU
+bash extra_eval/xr/run_xr_finetune.sh                 # finetune with the lscenellm prompt
 ```
+
+Each writes predictions + `*.scores.json` under `eval_outputs/`; `CAP_DECODE=beam` gives the
+`*_beam` captions. Paths: `XR_DIR`, `XR_SCAN_DATA`, `XR_CACHE`, `HM3D_GLB`, `NORMALS_ENV`
+(`env.sh.example`).
 
 **Inputs.** LL3DA needs normals (`use_normal`); SceneVerse regions are points only.
 `prepare_xr.py` takes them from the HM3D v0.2 meshes (`NORMALS=glb`, the default): each region
@@ -189,6 +198,46 @@ caption references as `evaluate_scene_description.py` does; the tables use `raw`
 [`results/xr/summary.json`](results/xr/summary.json). The PCA-normal run is kept in
 [`results/xr/pca_normals/`](results/xr/pca_normals).
 
+## Aligned scoring
+
+`extra_eval/aligned/` re-scores the saved predictions (no inference) with one text
+normalisation shared by all baselines, so these numbers are comparable across baselines; the
+paper-protocol scores above stay in their own result files.
+
+- **Scan2Cap:** PTB tokenizer + `sos … eos` on both sides, references untruncated
+  (`deps/aligned/scan2cap_val_corpus.json`); LL3DA's own proposal matching / IoU as above.
+- **ScanQA, XR-QA:** only the model's special tokens stripped (no truncation), `clean_answer`
+  on both sides, then PTB, for CIDEr / BLEU / METEOR / ROUGE-L. EM / EM-R: `clean_answer` on
+  both sides, exact match over all references checked before the substring (refined) match.
+- **SQA3D:** EM / EM-R the same way (equal to the numbers above). Real-3DQA and Beacon3D unchanged.
+- **XR-SceneCaption:** special tokens stripped, no truncation, PTB on both sides (no clean, no
+  `sos/eos`). XR is scored per item (2,994 QA / 283 captions, no episode dedup) and also keeps
+  a `raw` block (LSceneLLM's protocol, no PTB).
+- In zero-shot with `zeroshot_ll3da_protocol`, 37–53 of the 283 captions and 60–81 of the 2,994
+  QA predictions run on into a self-generated `### human:` turn; they are kept (no truncation).
+
+```bash
+bash extra_eval/aligned/run_score_aligned.sh          # CPU only; Java from deps/jre11 unless JAVA_HOME
+ONLY=scanqa,xr bash extra_eval/aligned/run_score_aligned.sh   # subset (sqa3d_test,scanqa,scan2cap,xr)
+```
+
+Outputs: [`results/aligned/`](results/aligned) (`<bench>__<variant>.json`, all XR runs incl.
+PCA normals and `*_beam`) and [`summary.json`](results/aligned/summary.json).
+
+| Benchmark | Metric | Aligned | Paper protocol (above) |
+|---|---|---:|---:|
+| Scan2Cap@0.5 | CIDEr | 61.39 | 63.19 |
+| ScanQA val | CIDEr / EM / EM-R | 75.12 / 19.06 / 34.40 | 75.10 / 15.87 / 34.40 |
+| SQA3D test | EM / EM-R | 29.89 / 33.96 | 29.89 / 33.96 |
+| XR-QA zero-shot, `ll3da`, rc | CIDEr (clean_ptb) / EM | 71.75 / 13.36 | 34.12 / – |
+| XR-QA zero-shot, `lscenellm`, rc | CIDEr (clean_ptb) / EM | 54.20 / 9.02 | 25.26 / – |
+| XR-QA finetuned, `ll3da` prompt, rc, ep. 3 | CIDEr (clean_ptb) / EM | 125.92 / 22.08 | 115.04 / – |
+| XR-SceneCaption zero-shot, `ll3da`, rc | CIDEr (ptb) | 0.46 | 0.36 |
+| XR-SceneCaption finetuned, `ll3da` prompt, rc, ep. 3 | CIDEr (ptb) | 2.39 | 1.99 |
+
+ScanQA EM rises because exact match is now tried against every reference before the substring
+match.
+
 ## Faster evaluation: `PREFIX_CACHE=1`
 
 The repo's generation (`models/ll3da/generation_utils.py`) runs a beam search per question
@@ -243,4 +292,6 @@ re-runs. The venv's interpreter is a copy too (`pyvenv.cfg` home -> `deps/uv-pyt
 * `xr/` — XR-QA / XR-SceneCaption: `prepare_xr.py` (items, region points + mesh normals),
   `check_glb_normals.py` (normal orientation check), `xr_data.py` (scene assembly), `score_xr.py`,
   `finetune_xr.py`, and their `.sh` runners
+* `aligned/` — aligned re-scoring: `aligned_eval.py` (shared scorer), `score_aligned.py`,
+  `run_score_aligned.sh`
 * `real3dqa/`, `beacon3d/Beacon3D/` — the official evaluators, vendored unmodified

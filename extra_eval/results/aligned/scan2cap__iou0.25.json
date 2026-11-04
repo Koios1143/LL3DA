@@ -1,0 +1,17 @@
+{
+ "bench": "scan2cap",
+ "variant": "iou0.25",
+ "source": "extra_eval/results/scan2cap/preds.json",
+ "n": 2068,
+ "matched": 1721,
+ "protocol": "per corpus object: kept proposal (objectness + NMS) with highest IoU > thr; unmatched -> '' (sos eos)",
+ "metrics": {
+  "s2c": {
+   "CIDEr": 70.51873605998243,
+   "BLEU-1": 68.8699541094555,
+   "BLEU-4": 36.498471003654274,
+   "METEOR": 26.20024762168301,
+   "ROUGE-L": 56.29940068692664
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "bench": "xr_scenecaption",
+ "variant": "zeroshot.rc_beam",
+ "source": "extra_eval/results/xr/zeroshot/xrcap_rc_beam.jsonl",
+ "n": 283,
+ "n_unique_episodes": 283,
+ "empty_preds": 6,
+ "metrics": {
+  "ptb": {
+   "CIDEr": 0.45791658217440034,
+   "BLEU-1": 15.487776241291638,
+   "BLEU-4": 0.8395221891620823,
+   "METEOR": 8.002919054981035,
+   "ROUGE-L": 15.110359482412218
+  },
+  "raw": {
+   "CIDEr": 0.3092064482476235,
+   "BLEU-1": 12.614297589359607,
+   "BLEU-4": 0.42597746091822786,
+   "METEOR": 8.523749914604807,
+   "ROUGE-L": 12.220391340915109
+  }
+ },
+ "existing_headline": false
+}

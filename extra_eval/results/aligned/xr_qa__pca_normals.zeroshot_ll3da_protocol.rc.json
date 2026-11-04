@@ -1,0 +1,29 @@
+{
+ "bench": "xr_qa",
+ "variant": "pca_normals.zeroshot_ll3da_protocol.rc",
+ "source": "extra_eval/results/xr/pca_normals/zeroshot_ll3da_protocol/xrqa_rc.jsonl",
+ "n": 2994,
+ "n_unique_episodes": 2981,
+ "empty_preds": 0,
+ "metrics": {
+  "clean_ptb": {
+   "CIDEr": 71.38605662024769,
+   "BLEU-1": 20.534098189279117,
+   "BLEU-4": 4.403675198322237,
+   "METEOR": 9.071819505598507,
+   "ROUGE-L": 25.78976356017817,
+   "EM": 13.19305277221109,
+   "EM-R": 18.069472277889112
+  },
+  "raw": {
+   "CIDEr": 34.515500803812316,
+   "BLEU-1": 10.556882992977508,
+   "BLEU-4": 0.5200196715435318,
+   "METEOR": 7.4078900420380585,
+   "ROUGE-L": 16.179723836297285,
+   "EM": 13.19305277221109,
+   "EM-R": 18.069472277889112
+  }
+ },
+ "existing_headline": false
+}

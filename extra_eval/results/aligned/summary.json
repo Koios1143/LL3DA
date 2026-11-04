@@ -1,0 +1,2495 @@
+{
+ "scan2cap__iou0.25": {
+  "bench": "scan2cap",
+  "variant": "iou0.25",
+  "source": "extra_eval/results/scan2cap/preds.json",
+  "n": 2068,
+  "matched": 1721,
+  "protocol": "per corpus object: kept proposal (objectness + NMS) with highest IoU > thr; unmatched -> '' (sos eos)",
+  "metrics": {
+   "s2c": {
+    "CIDEr": 70.51873605998243,
+    "BLEU-1": 68.8699541094555,
+    "BLEU-4": 36.498471003654274,
+    "METEOR": 26.20024762168301,
+    "ROUGE-L": 56.29940068692664
+   }
+  }
+ },
+ "scan2cap__iou0.5": {
+  "bench": "scan2cap",
+  "variant": "iou0.5",
+  "source": "extra_eval/results/scan2cap/preds.json",
+  "n": 2068,
+  "matched": 1503,
+  "protocol": "per corpus object: kept proposal (objectness + NMS) with highest IoU > thr; unmatched -> '' (sos eos)",
+  "metrics": {
+   "s2c": {
+    "CIDEr": 61.39072364993973,
+    "BLEU-1": 60.95523955791919,
+    "BLEU-4": 32.264994693140935,
+    "METEOR": 24.563647816812523,
+    "ROUGE-L": 52.25651025530209
+   }
+  }
+ },
+ "scanqa__val": {
+  "bench": "scanqa",
+  "variant": "val",
+  "source": "extra_eval/results/scanqa/preds.json",
+  "n": 4675,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 75.1233917059041,
+    "BLEU-1": 38.97316369350691,
+    "BLEU-4": 13.25077643323726,
+    "METEOR": 15.373957377911973,
+    "ROUGE-L": 36.563043891922234,
+    "EM": 19.058823529411764,
+    "EM-R": 34.39572192513369
+   },
+   "raw": {
+    "CIDEr": 75.10324988777649,
+    "BLEU-1": 38.96532521060559,
+    "BLEU-4": 13.24855559040651,
+    "METEOR": 15.4756694391865,
+    "ROUGE-L": 36.56489721012726,
+    "EM": 19.058823529411764,
+    "EM-R": 34.39572192513369
+   }
+  },
+  "existing_EM": 15.871657754010696,
+  "existing_EM-R": 34.395721925133685
+ },
+ "sqa3d__test": {
+  "bench": "sqa3d",
+  "variant": "test",
+  "source": "extra_eval/results/sqa3d_test/preds.json",
+  "n": 3519,
+  "metrics": {
+   "em": {
+    "EM": 29.894856493321967,
+    "EM-R": 33.95851094060813
+   }
+  },
+  "existing_EM": 29.894856493321964,
+  "existing_EM-R": 33.95851094060813
+ },
+ "xr_qa__finetune_glb.epoch1.glb": {
+  "bench": "xr_qa",
+  "variant": "finetune_glb.epoch1.glb",
+  "source": "extra_eval/results/xr/finetune_glb/epoch1/xrqa_glb.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 113.75479763405,
+    "BLEU-1": 31.550448774519978,
+    "BLEU-4": 11.386478760466808,
+    "METEOR": 14.072932378001457,
+    "ROUGE-L": 35.40592718688422,
+    "EM": 20.207080828323313,
+    "EM-R": 23.580494321977287
+   },
+   "raw": {
+    "CIDEr": 102.28903294956702,
+    "BLEU-1": 36.93376346716196,
+    "BLEU-4": 15.243212949181235,
+    "METEOR": 18.09783055648319,
+    "ROUGE-L": 34.00237969344245,
+    "EM": 20.207080828323313,
+    "EM-R": 23.580494321977287
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__finetune_glb.epoch2.glb": {
+  "bench": "xr_qa",
+  "variant": "finetune_glb.epoch2.glb",
+  "source": "extra_eval/results/xr/finetune_glb/epoch2/xrqa_glb.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 122.59037411042553,
+    "BLEU-1": 32.02148691184527,
+    "BLEU-4": 13.011024035533167,
+    "METEOR": 15.025981213933315,
+    "ROUGE-L": 37.080223954395144,
+    "EM": 21.47628590514362,
+    "EM-R": 25.617902471609888
+   },
+   "raw": {
+    "CIDEr": 110.2289879495976,
+    "BLEU-1": 37.20590541260826,
+    "BLEU-4": 16.74850802758802,
+    "METEOR": 18.914677837078198,
+    "ROUGE-L": 35.35849952895563,
+    "EM": 21.47628590514362,
+    "EM-R": 25.617902471609888
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__finetune_glb.epoch3.glb": {
+  "bench": "xr_qa",
+  "variant": "finetune_glb.epoch3.glb",
+  "source": "extra_eval/results/xr/finetune_glb/epoch3/xrqa_glb.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 124.61136664975876,
+    "BLEU-1": 32.445210294899454,
+    "BLEU-4": 12.71399667887731,
+    "METEOR": 15.355852929093436,
+    "ROUGE-L": 38.19008517224401,
+    "EM": 22.177688710754843,
+    "EM-R": 26.48630594522378
+   },
+   "raw": {
+    "CIDEr": 113.68596559378017,
+    "BLEU-1": 36.83568915074604,
+    "BLEU-4": 16.401771881158485,
+    "METEOR": 19.079318498219557,
+    "ROUGE-L": 36.59313483292117,
+    "EM": 22.177688710754843,
+    "EM-R": 26.48630594522378
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_qa__finetune_ll3daprompt_glb.epoch1.glb": {
+  "bench": "xr_qa",
+  "variant": "finetune_ll3daprompt_glb.epoch1.glb",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_glb/epoch1/xrqa_glb.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 117.87423285812999,
+    "BLEU-1": 32.06617333527015,
+    "BLEU-4": 12.559030025346779,
+    "METEOR": 14.665855074723444,
+    "ROUGE-L": 36.28621122783765,
+    "EM": 20.975283901135604,
+    "EM-R": 24.34869739478958
+   },
+   "raw": {
+    "CIDEr": 106.9739786790845,
+    "BLEU-1": 37.14303093178091,
+    "BLEU-4": 16.261421784896985,
+    "METEOR": 18.538441568398515,
+    "ROUGE-L": 34.92866351120793,
+    "EM": 20.975283901135604,
+    "EM-R": 24.34869739478958
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__finetune_ll3daprompt_glb.epoch2.glb": {
+  "bench": "xr_qa",
+  "variant": "finetune_ll3daprompt_glb.epoch2.glb",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_glb/epoch2/xrqa_glb.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 121.96718710382224,
+    "BLEU-1": 31.901977546405018,
+    "BLEU-4": 12.345450099068694,
+    "METEOR": 14.970213434915328,
+    "ROUGE-L": 37.26599745828087,
+    "EM": 21.509686038744157,
+    "EM-R": 25.517702070808284
+   },
+   "raw": {
+    "CIDEr": 109.85855601986042,
+    "BLEU-1": 36.616426154494064,
+    "BLEU-4": 16.091891749703045,
+    "METEOR": 18.773560983962557,
+    "ROUGE-L": 35.144838108362656,
+    "EM": 21.509686038744157,
+    "EM-R": 25.517702070808284
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__finetune_ll3daprompt_glb.epoch3.glb": {
+  "bench": "xr_qa",
+  "variant": "finetune_ll3daprompt_glb.epoch3.glb",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_glb/epoch3/xrqa_glb.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 125.08877683878995,
+    "BLEU-1": 33.22867441126587,
+    "BLEU-4": 13.040155272937223,
+    "METEOR": 15.548288167077839,
+    "ROUGE-L": 38.20060118862583,
+    "EM": 22.044088176352705,
+    "EM-R": 26.18570474281897
+   },
+   "raw": {
+    "CIDEr": 114.17909805089539,
+    "BLEU-1": 37.73713961415412,
+    "BLEU-4": 16.79623164901868,
+    "METEOR": 19.28959067245176,
+    "ROUGE-L": 36.80163370997924,
+    "EM": 22.044088176352705,
+    "EM-R": 26.18570474281897
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_qa__finetune_ll3daprompt_rc.epoch1.rc": {
+  "bench": "xr_qa",
+  "variant": "finetune_ll3daprompt_rc.epoch1.rc",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_rc/epoch1/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 118.42355228006376,
+    "BLEU-1": 31.93306559931348,
+    "BLEU-4": 12.876932335585153,
+    "METEOR": 14.75641865376957,
+    "ROUGE-L": 36.30975483834965,
+    "EM": 20.674682698730795,
+    "EM-R": 24.382097528390112
+   },
+   "raw": {
+    "CIDEr": 105.34819306913322,
+    "BLEU-1": 36.24963399163787,
+    "BLEU-4": 16.327648614671496,
+    "METEOR": 18.540238740995388,
+    "ROUGE-L": 34.17803360236807,
+    "EM": 20.674682698730795,
+    "EM-R": 24.382097528390112
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__finetune_ll3daprompt_rc.epoch2.rc": {
+  "bench": "xr_qa",
+  "variant": "finetune_ll3daprompt_rc.epoch2.rc",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_rc/epoch2/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 122.85950293815682,
+    "BLEU-1": 32.53408909301422,
+    "BLEU-4": 12.580668745646184,
+    "METEOR": 15.248244466632247,
+    "ROUGE-L": 37.50506560065357,
+    "EM": 21.8436873747495,
+    "EM-R": 25.751503006012022
+   },
+   "raw": {
+    "CIDEr": 111.64012207093101,
+    "BLEU-1": 37.333891053821375,
+    "BLEU-4": 16.44577788742617,
+    "METEOR": 19.029049147512772,
+    "ROUGE-L": 35.80632824424604,
+    "EM": 21.8436873747495,
+    "EM-R": 25.751503006012022
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__finetune_ll3daprompt_rc.epoch3.rc": {
+  "bench": "xr_qa",
+  "variant": "finetune_ll3daprompt_rc.epoch3.rc",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_rc/epoch3/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 125.92075084397278,
+    "BLEU-1": 33.42981496532485,
+    "BLEU-4": 13.411251591659369,
+    "METEOR": 15.626296489383806,
+    "ROUGE-L": 38.46257320593968,
+    "EM": 22.07748830995324,
+    "EM-R": 26.419505678022713
+   },
+   "raw": {
+    "CIDEr": 114.90494616960933,
+    "BLEU-1": 37.74546139169866,
+    "BLEU-4": 17.2489609342034,
+    "METEOR": 19.321428876137272,
+    "ROUGE-L": 36.86043064310125,
+    "EM": 22.07748830995324,
+    "EM-R": 26.419505678022713
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": true
+ },
+ "xr_qa__finetune_rc.epoch1.rc": {
+  "bench": "xr_qa",
+  "variant": "finetune_rc.epoch1.rc",
+  "source": "extra_eval/results/xr/finetune_rc/epoch1/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 116.95807454660763,
+    "BLEU-1": 32.22033944644792,
+    "BLEU-4": 11.783111075999496,
+    "METEOR": 14.45354058698069,
+    "ROUGE-L": 36.13250348834887,
+    "EM": 20.507682030728123,
+    "EM-R": 24.315297261189045
+   },
+   "raw": {
+    "CIDEr": 105.63371494589143,
+    "BLEU-1": 37.32786485310077,
+    "BLEU-4": 15.877425916147835,
+    "METEOR": 18.39328561253675,
+    "ROUGE-L": 34.465895217016346,
+    "EM": 20.507682030728123,
+    "EM-R": 24.315297261189045
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__finetune_rc.epoch2.rc": {
+  "bench": "xr_qa",
+  "variant": "finetune_rc.epoch2.rc",
+  "source": "extra_eval/results/xr/finetune_rc/epoch2/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 124.74049781254021,
+    "BLEU-1": 32.14280066760839,
+    "BLEU-4": 12.886739786129505,
+    "METEOR": 15.229940366662168,
+    "ROUGE-L": 37.83597756447132,
+    "EM": 22.31128924515698,
+    "EM-R": 26.18570474281897
+   },
+   "raw": {
+    "CIDEr": 112.78642699758564,
+    "BLEU-1": 37.03300140819146,
+    "BLEU-4": 16.728259905264416,
+    "METEOR": 19.016870900790366,
+    "ROUGE-L": 35.87410689326519,
+    "EM": 22.31128924515698,
+    "EM-R": 26.18570474281897
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__finetune_rc.epoch3.rc": {
+  "bench": "xr_qa",
+  "variant": "finetune_rc.epoch3.rc",
+  "source": "extra_eval/results/xr/finetune_rc/epoch3/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 128.84385307415823,
+    "BLEU-1": 33.7935686600925,
+    "BLEU-4": 13.57985668541755,
+    "METEOR": 15.903816278642443,
+    "ROUGE-L": 39.17832139953661,
+    "EM": 22.74549098196393,
+    "EM-R": 27.221108884435537
+   },
+   "raw": {
+    "CIDEr": 118.01083210013554,
+    "BLEU-1": 38.01947542377313,
+    "BLEU-4": 17.31893895207021,
+    "METEOR": 19.5578818793855,
+    "ROUGE-L": 37.62430051818579,
+    "EM": 22.74549098196393,
+    "EM-R": 27.221108884435537
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_qa__finetune_rc_lr1e-5.epoch1.rc": {
+  "bench": "xr_qa",
+  "variant": "finetune_rc_lr1e-5.epoch1.rc",
+  "source": "extra_eval/results/xr/finetune_rc_lr1e-5/epoch1/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 108.50203731910332,
+    "BLEU-1": 30.491668939665246,
+    "BLEU-4": 11.2549757773101,
+    "METEOR": 13.535769731076206,
+    "ROUGE-L": 33.5223530315905,
+    "EM": 18.871075484301937,
+    "EM-R": 22.37808951235805
+   },
+   "raw": {
+    "CIDEr": 97.92688734345958,
+    "BLEU-1": 37.15433850900283,
+    "BLEU-4": 15.368150215033708,
+    "METEOR": 17.672256192050344,
+    "ROUGE-L": 32.826735360148035,
+    "EM": 18.871075484301937,
+    "EM-R": 22.37808951235805
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__finetune_rc_lr1e-5.epoch2.rc": {
+  "bench": "xr_qa",
+  "variant": "finetune_rc_lr1e-5.epoch2.rc",
+  "source": "extra_eval/results/xr/finetune_rc_lr1e-5/epoch2/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 111.00666062490245,
+    "BLEU-1": 30.574432888729184,
+    "BLEU-4": 11.594400972366696,
+    "METEOR": 13.809032276002753,
+    "ROUGE-L": 34.454436901446996,
+    "EM": 19.57247828991316,
+    "EM-R": 23.31329325317301
+   },
+   "raw": {
+    "CIDEr": 97.6704077213062,
+    "BLEU-1": 36.210157719761824,
+    "BLEU-4": 15.557429161399089,
+    "METEOR": 17.792323680635285,
+    "ROUGE-L": 32.58336771451317,
+    "EM": 19.57247828991316,
+    "EM-R": 23.31329325317301
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__finetune_rc_lr1e-5.epoch3.rc": {
+  "bench": "xr_qa",
+  "variant": "finetune_rc_lr1e-5.epoch3.rc",
+  "source": "extra_eval/results/xr/finetune_rc_lr1e-5/epoch3/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 113.82119314731254,
+    "BLEU-1": 31.282927541921907,
+    "BLEU-4": 11.865557016932083,
+    "METEOR": 14.179651153989326,
+    "ROUGE-L": 35.210903558941325,
+    "EM": 20.073480293921175,
+    "EM-R": 24.04809619238477
+   },
+   "raw": {
+    "CIDEr": 102.01407035478152,
+    "BLEU-1": 36.91467200467244,
+    "BLEU-4": 15.837543044133795,
+    "METEOR": 18.170738215479663,
+    "ROUGE-L": 33.86257751251407,
+    "EM": 20.073480293921175,
+    "EM-R": 24.04809619238477
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_qa__pca_normals.finetune_glb.epoch1.glb": {
+  "bench": "xr_qa",
+  "variant": "pca_normals.finetune_glb.epoch1.glb",
+  "source": "extra_eval/results/xr/pca_normals/finetune_glb/epoch1/xrqa_glb.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 113.90069210239773,
+    "BLEU-1": 31.759744374931653,
+    "BLEU-4": 11.392168575975527,
+    "METEOR": 14.103941355253632,
+    "ROUGE-L": 35.66576959991762,
+    "EM": 20.17368069472278,
+    "EM-R": 23.413493653974616
+   },
+   "raw": {
+    "CIDEr": 103.31454592991469,
+    "BLEU-1": 36.99474679893608,
+    "BLEU-4": 15.431700479510804,
+    "METEOR": 18.111365345212466,
+    "ROUGE-L": 34.20913327991952,
+    "EM": 20.17368069472278,
+    "EM-R": 23.413493653974616
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__pca_normals.finetune_glb.epoch2.glb": {
+  "bench": "xr_qa",
+  "variant": "pca_normals.finetune_glb.epoch2.glb",
+  "source": "extra_eval/results/xr/pca_normals/finetune_glb/epoch2/xrqa_glb.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 122.08708992253014,
+    "BLEU-1": 32.22229860778422,
+    "BLEU-4": 12.215953823769036,
+    "METEOR": 15.190239115756688,
+    "ROUGE-L": 37.23836749059314,
+    "EM": 21.609886439545757,
+    "EM-R": 25.250501002004007
+   },
+   "raw": {
+    "CIDEr": 111.28431479998815,
+    "BLEU-1": 37.42017935679692,
+    "BLEU-4": 16.231183637842605,
+    "METEOR": 19.045477820817872,
+    "ROUGE-L": 35.531562041773775,
+    "EM": 21.609886439545757,
+    "EM-R": 25.250501002004007
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__pca_normals.finetune_glb.epoch3.glb": {
+  "bench": "xr_qa",
+  "variant": "pca_normals.finetune_glb.epoch3.glb",
+  "source": "extra_eval/results/xr/pca_normals/finetune_glb/epoch3/xrqa_glb.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 126.1156772637771,
+    "BLEU-1": 33.230662080290415,
+    "BLEU-4": 13.078905410863035,
+    "METEOR": 15.560021425439619,
+    "ROUGE-L": 38.49581425635951,
+    "EM": 22.07748830995324,
+    "EM-R": 26.78690714762859
+   },
+   "raw": {
+    "CIDEr": 114.9117845960265,
+    "BLEU-1": 37.65981321866521,
+    "BLEU-4": 16.83792422840633,
+    "METEOR": 19.289365793816202,
+    "ROUGE-L": 36.836357806086745,
+    "EM": 22.07748830995324,
+    "EM-R": 26.78690714762859
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_qa__pca_normals.finetune_rc.epoch1.rc": {
+  "bench": "xr_qa",
+  "variant": "pca_normals.finetune_rc.epoch1.rc",
+  "source": "extra_eval/results/xr/pca_normals/finetune_rc/epoch1/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 115.89107407580947,
+    "BLEU-1": 31.595943870420474,
+    "BLEU-4": 12.10176318946824,
+    "METEOR": 14.394259413260468,
+    "ROUGE-L": 35.72024424996551,
+    "EM": 20.240480961923847,
+    "EM-R": 23.413493653974616
+   },
+   "raw": {
+    "CIDEr": 104.41811082991246,
+    "BLEU-1": 36.65469924052421,
+    "BLEU-4": 16.125113190820393,
+    "METEOR": 18.297474903665854,
+    "ROUGE-L": 34.248974397256376,
+    "EM": 20.240480961923847,
+    "EM-R": 23.413493653974616
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__pca_normals.finetune_rc.epoch2.rc": {
+  "bench": "xr_qa",
+  "variant": "pca_normals.finetune_rc.epoch2.rc",
+  "source": "extra_eval/results/xr/pca_normals/finetune_rc/epoch2/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 123.0414093157868,
+    "BLEU-1": 32.76187686812611,
+    "BLEU-4": 12.512016478563995,
+    "METEOR": 15.237039344991526,
+    "ROUGE-L": 37.600272347811845,
+    "EM": 21.609886439545757,
+    "EM-R": 25.450901803607213
+   },
+   "raw": {
+    "CIDEr": 111.20216742749736,
+    "BLEU-1": 37.48037288996437,
+    "BLEU-4": 16.493999898985237,
+    "METEOR": 19.03426456773701,
+    "ROUGE-L": 35.60858332651383,
+    "EM": 21.609886439545757,
+    "EM-R": 25.450901803607213
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_qa__pca_normals.finetune_rc.epoch3.rc": {
+  "bench": "xr_qa",
+  "variant": "pca_normals.finetune_rc.epoch3.rc",
+  "source": "extra_eval/results/xr/pca_normals/finetune_rc/epoch3/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 125.45545646050668,
+    "BLEU-1": 32.72699764109205,
+    "BLEU-4": 12.499991234567156,
+    "METEOR": 15.405881547044803,
+    "ROUGE-L": 37.984246980106214,
+    "EM": 22.14428857715431,
+    "EM-R": 26.25250501002004
+   },
+   "raw": {
+    "CIDEr": 114.37061003329418,
+    "BLEU-1": 37.36023322308019,
+    "BLEU-4": 16.143073263813655,
+    "METEOR": 19.158537245730145,
+    "ROUGE-L": 36.40389779063563,
+    "EM": 22.14428857715431,
+    "EM-R": 26.25250501002004
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_qa__pca_normals.zeroshot.glb": {
+  "bench": "xr_qa",
+  "variant": "pca_normals.zeroshot.glb",
+  "source": "extra_eval/results/xr/pca_normals/zeroshot/xrqa_glb.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 52.85252444638048,
+    "BLEU-1": 16.3372257438295,
+    "BLEU-4": 3.8681385763670195,
+    "METEOR": 7.242532904305106,
+    "ROUGE-L": 19.653147448655133,
+    "EM": 8.784235136940548,
+    "EM-R": 12.625250501002004
+   },
+   "raw": {
+    "CIDEr": 24.889714310443818,
+    "BLEU-1": 7.060967963275513,
+    "BLEU-4": 7.405534501564645e-05,
+    "METEOR": 5.965969623147094,
+    "ROUGE-L": 11.938176269420202,
+    "EM": 8.784235136940548,
+    "EM-R": 12.625250501002004
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_qa__pca_normals.zeroshot.rc": {
+  "bench": "xr_qa",
+  "variant": "pca_normals.zeroshot.rc",
+  "source": "extra_eval/results/xr/pca_normals/zeroshot/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 53.73597211302852,
+    "BLEU-1": 16.687344791031876,
+    "BLEU-4": 3.978556954867412,
+    "METEOR": 7.391303894194266,
+    "ROUGE-L": 19.91805509012838,
+    "EM": 8.95123580494322,
+    "EM-R": 12.558450233800935
+   },
+   "raw": {
+    "CIDEr": 24.607258793930185,
+    "BLEU-1": 7.188029183610093,
+    "BLEU-4": 7.21877669085201e-05,
+    "METEOR": 6.084257120166696,
+    "ROUGE-L": 11.902952176316408,
+    "EM": 8.95123580494322,
+    "EM-R": 12.558450233800935
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_qa__pca_normals.zeroshot_ll3da_protocol.glb": {
+  "bench": "xr_qa",
+  "variant": "pca_normals.zeroshot_ll3da_protocol.glb",
+  "source": "extra_eval/results/xr/pca_normals/zeroshot_ll3da_protocol/xrqa_glb.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 71.7006153906421,
+    "BLEU-1": 20.198188253882112,
+    "BLEU-4": 4.597958054910353,
+    "METEOR": 9.01383262897355,
+    "ROUGE-L": 25.56623427351029,
+    "EM": 13.226452905811623,
+    "EM-R": 18.13627254509018
+   },
+   "raw": {
+    "CIDEr": 33.746099777850034,
+    "BLEU-1": 10.258054353361596,
+    "BLEU-4": 8.814817134508464e-05,
+    "METEOR": 7.402644436217214,
+    "ROUGE-L": 15.905261743830557,
+    "EM": 13.226452905811623,
+    "EM-R": 18.13627254509018
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_qa__pca_normals.zeroshot_ll3da_protocol.rc": {
+  "bench": "xr_qa",
+  "variant": "pca_normals.zeroshot_ll3da_protocol.rc",
+  "source": "extra_eval/results/xr/pca_normals/zeroshot_ll3da_protocol/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 71.38605662024769,
+    "BLEU-1": 20.534098189279117,
+    "BLEU-4": 4.403675198322237,
+    "METEOR": 9.071819505598507,
+    "ROUGE-L": 25.78976356017817,
+    "EM": 13.19305277221109,
+    "EM-R": 18.069472277889112
+   },
+   "raw": {
+    "CIDEr": 34.515500803812316,
+    "BLEU-1": 10.556882992977508,
+    "BLEU-4": 0.5200196715435318,
+    "METEOR": 7.4078900420380585,
+    "ROUGE-L": 16.179723836297285,
+    "EM": 13.19305277221109,
+    "EM-R": 18.069472277889112
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_qa__zeroshot.glb": {
+  "bench": "xr_qa",
+  "variant": "zeroshot.glb",
+  "source": "extra_eval/results/xr/zeroshot/xrqa_glb.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 54.11952325708609,
+    "BLEU-1": 16.528943767682918,
+    "BLEU-4": 3.9738647634732853,
+    "METEOR": 7.41707546480006,
+    "ROUGE-L": 19.94882692792711,
+    "EM": 9.01803607214429,
+    "EM-R": 12.859051436205744
+   },
+   "raw": {
+    "CIDEr": 25.227084609145976,
+    "BLEU-1": 7.105348517964427,
+    "BLEU-4": 6.992918398712243e-05,
+    "METEOR": 6.093755242778717,
+    "ROUGE-L": 12.06781541986004,
+    "EM": 9.01803607214429,
+    "EM-R": 12.859051436205744
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_qa__zeroshot.rc": {
+  "bench": "xr_qa",
+  "variant": "zeroshot.rc",
+  "source": "extra_eval/results/xr/zeroshot/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 54.19700147021022,
+    "BLEU-1": 16.551625802427893,
+    "BLEU-4": 3.9757126820061597,
+    "METEOR": 7.382658957469792,
+    "ROUGE-L": 19.971733097423275,
+    "EM": 9.01803607214429,
+    "EM-R": 12.792251169004675
+   },
+   "raw": {
+    "CIDEr": 25.359663009776167,
+    "BLEU-1": 7.126605762546344,
+    "BLEU-4": 6.754113651779392e-05,
+    "METEOR": 6.0667859290050075,
+    "ROUGE-L": 12.1172251434694,
+    "EM": 9.01803607214429,
+    "EM-R": 12.792251169004675
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_qa__zeroshot_ll3da_protocol.glb": {
+  "bench": "xr_qa",
+  "variant": "zeroshot_ll3da_protocol.glb",
+  "source": "extra_eval/results/xr/zeroshot_ll3da_protocol/xrqa_glb.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 70.12143483946576,
+    "BLEU-1": 20.253660485572265,
+    "BLEU-4": 4.351206163224044,
+    "METEOR": 9.018737234359497,
+    "ROUGE-L": 25.3410090462097,
+    "EM": 12.692050768203073,
+    "EM-R": 17.768871075484302
+   },
+   "raw": {
+    "CIDEr": 33.239048897746585,
+    "BLEU-1": 10.246924885805353,
+    "BLEU-4": 0.49984452608629515,
+    "METEOR": 7.509078380725516,
+    "ROUGE-L": 15.778815920928718,
+    "EM": 12.692050768203073,
+    "EM-R": 17.768871075484302
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_qa__zeroshot_ll3da_protocol.rc": {
+  "bench": "xr_qa",
+  "variant": "zeroshot_ll3da_protocol.rc",
+  "source": "extra_eval/results/xr/zeroshot_ll3da_protocol/xrqa_rc.jsonl",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "empty_preds": 0,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 71.75456709095756,
+    "BLEU-1": 20.408946230497374,
+    "BLEU-4": 4.470683133078395,
+    "METEOR": 9.072354163635035,
+    "ROUGE-L": 25.772114421524865,
+    "EM": 13.360053440213761,
+    "EM-R": 18.269873079492317
+   },
+   "raw": {
+    "CIDEr": 34.230793162557774,
+    "BLEU-1": 10.421561832126185,
+    "BLEU-4": 8.668549589469135e-05,
+    "METEOR": 7.467040202935913,
+    "ROUGE-L": 16.088732724307906,
+    "EM": 13.360053440213761,
+    "EM-R": 18.269873079492317
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_glb.epoch1.glb": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_glb.epoch1.glb",
+  "source": "extra_eval/results/xr/finetune_glb/epoch1/xrcap_glb.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 4,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.5237890347419407,
+    "BLEU-1": 29.657892619617943,
+    "BLEU-4": 2.0189653803968826,
+    "METEOR": 11.532056379677817,
+    "ROUGE-L": 17.81557821713708
+   },
+   "raw": {
+    "CIDEr": 1.2878257762314487,
+    "BLEU-1": 26.382054338133127,
+    "BLEU-4": 1.7589920917432749,
+    "METEOR": 12.919036965123015,
+    "ROUGE-L": 16.33589978399731
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_glb.epoch1.glb_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_glb.epoch1.glb_beam",
+  "source": "extra_eval/results/xr/finetune_glb/epoch1/xrcap_glb_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.1372412129271574,
+    "BLEU-1": 15.363206234344254,
+    "BLEU-4": 1.7245046142708005,
+    "METEOR": 10.247789550287873,
+    "ROUGE-L": 16.746428924558554
+   },
+   "raw": {
+    "CIDEr": 0.09602310156791176,
+    "BLEU-1": 13.13989101467696,
+    "BLEU-4": 1.3245152131715323,
+    "METEOR": 11.759133191211287,
+    "ROUGE-L": 14.435656317625266
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_glb.epoch2.glb": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_glb.epoch2.glb",
+  "source": "extra_eval/results/xr/finetune_glb/epoch2/xrcap_glb.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.8888986009838893,
+    "BLEU-1": 29.38034560220821,
+    "BLEU-4": 2.1421439942871734,
+    "METEOR": 11.626499201959847,
+    "ROUGE-L": 18.715745302964557
+   },
+   "raw": {
+    "CIDEr": 1.6131867991258024,
+    "BLEU-1": 26.39056089316941,
+    "BLEU-4": 1.8810773253849653,
+    "METEOR": 12.91394983906054,
+    "ROUGE-L": 17.241338607739692
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_glb.epoch2.glb_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_glb.epoch2.glb_beam",
+  "source": "extra_eval/results/xr/finetune_glb/epoch2/xrcap_glb_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.7883122777679078,
+    "BLEU-1": 19.79412440231308,
+    "BLEU-4": 2.417655269211334,
+    "METEOR": 12.347379258097845,
+    "ROUGE-L": 21.714558339922114
+   },
+   "raw": {
+    "CIDEr": 0.655829105545572,
+    "BLEU-1": 17.625561240471598,
+    "BLEU-4": 2.0774922175507022,
+    "METEOR": 14.019559631140199,
+    "ROUGE-L": 19.701627980447935
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_glb.epoch3.glb": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_glb.epoch3.glb",
+  "source": "extra_eval/results/xr/finetune_glb/epoch3/xrcap_glb.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.9203546158430753,
+    "BLEU-1": 28.171292962920475,
+    "BLEU-4": 2.3482106328153787,
+    "METEOR": 11.330001101424587,
+    "ROUGE-L": 18.56039781732084
+   },
+   "raw": {
+    "CIDEr": 1.4759027368406703,
+    "BLEU-1": 25.25071664715719,
+    "BLEU-4": 2.0562214746908736,
+    "METEOR": 12.64210469424335,
+    "ROUGE-L": 17.013928946090655
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_glb.epoch3.glb_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_glb.epoch3.glb_beam",
+  "source": "extra_eval/results/xr/finetune_glb/epoch3/xrcap_glb_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.485589517509355,
+    "BLEU-1": 18.392170846705135,
+    "BLEU-4": 2.273710505132885,
+    "METEOR": 11.831345872181096,
+    "ROUGE-L": 21.05567919594224
+   },
+   "raw": {
+    "CIDEr": 0.3933805420864547,
+    "BLEU-1": 16.413355791142052,
+    "BLEU-4": 1.9822180656737978,
+    "METEOR": 13.613228840253436,
+    "ROUGE-L": 19.163577220475343
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_ll3daprompt_glb.epoch1.glb": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_ll3daprompt_glb.epoch1.glb",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_glb/epoch1/xrcap_glb.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.7476657194210357,
+    "BLEU-1": 27.21610377436607,
+    "BLEU-4": 1.6587916360351826,
+    "METEOR": 10.800513706524876,
+    "ROUGE-L": 17.905904966835035
+   },
+   "raw": {
+    "CIDEr": 1.4119318196146302,
+    "BLEU-1": 22.87594055605361,
+    "BLEU-4": 1.1008036802525312,
+    "METEOR": 11.244285842975856,
+    "ROUGE-L": 15.421969764807878
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_ll3daprompt_glb.epoch1.glb_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_ll3daprompt_glb.epoch1.glb_beam",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_glb/epoch1/xrcap_glb_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 0,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.7616542478269644,
+    "BLEU-1": 19.22536060106836,
+    "BLEU-4": 2.4173935801941315,
+    "METEOR": 12.615772676272652,
+    "ROUGE-L": 21.620482377728916
+   },
+   "raw": {
+    "CIDEr": 0.45612449037916336,
+    "BLEU-1": 15.791695988740006,
+    "BLEU-4": 1.4731161029467923,
+    "METEOR": 13.200719912039213,
+    "ROUGE-L": 18.150336193194295
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_ll3daprompt_glb.epoch2.glb": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_ll3daprompt_glb.epoch2.glb",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_glb/epoch2/xrcap_glb.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 4,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.6361597462451687,
+    "BLEU-1": 26.216920931471517,
+    "BLEU-4": 1.8853733985472736,
+    "METEOR": 10.750297458630985,
+    "ROUGE-L": 18.131880959807898
+   },
+   "raw": {
+    "CIDEr": 1.3112397783635394,
+    "BLEU-1": 22.04821093833828,
+    "BLEU-4": 1.4069316978777808,
+    "METEOR": 11.173388784302455,
+    "ROUGE-L": 15.532008473625911
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_ll3daprompt_glb.epoch2.glb_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_ll3daprompt_glb.epoch2.glb_beam",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_glb/epoch2/xrcap_glb_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.6158207375348068,
+    "BLEU-1": 18.876178932615833,
+    "BLEU-4": 2.4457162221142905,
+    "METEOR": 13.247357445122688,
+    "ROUGE-L": 21.47090882406427
+   },
+   "raw": {
+    "CIDEr": 0.4474175154048579,
+    "BLEU-1": 15.69459976875077,
+    "BLEU-4": 1.5848864824927325,
+    "METEOR": 13.904834990672384,
+    "ROUGE-L": 18.23324148705119
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_ll3daprompt_glb.epoch3.glb": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_ll3daprompt_glb.epoch3.glb",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_glb/epoch3/xrcap_glb.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 2.5128601135508846,
+    "BLEU-1": 29.964295759593945,
+    "BLEU-4": 2.192112624928437,
+    "METEOR": 11.933348746589603,
+    "ROUGE-L": 18.958281937905255
+   },
+   "raw": {
+    "CIDEr": 2.0887804681891815,
+    "BLEU-1": 25.053990100615465,
+    "BLEU-4": 1.587274842200672,
+    "METEOR": 12.218642477602906,
+    "ROUGE-L": 16.21181974628199
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_ll3daprompt_glb.epoch3.glb_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_ll3daprompt_glb.epoch3.glb_beam",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_glb/epoch3/xrcap_glb_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 0,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.2503529636284986,
+    "BLEU-1": 19.382011492006033,
+    "BLEU-4": 2.4562787336408407,
+    "METEOR": 13.240054627864009,
+    "ROUGE-L": 21.838264401477065
+   },
+   "raw": {
+    "CIDEr": 0.22657418991679645,
+    "BLEU-1": 15.955636406313872,
+    "BLEU-4": 1.5449481257853912,
+    "METEOR": 13.893179357108975,
+    "ROUGE-L": 18.350409214502005
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_ll3daprompt_rc.epoch1.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_ll3daprompt_rc.epoch1.rc",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_rc/epoch1/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.9297124497707034,
+    "BLEU-1": 29.286822519554978,
+    "BLEU-4": 2.1574797857066526,
+    "METEOR": 11.59924166684708,
+    "ROUGE-L": 18.701007565696003
+   },
+   "raw": {
+    "CIDEr": 1.4908813161974102,
+    "BLEU-1": 24.659014485696215,
+    "BLEU-4": 1.568690905384213,
+    "METEOR": 12.006600271925704,
+    "ROUGE-L": 16.05807714257543
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_ll3daprompt_rc.epoch1.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_ll3daprompt_rc.epoch1.rc_beam",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_rc/epoch1/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 0,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.4891848595934767,
+    "BLEU-1": 21.31618727245585,
+    "BLEU-4": 2.7390074138004454,
+    "METEOR": 13.54075468862729,
+    "ROUGE-L": 21.648955325081026
+   },
+   "raw": {
+    "CIDEr": 1.1066744671761188,
+    "BLEU-1": 18.08742004264354,
+    "BLEU-4": 1.7731212276381942,
+    "METEOR": 14.420102074869382,
+    "ROUGE-L": 18.646431249192588
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_ll3daprompt_rc.epoch2.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_ll3daprompt_rc.epoch2.rc",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_rc/epoch2/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 2,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.8239096573349372,
+    "BLEU-1": 27.747508048217064,
+    "BLEU-4": 2.3012860929561523,
+    "METEOR": 11.254629967676173,
+    "ROUGE-L": 18.651420001826555
+   },
+   "raw": {
+    "CIDEr": 1.429140058096681,
+    "BLEU-1": 23.33353305193072,
+    "BLEU-4": 1.5264287773019158,
+    "METEOR": 11.777447147547868,
+    "ROUGE-L": 16.134235196825976
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_ll3daprompt_rc.epoch2.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_ll3daprompt_rc.epoch2.rc_beam",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_rc/epoch2/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 0,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.6543675841370616,
+    "BLEU-1": 20.45056587657441,
+    "BLEU-4": 2.6016188757080663,
+    "METEOR": 12.694481745923673,
+    "ROUGE-L": 22.110502057568738
+   },
+   "raw": {
+    "CIDEr": 0.5207907218437994,
+    "BLEU-1": 17.04441074060588,
+    "BLEU-4": 1.668951206663757,
+    "METEOR": 13.521259789320347,
+    "ROUGE-L": 18.77914475227301
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_ll3daprompt_rc.epoch3.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_ll3daprompt_rc.epoch3.rc",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_rc/epoch3/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 2,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 2.3879588325796166,
+    "BLEU-1": 30.918132506695173,
+    "BLEU-4": 2.392499772658175,
+    "METEOR": 12.234206350400221,
+    "ROUGE-L": 19.40616737824796
+   },
+   "raw": {
+    "CIDEr": 1.9878658815409744,
+    "BLEU-1": 26.11523953564321,
+    "BLEU-4": 1.7351017511094056,
+    "METEOR": 12.636418016841553,
+    "ROUGE-L": 16.723679441118847
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": true
+ },
+ "xr_scenecaption__finetune_ll3daprompt_rc.epoch3.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_ll3daprompt_rc.epoch3.rc_beam",
+  "source": "extra_eval/results/xr/finetune_ll3daprompt_rc/epoch3/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 0,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.674495576607165,
+    "BLEU-1": 20.236584667020992,
+    "BLEU-4": 2.5605597959512916,
+    "METEOR": 12.997530022140563,
+    "ROUGE-L": 21.952093063526203
+   },
+   "raw": {
+    "CIDEr": 0.5465345693306906,
+    "BLEU-1": 16.95737624370436,
+    "BLEU-4": 1.6535083918246467,
+    "METEOR": 13.871883596279725,
+    "ROUGE-L": 18.49958293860837
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_rc.epoch1.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_rc.epoch1.rc",
+  "source": "extra_eval/results/xr/finetune_rc/epoch1/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 3,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.9365569199396786,
+    "BLEU-1": 28.450325906836728,
+    "BLEU-4": 2.044472129762326,
+    "METEOR": 11.261084835262452,
+    "ROUGE-L": 18.42322771200022
+   },
+   "raw": {
+    "CIDEr": 1.646421698043695,
+    "BLEU-1": 25.449037156514365,
+    "BLEU-4": 1.736339930680454,
+    "METEOR": 12.585274761180635,
+    "ROUGE-L": 16.95769867083456
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_rc.epoch1.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_rc.epoch1.rc_beam",
+  "source": "extra_eval/results/xr/finetune_rc/epoch1/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.2502939481695647,
+    "BLEU-1": 19.053487798865767,
+    "BLEU-4": 2.175412671243378,
+    "METEOR": 12.17872649034861,
+    "ROUGE-L": 20.72351535555112
+   },
+   "raw": {
+    "CIDEr": 0.2014826469004491,
+    "BLEU-1": 16.077335579708325,
+    "BLEU-4": 1.6271027314608517,
+    "METEOR": 13.774671827136586,
+    "ROUGE-L": 17.841910561677494
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_rc.epoch2.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_rc.epoch2.rc",
+  "source": "extra_eval/results/xr/finetune_rc/epoch2/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 2.5396763845006687,
+    "BLEU-1": 31.345666893721646,
+    "BLEU-4": 2.2252942230235573,
+    "METEOR": 12.188459090756414,
+    "ROUGE-L": 19.593450927752105
+   },
+   "raw": {
+    "CIDEr": 2.299167991012837,
+    "BLEU-1": 28.186932078089654,
+    "BLEU-4": 1.8837350669985011,
+    "METEOR": 13.507397017196112,
+    "ROUGE-L": 17.982192961451656
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_rc.epoch2.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_rc.epoch2.rc_beam",
+  "source": "extra_eval/results/xr/finetune_rc/epoch2/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 0,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.0328159695838022,
+    "BLEU-1": 22.469135802468642,
+    "BLEU-4": 2.8665573214914577,
+    "METEOR": 13.75405550588112,
+    "ROUGE-L": 22.8946713648508
+   },
+   "raw": {
+    "CIDEr": 0.7967130237545981,
+    "BLEU-1": 19.89020921977954,
+    "BLEU-4": 2.44121992494205,
+    "METEOR": 15.441477862863575,
+    "ROUGE-L": 20.802952209664234
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_rc.epoch3.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_rc.epoch3.rc",
+  "source": "extra_eval/results/xr/finetune_rc/epoch3/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 2.1613708475411353,
+    "BLEU-1": 28.56925101546739,
+    "BLEU-4": 2.303757285902857,
+    "METEOR": 11.543637226785739,
+    "ROUGE-L": 19.038469869076383
+   },
+   "raw": {
+    "CIDEr": 1.7802513440232814,
+    "BLEU-1": 25.464105899171606,
+    "BLEU-4": 1.827602663174161,
+    "METEOR": 12.915565889343036,
+    "ROUGE-L": 17.35411062078744
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_rc.epoch3.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_rc.epoch3.rc_beam",
+  "source": "extra_eval/results/xr/finetune_rc/epoch3/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 0,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.6216364529230705,
+    "BLEU-1": 22.368249837344994,
+    "BLEU-4": 2.941983039974758,
+    "METEOR": 14.0569382214463,
+    "ROUGE-L": 23.07609799124659
+   },
+   "raw": {
+    "CIDEr": 1.1790761701757735,
+    "BLEU-1": 19.942741883010825,
+    "BLEU-4": 2.5712487601489253,
+    "METEOR": 15.659611170360687,
+    "ROUGE-L": 21.09402771395476
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_rc_lr1e-5.epoch1.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_rc_lr1e-5.epoch1.rc",
+  "source": "extra_eval/results/xr/finetune_rc_lr1e-5/epoch1/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 3,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.573578619569008,
+    "BLEU-1": 26.48772231541167,
+    "BLEU-4": 1.4541331360220808,
+    "METEOR": 10.172514032533888,
+    "ROUGE-L": 16.94246902180596
+   },
+   "raw": {
+    "CIDEr": 1.2915735501783498,
+    "BLEU-1": 23.328443724866688,
+    "BLEU-4": 1.2280214917106462,
+    "METEOR": 11.586399387788255,
+    "ROUGE-L": 15.362280085331006
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_rc_lr1e-5.epoch1.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_rc_lr1e-5.epoch1.rc_beam",
+  "source": "extra_eval/results/xr/finetune_rc_lr1e-5/epoch1/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 7,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.1326569029354887,
+    "BLEU-1": 14.800393560677119,
+    "BLEU-4": 1.4697627297780018,
+    "METEOR": 9.021423434339273,
+    "ROUGE-L": 15.935734714146863
+   },
+   "raw": {
+    "CIDEr": 0.0986162582266714,
+    "BLEU-1": 13.393661367016204,
+    "BLEU-4": 1.244187603035543,
+    "METEOR": 10.64526681432422,
+    "ROUGE-L": 14.450233370496566
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_rc_lr1e-5.epoch2.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_rc_lr1e-5.epoch2.rc",
+  "source": "extra_eval/results/xr/finetune_rc_lr1e-5/epoch2/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 5,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.652311892300453,
+    "BLEU-1": 27.323269960528172,
+    "BLEU-4": 1.596292489150673,
+    "METEOR": 10.569920910853382,
+    "ROUGE-L": 17.400784148976772
+   },
+   "raw": {
+    "CIDEr": 1.3013893388407902,
+    "BLEU-1": 24.2869357615787,
+    "BLEU-4": 1.3848582123855466,
+    "METEOR": 12.011843244889375,
+    "ROUGE-L": 15.782010850047948
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_rc_lr1e-5.epoch2.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_rc_lr1e-5.epoch2.rc_beam",
+  "source": "extra_eval/results/xr/finetune_rc_lr1e-5/epoch2/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 5,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.10553246364630373,
+    "BLEU-1": 16.677469942498348,
+    "BLEU-4": 1.6226519838248348,
+    "METEOR": 10.625173338474509,
+    "ROUGE-L": 17.897388515163232
+   },
+   "raw": {
+    "CIDEr": 0.07483721939790902,
+    "BLEU-1": 15.072245572213895,
+    "BLEU-4": 1.3008678821092956,
+    "METEOR": 12.199355808237028,
+    "ROUGE-L": 16.207201428009064
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_rc_lr1e-5.epoch3.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_rc_lr1e-5.epoch3.rc",
+  "source": "extra_eval/results/xr/finetune_rc_lr1e-5/epoch3/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 4,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.8068238339712821,
+    "BLEU-1": 25.817683443290896,
+    "BLEU-4": 1.549758441059442,
+    "METEOR": 10.215191384877416,
+    "ROUGE-L": 17.4453536618768
+   },
+   "raw": {
+    "CIDEr": 0.7211767201073438,
+    "BLEU-1": 23.03949977147561,
+    "BLEU-4": 1.2937334686444752,
+    "METEOR": 11.500797688762809,
+    "ROUGE-L": 15.849886858867368
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_scenecaption__finetune_rc_lr1e-5.epoch3.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "finetune_rc_lr1e-5.epoch3.rc_beam",
+  "source": "extra_eval/results/xr/finetune_rc_lr1e-5/epoch3/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 6,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.17872823980999822,
+    "BLEU-1": 17.44708284087209,
+    "BLEU-4": 1.611245710297101,
+    "METEOR": 10.804109747060291,
+    "ROUGE-L": 17.92370954736931
+   },
+   "raw": {
+    "CIDEr": 0.17002989177973896,
+    "BLEU-1": 15.677046397180161,
+    "BLEU-4": 1.33821253676585,
+    "METEOR": 12.43226534157865,
+    "ROUGE-L": 16.28495145166537
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.finetune_glb.epoch1.glb": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.finetune_glb.epoch1.glb",
+  "source": "extra_eval/results/xr/pca_normals/finetune_glb/epoch1/xrcap_glb.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.6310056226938647,
+    "BLEU-1": 24.518613548088332,
+    "BLEU-4": 1.5171528850202634,
+    "METEOR": 10.242012190551819,
+    "ROUGE-L": 17.377089261440155
+   },
+   "raw": {
+    "CIDEr": 1.3171897101460956,
+    "BLEU-1": 21.801360792177395,
+    "BLEU-4": 1.2448335456776793,
+    "METEOR": 11.310511792382638,
+    "ROUGE-L": 15.860184754111916
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.finetune_glb.epoch1.glb_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.finetune_glb.epoch1.glb_beam",
+  "source": "extra_eval/results/xr/pca_normals/finetune_glb/epoch1/xrcap_glb_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 3,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.25969188400836146,
+    "BLEU-1": 16.794651384908946,
+    "BLEU-4": 1.8151495765042172,
+    "METEOR": 11.606833004808296,
+    "ROUGE-L": 19.355098439776775
+   },
+   "raw": {
+    "CIDEr": 0.1668405299615687,
+    "BLEU-1": 13.992052575271016,
+    "BLEU-4": 1.3915185707328812,
+    "METEOR": 13.180413084888109,
+    "ROUGE-L": 16.41973942272594
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.finetune_glb.epoch2.glb": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.finetune_glb.epoch2.glb",
+  "source": "extra_eval/results/xr/pca_normals/finetune_glb/epoch2/xrcap_glb.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 2,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.725946633956949,
+    "BLEU-1": 26.76919045012377,
+    "BLEU-4": 2.125589125961722,
+    "METEOR": 10.99103325739914,
+    "ROUGE-L": 18.593453911193283
+   },
+   "raw": {
+    "CIDEr": 1.31955827967949,
+    "BLEU-1": 23.817623866133882,
+    "BLEU-4": 1.7695557366081385,
+    "METEOR": 12.29031603486488,
+    "ROUGE-L": 16.924578931404938
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.finetune_glb.epoch2.glb_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.finetune_glb.epoch2.glb_beam",
+  "source": "extra_eval/results/xr/pca_normals/finetune_glb/epoch2/xrcap_glb_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 3,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.7682288580146771,
+    "BLEU-1": 19.308705803868843,
+    "BLEU-4": 2.211134477549938,
+    "METEOR": 12.05805252981771,
+    "ROUGE-L": 21.03385259781382
+   },
+   "raw": {
+    "CIDEr": 0.6326716851235488,
+    "BLEU-1": 16.628445148646612,
+    "BLEU-4": 1.7762767432166795,
+    "METEOR": 13.686593193900379,
+    "ROUGE-L": 18.393398155838373
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.finetune_glb.epoch3.glb": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.finetune_glb.epoch3.glb",
+  "source": "extra_eval/results/xr/pca_normals/finetune_glb/epoch3/xrcap_glb.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.7727007578268523,
+    "BLEU-1": 28.54458205054374,
+    "BLEU-4": 2.162587242192663,
+    "METEOR": 11.495754240862437,
+    "ROUGE-L": 18.92004061566974
+   },
+   "raw": {
+    "CIDEr": 1.4162979950975647,
+    "BLEU-1": 25.38769036166415,
+    "BLEU-4": 1.7787378093836352,
+    "METEOR": 12.768801790740971,
+    "ROUGE-L": 17.22708691029989
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.finetune_glb.epoch3.glb_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.finetune_glb.epoch3.glb_beam",
+  "source": "extra_eval/results/xr/pca_normals/finetune_glb/epoch3/xrcap_glb_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.3563000277400004,
+    "BLEU-1": 19.88367038562605,
+    "BLEU-4": 2.423201121646809,
+    "METEOR": 12.843071391901164,
+    "ROUGE-L": 21.024884651681283
+   },
+   "raw": {
+    "CIDEr": 0.3326567405995669,
+    "BLEU-1": 17.702584954980754,
+    "BLEU-4": 2.0299211811958595,
+    "METEOR": 14.547317998307282,
+    "ROUGE-L": 18.99928474813006
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.finetune_rc.epoch1.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.finetune_rc.epoch1.rc",
+  "source": "extra_eval/results/xr/pca_normals/finetune_rc/epoch1/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 4,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.6596528928908263,
+    "BLEU-1": 26.57502902882099,
+    "BLEU-4": 1.8212057724584956,
+    "METEOR": 10.742625216057649,
+    "ROUGE-L": 17.470566641880257
+   },
+   "raw": {
+    "CIDEr": 1.4345954521086404,
+    "BLEU-1": 23.75272629939093,
+    "BLEU-4": 1.5838790702092562,
+    "METEOR": 12.061039879854945,
+    "ROUGE-L": 15.971182080483285
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.finetune_rc.epoch1.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.finetune_rc.epoch1.rc_beam",
+  "source": "extra_eval/results/xr/pca_normals/finetune_rc/epoch1/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 2,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.16136230156419482,
+    "BLEU-1": 18.023943962589637,
+    "BLEU-4": 2.162824417587447,
+    "METEOR": 12.178138446782375,
+    "ROUGE-L": 20.562990078175197
+   },
+   "raw": {
+    "CIDEr": 0.13551478994500332,
+    "BLEU-1": 15.928773932967962,
+    "BLEU-4": 1.8477052476417128,
+    "METEOR": 13.885030478730501,
+    "ROUGE-L": 18.569245822575333
+   }
+  },
+  "epoch": 1,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.finetune_rc.epoch2.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.finetune_rc.epoch2.rc",
+  "source": "extra_eval/results/xr/pca_normals/finetune_rc/epoch2/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 1,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 2.3133466356067602,
+    "BLEU-1": 31.314707386309408,
+    "BLEU-4": 2.3181049125393547,
+    "METEOR": 12.210799839795875,
+    "ROUGE-L": 19.415682160849716
+   },
+   "raw": {
+    "CIDEr": 1.9401990788603392,
+    "BLEU-1": 27.92216839989412,
+    "BLEU-4": 2.028454009169181,
+    "METEOR": 13.638338039918754,
+    "ROUGE-L": 17.761014640818324
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.finetune_rc.epoch2.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.finetune_rc.epoch2.rc_beam",
+  "source": "extra_eval/results/xr/pca_normals/finetune_rc/epoch2/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 0,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.2865115669898045,
+    "BLEU-1": 18.77676789209475,
+    "BLEU-4": 2.379349766979188,
+    "METEOR": 12.707222891674547,
+    "ROUGE-L": 21.41479331152594
+   },
+   "raw": {
+    "CIDEr": 0.20505788552905435,
+    "BLEU-1": 16.634684344168235,
+    "BLEU-4": 2.0703830021711895,
+    "METEOR": 14.503160132053496,
+    "ROUGE-L": 19.376007596929913
+   }
+  },
+  "epoch": 2,
+  "existing_table_epoch": false,
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.finetune_rc.epoch3.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.finetune_rc.epoch3.rc",
+  "source": "extra_eval/results/xr/pca_normals/finetune_rc/epoch3/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 2,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 1.8636272475921745,
+    "BLEU-1": 29.09843898818925,
+    "BLEU-4": 2.298003747231602,
+    "METEOR": 11.55034684902255,
+    "ROUGE-L": 18.629994341623707
+   },
+   "raw": {
+    "CIDEr": 1.5208462512305367,
+    "BLEU-1": 25.952463818127935,
+    "BLEU-4": 2.030357536380442,
+    "METEOR": 12.895072649012906,
+    "ROUGE-L": 17.125057413847795
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.finetune_rc.epoch3.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.finetune_rc.epoch3.rc_beam",
+  "source": "extra_eval/results/xr/pca_normals/finetune_rc/epoch3/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 0,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.4210397502458519,
+    "BLEU-1": 19.571784300117983,
+    "BLEU-4": 2.4912766521589496,
+    "METEOR": 12.804517946176865,
+    "ROUGE-L": 21.354254047186874
+   },
+   "raw": {
+    "CIDEr": 0.33988469357420015,
+    "BLEU-1": 17.283017325923154,
+    "BLEU-4": 2.1322167440855666,
+    "METEOR": 14.527724647290869,
+    "ROUGE-L": 19.30679233358008
+   }
+  },
+  "epoch": 3,
+  "existing_table_epoch": true,
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.zeroshot.glb": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.zeroshot.glb",
+  "source": "extra_eval/results/xr/pca_normals/zeroshot/xrcap_glb.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 9,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.4479691136493738,
+    "BLEU-1": 14.64228150251842,
+    "BLEU-4": 0.7363931185763642,
+    "METEOR": 6.274879671800468,
+    "ROUGE-L": 13.458858851985681
+   },
+   "raw": {
+    "CIDEr": 0.31277248898224635,
+    "BLEU-1": 11.61297716692082,
+    "BLEU-4": 0.32246383179435323,
+    "METEOR": 6.474276432361155,
+    "ROUGE-L": 10.994793418422361
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.zeroshot.glb_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.zeroshot.glb_beam",
+  "source": "extra_eval/results/xr/pca_normals/zeroshot/xrcap_glb_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 7,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.36183797648750393,
+    "BLEU-1": 14.434591390395719,
+    "BLEU-4": 0.7755546295297008,
+    "METEOR": 7.91070409776293,
+    "ROUGE-L": 14.784844492497253
+   },
+   "raw": {
+    "CIDEr": 0.26552093945043154,
+    "BLEU-1": 11.922581875387046,
+    "BLEU-4": 0.49060326100717155,
+    "METEOR": 8.4990872043668,
+    "ROUGE-L": 12.099520377332508
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.zeroshot.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.zeroshot.rc",
+  "source": "extra_eval/results/xr/pca_normals/zeroshot/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 8,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.6197764708470144,
+    "BLEU-1": 13.576585548308396,
+    "BLEU-4": 0.7018936985059134,
+    "METEOR": 5.970168913254641,
+    "ROUGE-L": 13.474497277798719
+   },
+   "raw": {
+    "CIDEr": 0.4864097406566379,
+    "BLEU-1": 10.822035868096027,
+    "BLEU-4": 0.4998466575515935,
+    "METEOR": 6.092855632168461,
+    "ROUGE-L": 10.972577464902109
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.zeroshot.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.zeroshot.rc_beam",
+  "source": "extra_eval/results/xr/pca_normals/zeroshot/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 6,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.3999779504220453,
+    "BLEU-1": 15.784966952984513,
+    "BLEU-4": 0.9538284094633522,
+    "METEOR": 7.790739407359397,
+    "ROUGE-L": 14.99958724040647
+   },
+   "raw": {
+    "CIDEr": 0.33239201341161617,
+    "BLEU-1": 12.671678665355774,
+    "BLEU-4": 0.6564550844691738,
+    "METEOR": 8.294031723887668,
+    "ROUGE-L": 12.02968993551893
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.zeroshot_ll3da_protocol.glb": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.zeroshot_ll3da_protocol.glb",
+  "source": "extra_eval/results/xr/pca_normals/zeroshot_ll3da_protocol/xrcap_glb.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 5,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.29578851475258133,
+    "BLEU-1": 17.933305424637506,
+    "BLEU-4": 0.6283383569186517,
+    "METEOR": 6.513999324666722,
+    "ROUGE-L": 12.73979742744128
+   },
+   "raw": {
+    "CIDEr": 0.2853735868585219,
+    "BLEU-1": 14.43830837570951,
+    "BLEU-4": 6.436935814251739e-05,
+    "METEOR": 6.947227870783368,
+    "ROUGE-L": 10.528023641847355
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.zeroshot_ll3da_protocol.glb_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.zeroshot_ll3da_protocol.glb_beam",
+  "source": "extra_eval/results/xr/pca_normals/zeroshot_ll3da_protocol/xrcap_glb_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 3,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.28967085644738133,
+    "BLEU-1": 12.642723130527672,
+    "BLEU-4": 0.6627098194746162,
+    "METEOR": 6.249166385821398,
+    "ROUGE-L": 12.489566343096959
+   },
+   "raw": {
+    "CIDEr": 0.22891779033955031,
+    "BLEU-1": 9.7619684407593,
+    "BLEU-4": 0.41937826256848754,
+    "METEOR": 6.768623611257107,
+    "ROUGE-L": 9.564492629908905
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.zeroshot_ll3da_protocol.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.zeroshot_ll3da_protocol.rc",
+  "source": "extra_eval/results/xr/pca_normals/zeroshot_ll3da_protocol/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 3,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.5202302562624112,
+    "BLEU-1": 19.046884435060175,
+    "BLEU-4": 0.6188690468161959,
+    "METEOR": 6.808839399295927,
+    "ROUGE-L": 13.050310954435798
+   },
+   "raw": {
+    "CIDEr": 0.4290226006223288,
+    "BLEU-1": 15.639637600888856,
+    "BLEU-4": 0.3589758629671447,
+    "METEOR": 7.319029567239678,
+    "ROUGE-L": 10.86392015926514
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__pca_normals.zeroshot_ll3da_protocol.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "pca_normals.zeroshot_ll3da_protocol.rc_beam",
+  "source": "extra_eval/results/xr/pca_normals/zeroshot_ll3da_protocol/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 2,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.40711386841706143,
+    "BLEU-1": 13.260281385281028,
+    "BLEU-4": 0.8745138835197828,
+    "METEOR": 6.481596256400899,
+    "ROUGE-L": 12.789478847631381
+   },
+   "raw": {
+    "CIDEr": 0.29845447725528534,
+    "BLEU-1": 10.233728290861597,
+    "BLEU-4": 0.5745247637781051,
+    "METEOR": 7.03202053447239,
+    "ROUGE-L": 9.861228053637394
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__zeroshot.glb": {
+  "bench": "xr_scenecaption",
+  "variant": "zeroshot.glb",
+  "source": "extra_eval/results/xr/zeroshot/xrcap_glb.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 7,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.46263576269274737,
+    "BLEU-1": 14.072344096833591,
+    "BLEU-4": 0.6355636646628593,
+    "METEOR": 6.124822187757086,
+    "ROUGE-L": 13.511442594941439
+   },
+   "raw": {
+    "CIDEr": 0.3581833561969302,
+    "BLEU-1": 11.214294508090708,
+    "BLEU-4": 5.449637854088622e-05,
+    "METEOR": 6.272490595161654,
+    "ROUGE-L": 10.949895627923029
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__zeroshot.glb_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "zeroshot.glb_beam",
+  "source": "extra_eval/results/xr/zeroshot/xrcap_glb_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 5,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.4130367736662104,
+    "BLEU-1": 15.306841046277283,
+    "BLEU-4": 0.8257738666878986,
+    "METEOR": 8.000419210482868,
+    "ROUGE-L": 15.182071681978101
+   },
+   "raw": {
+    "CIDEr": 0.35831487659689165,
+    "BLEU-1": 12.352409184544735,
+    "BLEU-4": 0.5403683317449496,
+    "METEOR": 8.478040543313787,
+    "ROUGE-L": 12.249225375515381
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__zeroshot.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "zeroshot.rc",
+  "source": "extra_eval/results/xr/zeroshot/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 7,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.611809826916731,
+    "BLEU-1": 14.202491005557242,
+    "BLEU-4": 0.6916278993428698,
+    "METEOR": 6.1161896837419585,
+    "ROUGE-L": 13.480569020247064
+   },
+   "raw": {
+    "CIDEr": 0.4375930584588841,
+    "BLEU-1": 11.260298376444005,
+    "BLEU-4": 0.30793496833818296,
+    "METEOR": 6.278159863607025,
+    "ROUGE-L": 10.800036218859772
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__zeroshot.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "zeroshot.rc_beam",
+  "source": "extra_eval/results/xr/zeroshot/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 6,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.45791658217440034,
+    "BLEU-1": 15.487776241291638,
+    "BLEU-4": 0.8395221891620823,
+    "METEOR": 8.002919054981035,
+    "ROUGE-L": 15.110359482412218
+   },
+   "raw": {
+    "CIDEr": 0.3092064482476235,
+    "BLEU-1": 12.614297589359607,
+    "BLEU-4": 0.42597746091822786,
+    "METEOR": 8.523749914604807,
+    "ROUGE-L": 12.220391340915109
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__zeroshot_ll3da_protocol.glb": {
+  "bench": "xr_scenecaption",
+  "variant": "zeroshot_ll3da_protocol.glb",
+  "source": "extra_eval/results/xr/zeroshot_ll3da_protocol/xrcap_glb.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 3,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.41415255738520235,
+    "BLEU-1": 17.871790069775663,
+    "BLEU-4": 0.7179075727581355,
+    "METEOR": 6.4738725876450385,
+    "ROUGE-L": 12.922617327490851
+   },
+   "raw": {
+    "CIDEr": 0.33154227737948594,
+    "BLEU-1": 14.574974405880397,
+    "BLEU-4": 0.42007531144585364,
+    "METEOR": 6.905967120793635,
+    "ROUGE-L": 10.747885338899925
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__zeroshot_ll3da_protocol.glb_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "zeroshot_ll3da_protocol.glb_beam",
+  "source": "extra_eval/results/xr/zeroshot_ll3da_protocol/xrcap_glb_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 3,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.4532090128550069,
+    "BLEU-1": 13.340342103767311,
+    "BLEU-4": 0.8427266213145195,
+    "METEOR": 6.303676675118104,
+    "ROUGE-L": 12.624582027781958
+   },
+   "raw": {
+    "CIDEr": 0.3387805336601416,
+    "BLEU-1": 10.382855356279727,
+    "BLEU-4": 0.582427332753517,
+    "METEOR": 6.81686788332917,
+    "ROUGE-L": 9.729175000847828
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__zeroshot_ll3da_protocol.rc": {
+  "bench": "xr_scenecaption",
+  "variant": "zeroshot_ll3da_protocol.rc",
+  "source": "extra_eval/results/xr/zeroshot_ll3da_protocol/xrcap_rc.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 5,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.45989637071392503,
+    "BLEU-1": 18.5963703193193,
+    "BLEU-4": 0.6313459090106415,
+    "METEOR": 6.873843438380865,
+    "ROUGE-L": 12.638869103515402
+   },
+   "raw": {
+    "CIDEr": 0.36123522169263467,
+    "BLEU-1": 15.372119221265168,
+    "BLEU-4": 0.4587114832548476,
+    "METEOR": 7.457739451701166,
+    "ROUGE-L": 10.483704160258933
+   }
+  },
+  "existing_headline": false
+ },
+ "xr_scenecaption__zeroshot_ll3da_protocol.rc_beam": {
+  "bench": "xr_scenecaption",
+  "variant": "zeroshot_ll3da_protocol.rc_beam",
+  "source": "extra_eval/results/xr/zeroshot_ll3da_protocol/xrcap_rc_beam.jsonl",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "empty_preds": 2,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.32406117800422124,
+    "BLEU-1": 13.446917901875693,
+    "BLEU-4": 0.7097959345657366,
+    "METEOR": 6.256086140103136,
+    "ROUGE-L": 12.981007605607777
+   },
+   "raw": {
+    "CIDEr": 0.23443550979977296,
+    "BLEU-1": 10.422466022596737,
+    "BLEU-4": 0.4750018339980338,
+    "METEOR": 6.762975536182665,
+    "ROUGE-L": 9.97309669298551
+   }
+  },
+  "existing_headline": false
+ }
+}

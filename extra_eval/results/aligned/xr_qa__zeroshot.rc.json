@@ -1,0 +1,29 @@
+{
+ "bench": "xr_qa",
+ "variant": "zeroshot.rc",
+ "source": "extra_eval/results/xr/zeroshot/xrqa_rc.jsonl",
+ "n": 2994,
+ "n_unique_episodes": 2981,
+ "empty_preds": 0,
+ "metrics": {
+  "clean_ptb": {
+   "CIDEr": 54.19700147021022,
+   "BLEU-1": 16.551625802427893,
+   "BLEU-4": 3.9757126820061597,
+   "METEOR": 7.382658957469792,
+   "ROUGE-L": 19.971733097423275,
+   "EM": 9.01803607214429,
+   "EM-R": 12.792251169004675
+  },
+  "raw": {
+   "CIDEr": 25.359663009776167,
+   "BLEU-1": 7.126605762546344,
+   "BLEU-4": 6.754113651779392e-05,
+   "METEOR": 6.0667859290050075,
+   "ROUGE-L": 12.1172251434694,
+   "EM": 9.01803607214429,
+   "EM-R": 12.792251169004675
+  }
+ },
+ "existing_headline": false
+}
